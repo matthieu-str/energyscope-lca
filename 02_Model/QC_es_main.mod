@@ -1211,12 +1211,3 @@ subject to thermal_sto2{t in PERIODS}:
 */
 #subject to battery:
 #	F_Mult["BATTERY"]=0.2848*F_Mult["PV"]-3.5319;
-
-
-### OBJECTIVE FUNCTION ###
-
-# Can choose between TotalGWP and TotalCost
-minimize obj: TotalCost;
-#minimize obj: TotalCost;
-option solver cplex;
-option presolve_eps 5e-5;
