@@ -1,6 +1,6 @@
 # DHN Share
 let share_heat_dhn_min := 0 ; # 
-let share_heat_dhn_max := 0.2 ; # In 2020, the proportion of DHN was negligeable in Quebec.
+let share_heat_dhn_max := 0.5 ; # 
 
 # scenarios
 #let co2_limit:= 1e10;
@@ -13,26 +13,15 @@ let f_max['HYDRO_RIVER'] := 15.13 ; #Source: gouvernementducanadaProfilsEnergeti
 let f_min['HYDRO_DAM'] := 25.72 ; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
 let f_max['HYDRO_DAM'] := 25.72 ;   #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
 
-let f_max['DEC_RENOVATION'] := 0;
-let f_max['DHN_RENOVATION'] := 0;
-
 for{t in PERIODS}{
 	let c_op['H2_EHP',t] := 0.116 # between 0.052 and 0.180 according to IEA https://www.iea.org/reports/global-hydrogen-review-2022/executive-summary
 }
+
 for{t in PERIODS}{
 	let c_op['NG_EHP',t] := 0.0102 # Min: 0.0025 (2024). Max: 0.0247 (2022}  https://www.cga.ca/wp-content/uploads/2022/11/CGA-Natural-Gas-Heating-Season-Report_2022-2023.pdf, https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/showTable.cfm?juris=00&page=0&rn=18&sector=res&type=HB
 }
 
-let avail['ETHANOL']:=		0;
-let avail['ELECTRICITY_EHV']:=		0;
-let avail['NG_EHP']:=		0;
-let avail['PROPANE']:=		0;
-let avail['BIO_DIESEL']:=	0;
-let avail['DIESEL'] := 		0 ; # GWh
-# let avail['H2_EHP'] := 		0 ; # GWh
-let avail['LNG'] := 		0 ; # GWh
-let avail['SNG'] := 		0 ; # GWh
-let avail['COAL'] := 		0 ; # GWh
-
-let avail['LFO'] := 		0 ; # GWh
-let avail['JETFUEL'] := 		0 ; # GWh
+# Set exports impacts to zero
+for{i in INDICATORS}{
+    let lcia_res[i, 'ELEC_EXPORT'] := 0.0 ;
+}
