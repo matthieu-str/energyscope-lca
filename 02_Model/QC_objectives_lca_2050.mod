@@ -1,9 +1,9 @@
 
 set INDICATORS;
 
-param lcia_constr {INDICATORS,TECHNOLOGIES} default 1e-12;
-param lcia_op {INDICATORS,TECHNOLOGIES} default 1e-12;
-param lcia_res {INDICATORS, RESOURCES} default 1e-12;
+param lcia_constr {INDICATORS,TECHNOLOGIES} default 0;
+param lcia_op {INDICATORS,TECHNOLOGIES} default 0;
+param lcia_res {INDICATORS, RESOURCES} default 0;
 param refactor {INDICATORS} default 1;
 var LCIA_constr {INDICATORS,TECHNOLOGIES};
 var LCIA_op {INDICATORS,TECHNOLOGIES};
