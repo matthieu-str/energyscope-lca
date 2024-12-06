@@ -12,9 +12,9 @@ Work in progress
     ├── 01_Notebooks                # Life Cycle Assessment indicators generation
     ├── 02_Model                    # EnergyScope model and data
     ├── 03_Results                  # Results
-    │   ├── xxx
-    │   ├── xxx
-    │   └── xxx
+    │   ├── Figures
+    │   ├── LCA
+    │   └── Tables
     ├── LICENSE                     # MIT license 
     └── README.md
     └── requirements.txt            # Python libraries needed to run the notebooks
