@@ -1,0 +1,844 @@
+Name,Activity name,Activity code,Amount
+AFC,"electricity, residential, by conversion of hydrogen using fuel cell, PEM, allocated by exergy, distributed by pipeline, produced by Electrolysis, PEM using electricity from grid",qkvb5g7i3grp16hjf7bok6od24qg67pz,1.0
+ALKALINE_ELECTROLYSIS,"hydrogen production, gaseous, 20 bar, from AEC electrolysis, from grid electricity",w8drqrl72vllwlw5smshzfju94scht3r,1.0
+AL_MAKING,"aluminium production, primary, ingot",b0a3fv9jpfgcoicfd4bccj9ez8wah0xx,1.0
+AL_MAKING_HR,"aluminium production, primary, ingot",bxkd9al5csba20o164b52kt37ixvflx8,1.0
+AN_DIG,anaerobic digestion of manure,je7huea624em2k1i0co9y8mqqzwag8ch,1.0
+AN_DIG_SI,anaerobic digestion of manure,hp6drpk4ek06v5fdihkknx7zqfy31tko,1.0
+ATR,"hydrogen production, auto-thermal reforming",unyczxwgao9hx06dywz8ocrzrgeutlui,1.0
+ATR_CCS,"hydrogen production, auto-thermal reforming, with CCS",rvccf6dtd4s7qf8xcberd0f1iudz2p9h,1.0
+BIOGAS_ATR,"hydrogen production, auto-thermal reforming, from biomethane",mqd4z0zwncm2z4cgd6atj0jp09ns2z6v,1.0
+BIOGAS_ATR_CCS,"hydrogen production, auto-thermal reforming, from biomethane, with CCS",qgcyrdtiv2rbvnp45rtfwftbc3744ofm,1.0
+BIOGAS_BIOMETHANE,"biomethane production, from biogas upgrading, using amine scrubbing",03nywzm5mym5pvusq9ep2ugpn6vi9zkr,1.0
+BIOGAS_SMR,"hydrogen production, steam methane reforming, from biomethane",v8dappvt5xm88on3ryvvkbsbghpde7se,1.0
+BIOGAS_SMR_CCS,"hydrogen production, steam methane reforming, from biomethane, with CCS",2zsf86opqdq24xoydf6mfiuz71l2qd0f,1.0
+BIOMASS_GAS_EF_H2,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, at gasification plant",nwpnluc1nvtfceet306e6d8efpiyibve,1.0
+BIOMASS_GAS_EF_H2_CCS,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, with CCS, at gasification plant",drbux38z9tsgfpf148l461apfbhf4m26,1.0
+BIOMASS_GAS_FB_H2,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, at gasification plant",uyoy2w6pieboexeusmbhjfxjbcj7icku,1.0
+BIOMASS_GAS_FB_H2_CCS,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, with CCS, at gasification plant",dlcu5ytfeaeecaaqauht5njqegfphacv,1.0
+BUS_BIODIESEL_B100_SD,"transport, passenger bus, diesel, 13m double deck urban bus, EURO-VI",15c6zef7i23ku8tatim9475cu1chhstw,1.0
+BUS_BIODIESEL_B20_SD,"transport, passenger bus, diesel, 13m double deck urban bus, EURO-VI",5pmoyekjku5q02eczsnv74cw0938s4m8,1.0
+BUS_CNG_SD,"transport, passenger bus, compressed gas, 13m double deck urban bus, EURO-VI",1p53rs1ju2af1ptsaz1u254pcpfr9ls5,1.0
+BUS_DIESEL_SD,"transport, passenger bus, diesel, 13m double deck urban bus, EURO-VI",xtfyd9a1a9p2g9n5ik642sopsqjmv7zn,1.0
+BUS_EV_SD,"transport, passenger bus, battery electric - overnight charging, 13m double deck urban bus",lti29nr6i5zttv00bmk989wwd24txl4j,1.0
+BUS_FC_CH4_SD,"transport, passenger bus, fuel cell electric, 13m double deck urban bus",dtnmrmbu797ozy0romhrfk4pzsrspq9h,1.0
+BUS_FC_H2_SD,"transport, passenger bus, fuel cell electric, 13m double deck urban bus",911qrqe501hf9u7qi6k6x76spsemezxn,1.0
+BUS_GASOLINE_SD,"transport, passenger bus, diesel, 13m double deck urban bus, EURO-VI",jy3axpg43slrrcnd4pl3ynmjvu622ol6,1.0
+BUS_HY_DIESEL_SD,"transport, passenger bus, diesel hybrid, 13m double deck urban bus, EURO-VI",kxu2dxhwg9onc1lnuyqlotkyn0m93z1u,1.0
+BUS_PROPANE_SD,"transport, passenger bus, compressed gas, 13m double deck urban bus, EURO-VI",7fv5xu6yhs2bl212o54whs4zomjq3zxg,1.0
+CAR_BIODIESEL_B100_ELD,"transport, passenger car, diesel, Medium, EURO-6ab",6sxy7b8j2kicmobd4hqz15n741aupl1x,1.0
+CAR_BIODIESEL_B100_LD,"transport, passenger car, diesel, Medium, EURO-6ab",tv09b04ucn5drdypywni9gv70m298h9l,1.0
+CAR_BIODIESEL_B100_MD,"transport, passenger car, diesel, Medium, EURO-6ab",tq7m7wlhe385hrv92e35x9bj69stpfx9,1.0
+CAR_BIODIESEL_B100_SD,"transport, passenger car, diesel, Medium, EURO-6ab",ulvna6ku8j2oe8m22qn8invnn52tzmoq,1.0
+CAR_BIODIESEL_B20_ELD,"transport, passenger car, diesel, Medium, EURO-6ab",x6sfzipriu1gxs3i559v864jd1o6tzch,1.0
+CAR_BIODIESEL_B20_LD,"transport, passenger car, diesel, Medium, EURO-6ab",9pzyku4z83rrd45ndscd6l88zkmtbuf8,1.0
+CAR_BIODIESEL_B20_MD,"transport, passenger car, diesel, Medium, EURO-6ab",0w90ylwx6dr5tk1jtz4eauulcwgrzcmb,1.0
+CAR_BIODIESEL_B20_SD,"transport, passenger car, diesel, Medium, EURO-6ab",3hz5jwe9nvjckuu3cs53ewcnxum50fuo,1.0
+CAR_CNG_ELD,"transport, passenger car, compressed gas, Medium, EURO-6ab",71r6esgal1q0vkyzhj21ktghyabazk62,1.0
+CAR_CNG_LD,"transport, passenger car, compressed gas, Medium, EURO-6ab",r24wq268vmab55ttml552dcxz33dgs5v,1.0
+CAR_CNG_MD,"transport, passenger car, compressed gas, Medium, EURO-6ab",z8fn04le1n3wk6p2hmxf2rfhiwydjk9l,1.0
+CAR_CNG_SD,"transport, passenger car, compressed gas, Medium, EURO-6ab",l611m8azmusdkxcscqtnuk029n1egy9w,1.0
+CAR_DIESEL_ELD,"transport, passenger car, diesel, Medium, EURO-6ab",vmi343t8k6agufqcmtz44tpp4zdp8mh1,1.0
+CAR_DIESEL_LD,"transport, passenger car, diesel, Medium, EURO-6ab",lb7qxriecruwtrwq97f5lzdkdz8at44k,1.0
+CAR_DIESEL_MD,"transport, passenger car, diesel, Medium, EURO-6ab",9cwrp80usblicnpkc5lbq71wz0x543m0,1.0
+CAR_DIESEL_SD,"transport, passenger car, diesel, Medium, EURO-6ab",pmu79rhaclla2itpnwljyyt6htqd47or,1.0
+CAR_ETOH_E10_ELD,"transport, passenger car, gasoline, Medium, EURO-6ab",5gsj99vd1envkd833s0q30xc5bsb9n4a,1.0
+CAR_ETOH_E10_LD,"transport, passenger car, gasoline, Medium, EURO-6ab",i6wfoyuez5winn2tw8q5rmc5paoek6f2,1.0
+CAR_ETOH_E10_MD,"transport, passenger car, gasoline, Medium, EURO-6ab",056033dzfqs1r3jhe1gtzje4hr5vwhzu,1.0
+CAR_ETOH_E10_SD,"transport, passenger car, gasoline, Medium, EURO-6ab",8ayehf86wpujrjtujtyjeyu38ljrjomp,1.0
+CAR_ETOH_E85_ELD,"transport, passenger car, gasoline, Medium, EURO-6ab",a8dygbv7k4u8z4eoydfej3m06iqezqbo,1.0
+CAR_ETOH_E85_LD,"transport, passenger car, gasoline, Medium, EURO-6ab",nm0dxhxfqqjqp0lb79x0n4aeus4ttmm0,1.0
+CAR_ETOH_E85_MD,"transport, passenger car, gasoline, Medium, EURO-6ab",kopqi8ei0e5bnfbne10iesl9zyfk3dzz,1.0
+CAR_ETOH_E85_SD,"transport, passenger car, gasoline, Medium, EURO-6ab",9bp6t293nduzus6dapgzkx3sj7tl7tvd,1.0
+CAR_EV_ELD,"transport, passenger car, battery electric, Medium",qtt0idwreilialcx14zlg1sjxbg113gk,1.0
+CAR_EV_LD,"transport, passenger car, battery electric, Medium",sx21eqxx0xrauzq0fdulcfhgx04wlh4g,1.0
+CAR_EV_MD,"transport, passenger car, battery electric, Medium",ew7c523eqggo08mclyfhb5cpm4zd36dq,1.0
+CAR_EV_SD,"transport, passenger car, battery electric, Medium",vzmyf5pm2cqbxwmx0irn8q8x70nfqhgt,1.0
+CAR_FC_CH4_ELD,"transport, passenger car, fuel cell electric, Medium",fjcryltmyza3ni59c8ipazuw4z0r77t1,1.0
+CAR_FC_CH4_LD,"transport, passenger car, fuel cell electric, Medium",kwxnffevt7sdhcjeb2pbry0j3cra96c5,1.0
+CAR_FC_CH4_MD,"transport, passenger car, fuel cell electric, Medium",u1ujw749ilmfoje1ezp3n1htroncbhxj,1.0
+CAR_FC_CH4_SD,"transport, passenger car, fuel cell electric, Medium",myyfynfrubc21gyihrejw759zzsg0fis,1.0
+CAR_FC_H2_ELD,"transport, passenger car, fuel cell electric, Medium",xqpy3nufw2k0mydnfrllovn0z60oqh1p,1.0
+CAR_FC_H2_LD,"transport, passenger car, fuel cell electric, Medium",ehoortg550c9ym7fxuuh6avu3cctfy9p,1.0
+CAR_FC_H2_MD,"transport, passenger car, fuel cell electric, Medium",1u1yk9kodm6zh4dat9rcvf9fk227m0kt,1.0
+CAR_FC_H2_SD,"transport, passenger car, fuel cell electric, Medium",7c09puuf011r5tmb1hz98btr8ewa9gtz,1.0
+CAR_GASOLINE_ELD,"transport, passenger car, gasoline, Medium, EURO-6ab",3v750r4cpha0amlcnosgwyrgxffw4wxa,1.0
+CAR_GASOLINE_LD,"transport, passenger car, gasoline, Medium, EURO-6ab",i7qewrgufvfiypajv4ihps729tumy146,1.0
+CAR_GASOLINE_MD,"transport, passenger car, gasoline, Medium, EURO-6ab",l3vrlgykbl1hz6sldf73dqt1pg8fy1td,1.0
+CAR_GASOLINE_SD,"transport, passenger car, gasoline, Medium, EURO-6ab",9knkomsqjhngx5utbv27mpgkfx1a07ht,1.0
+CAR_HEV_ELD,"transport, passenger car, gasoline hybrid, Medium, EURO-6ab",icvpxny94buyo0y36ms0qt78izhmrt8k,1.0
+CAR_HEV_LD,"transport, passenger car, gasoline hybrid, Medium, EURO-6ab",wbw03w8wssihztf31jnfckcl5zxbpif3,1.0
+CAR_HEV_MD,"transport, passenger car, gasoline hybrid, Medium, EURO-6ab",d6iz7vjk8w2giphy2gzv4kpqft15w4my,1.0
+CAR_HEV_SD,"transport, passenger car, gasoline hybrid, Medium, EURO-6ab",af27bi4uudjqrjigy36ldk2hpv4c66fr,1.0
+CAR_MEOH_ELD,"transport, passenger car, gasoline, Medium, EURO-6ab",ywtuvawvpksfjw04ih9eo0k4ki5ge29o,1.0
+CAR_MEOH_LD,"transport, passenger car, gasoline, Medium, EURO-6ab",bu3vzoytqe97v5y0fyfrcwfwqumm5cnn,1.0
+CAR_MEOH_MD,"transport, passenger car, gasoline, Medium, EURO-6ab",jvyzto3gpwpe81a912zlyegipjz4qp8y,1.0
+CAR_MEOH_SD,"transport, passenger car, gasoline, Medium, EURO-6ab",cmglgw72pfz37ogp4cs6am1a1pqk0le4,1.0
+CAR_PHEV_ELD,"transport, passenger car, plugin gasoline hybrid, Medium, EURO-6ab",08qgin8sc4hzrpyd8hkfe8qk0y1wvr28,1.0
+CAR_PHEV_LD,"transport, passenger car, plugin gasoline hybrid, Medium, EURO-6ab",jtwxvhnyvvfupmcvlv02zonk8yh4euw6,1.0
+CAR_PHEV_MD,"transport, passenger car, plugin gasoline hybrid, Medium, EURO-6ab",guirvz1ji0n8yxr1cidzlo766jiob8sc,1.0
+CAR_PHEV_SD,"transport, passenger car, plugin gasoline hybrid, Medium, EURO-6ab",wz47zsn1q96iec0sdfub3cfte2q6qt24,1.0
+CAR_PROPANE_ELD,"transport, passenger car, compressed gas, Medium, EURO-6ab",8cut2rqosvmfz6gc992i8xx5087t21bu,1.0
+CAR_PROPANE_LD,"transport, passenger car, compressed gas, Medium, EURO-6ab",jzy0m5d71gu29821qe2kh60wmsj9n3az,1.0
+CAR_PROPANE_MD,"transport, passenger car, compressed gas, Medium, EURO-6ab",fv366w9yw1lq664jr6c4yocr493lw7ky,1.0
+CAR_PROPANE_SD,"transport, passenger car, compressed gas, Medium, EURO-6ab",tjhnwi00qisa1n014rl3gh5bzqhhfezd,1.0
+CCGT,"electricity production, at natural gas-fired combined cycle power plant",0i9a2ar0utwu76vmnv2ztt9n7a8qvx77,1.0
+CCGT_CC,"electricity production, at natural gas-fired combined cycle power plant, post, pipeline 200km, storage 1000m",usc0guax3h31xysz7moo1gx768gz9op3,1.0
+CEMENT_PROD,"cement production, CEM II/B",wty3zrpy5ql2qnb0kslufv2cyyp85p47,1.0
+CEMENT_PROD_HP,"cement production, CEM II/B",go9r9lry64k1uvrbap3gfnkth7a9rkyr,1.0
+CO2_METHANOL,"methanol production, natural gas reforming",mqh6sap3pl1eu73tgmqunmfcptqvyq5t,1.0
+CO2_TO_DIESEL,"diesel production, synthetic, Fischer Tropsch process, hydrogen from electrolysis, energy allocation",hiwos9frgy5b3n9cr1373qcwowcc8ntd,1.0
+CO2_TO_DIESEL,"syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from electrolysis",rf5s2ae8jnlc9isa0txttcqojgqucydz,2.26
+CO2_TO_JETFUELS,"kerosene production, from methanol, hydrogen from electrolysis, CO2 from cement plant, energy allocation",yvfixyalqdh7t2yhrdg7bdwgueyvowl6,1.0
+CO2_TO_JETFUELS,"methanol synthesis and distillation, hydrogen from electrolysis, CO2 from cement plant",0toa5dxqbcp16ix51bu4fddfw5kutt2a,2.373
+COACH_BIODIESEL_B100_ELD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",sqdtycihk7osamopcgsptu6aeoh1vfz9,1.0
+COACH_BIODIESEL_B100_LD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",sugt7knlyoqt9quncwvlsz2c8o44yt7w,1.0
+COACH_BIODIESEL_B100_MD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",603t7bk6dg799alr7ow4pjcech4x6g9d,1.0
+COACH_BIODIESEL_B20_ELD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",cgg7xjbt5ajxucolgee4y2elhwkt5uy0,1.0
+COACH_BIODIESEL_B20_LD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",v1znhropbimsn4e1rqmgsw3yggrp87nh,1.0
+COACH_BIODIESEL_B20_MD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",6jn64w4pc3of9seoar7zbi9v78kbywuu,1.0
+COACH_CNG_ELD,"transport, passenger bus, compressed gas, 13m single deck coach bus, EURO-VI",84yrxyxsy7qhedxw23jxyech2ouv7eze,1.0
+COACH_CNG_LD,"transport, passenger bus, compressed gas, 13m single deck coach bus, EURO-VI",ynzj1nl6jfmdzki6upbukdc17gyslile,1.0
+COACH_CNG_MD,"transport, passenger bus, compressed gas, 13m single deck coach bus, EURO-VI",wn8779fjej9in64mo2z0814x53cl43nn,1.0
+COACH_DIESEL_ELD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",bp0mw944pmd73e9ejeo17fl6zfhmv1gk,1.0
+COACH_DIESEL_LD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",kovpprdm0zyptct0xvhe2p2o1szhyt1p,1.0
+COACH_DIESEL_MD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",8if8whxpc3lwmyrdkvaw2v1868edyvco,1.0
+COACH_ETOH_E10_ELD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",s8hj8wlazq498q6pfo1fed95c277ofz9,1.0
+COACH_ETOH_E10_LD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",fvz8l8aj8k3s796mr2zh9ivjou07pz1g,1.0
+COACH_ETOH_E10_MD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",r6ctarbz95fn25jf782pmwgrxi6enm93,1.0
+COACH_EV_ELD,"transport, passenger bus, battery electric - overnight charging, 13m single deck urban bus",mwhxiiy8hb0v6iv2468d8hmnwibztn9p,1.0
+COACH_EV_LD,"transport, passenger bus, battery electric - overnight charging, 13m single deck urban bus",0lb3er2wc3s0d8vvtx1nlhbnqfw063ae,1.0
+COACH_EV_MD,"transport, passenger bus, battery electric - overnight charging, 13m single deck urban bus",b7t1fhsr9z1unmsbnog4t176r152nib3,1.0
+COACH_FC_CH4_ELD,"transport, passenger bus, fuel cell electric, 13m single deck coach bus",ldcioxwic81rnk1b4gxyybgo0ic820fj,1.0
+COACH_FC_CH4_LD,"transport, passenger bus, fuel cell electric, 13m single deck coach bus",wdo6c46rbzgsmyiwxcssp6whuy1kxdi3,1.0
+COACH_FC_CH4_MD,"transport, passenger bus, fuel cell electric, 13m single deck coach bus",bbz9gwvcy3uyd5bnjlzej9029qr8oaso,1.0
+COACH_GASOLINE_ELD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",u76fi07v4bd9sb2nmzbv1rpjibo1fqn2,1.0
+COACH_GASOLINE_LD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",8kgleyi8dxeddpctwia8u1yq02kpeb3n,1.0
+COACH_GASOLINE_MD,"transport, passenger bus, diesel, 13m single deck coach bus, EURO-VI",pb1b1fgrlc1jydtvqqcr5efsu9v64qx0,1.0
+COACH_HY_DIESEL_ELD,"transport, passenger bus, diesel hybrid, 13m single deck coach bus, EURO-VI",8xqdslma0on6o6vz6k0jct9hmlq1wcot,1.0
+COACH_HY_DIESEL_LD,"transport, passenger bus, diesel hybrid, 13m single deck coach bus, EURO-VI",g326bgw5ms26pz9z0bv5t8lzokyzkg6c,1.0
+COACH_HY_DIESEL_MD,"transport, passenger bus, diesel hybrid, 13m single deck coach bus, EURO-VI",in4em3ni1x0phui539me09lqavto47yo,1.0
+COACH_PROPANE_ELD,"transport, passenger bus, compressed gas, 13m single deck coach bus, EURO-VI",0a1gfvlboroy7x9d49jllhinbv7l3o3s,1.0
+COACH_PROPANE_LD,"transport, passenger bus, compressed gas, 13m single deck coach bus, EURO-VI",2d0mkf0i9xt6c3ksqb84sf9f3hfw1gb2,1.0
+COACH_PROPANE_MD,"transport, passenger bus, compressed gas, 13m single deck coach bus, EURO-VI",8u9fubwt5usm97mnwvpskp1rc443nq0r,1.0
+COAL_GAS_H2,"hydrogen production, coal gasification",4h3omvjzu2u8fsb00gtqp4otgmu05pim,1.0
+COAL_GAS_H2_ADV,"hydrogen production, coal gasification",unlf6jvzxqas6ksfkkx75zemcjlgno1v,1.0
+COAL_GAS_H2_ADV_CCS,"hydrogen production, coal gasification, with CCS",f1f3dvos26biqanquti6fg6j9b8o6d6v,1.0
+COAL_GAS_H2_CCS,"hydrogen production, coal gasification, with CCS",c8p8973n3vylnfrby7r8nbn2n9uws08j,1.0
+COAL_IGCC,"electricity production, at hard coal-fired IGCC power plant",85f1a6pgdc4vxre2a1betkmmfbcj7dbl,1.0
+COAL_IGCC_CC,"electricity production, at hard coal-fired IGCC power plant, pre, pipeline 200km, storage 1000m",mp6vzmc0zhnmz0358ug66ocvrdriqcs3,1.0
+COAL_US,"electricity production, at lignite-fired power plant, pulverised",6s89kw0mqetbastopjynqsodprtaaf5m,1.0
+COAL_US_CC,"electricity production, at lignite-fired power plant, post, pipeline 200km, storage 1000m",oiysetrpuzf5bgt6ikmtgbx5jy38xs3b,1.0
+COMMUTER_RAIL_DIESEL_MD,"transport, passenger train",i35ptplv33j3d1us2zd6h0wk4gwo23oc,1.0
+COMMUTER_RAIL_ELEC_MD,"transport, passenger train, regional",r3qzfkfrhd5l9yzmh83vlz1v0kssmcp3,1.0
+CROPS_TO_ETHANOL,"ethanol production, via fermentation, from corn, energy allocation",m97659p505zl7f70rpf6qxgvbyzfc1ik,1.0
+CROPS_TO_JETFUELS,"kerosene production, synthetic, Fischer Tropsch process, hydrogen from wood gasification, energy allocation",40doul55pui9o0uq0y1adzodbi0qubkl,1.0
+CROPS_TO_JETFUELS,"syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from wood gasification",vsns6t79ldhokkzh0kykjiznvmgzvrtt,2.35
+CROPS_TO_JETFUELS,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, at gasification plant",stpsqrghzn3wmcxz1nyij6rghoapfvi5,0.29375
+CROPS_TO_JETFUELS,"carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from wood gasification",g8x54fml5p27zbv7xmauh1cp4eci7zyd,2.05625
+CUMENE_PROCESS,"cumene production, benzene alkylation",y7nrmyjpeux2i8fyfyqfksaskoep3v9b,1.0
+DAC_HT,"carbon dioxide, captured from atmosphere, with a sorbent-based direct air capture system, 100ktCO2",iy332qtq8t9w5vv5gi61z5scu52m9va2,1.0
+DAC_LT,"carbon dioxide, captured from atmosphere, with a solvent-based direct air capture system, 1MtCO2",9wrd6r4xslkp72cin9viapbxagtdopqw,1.0
+DEC_ADVCOGEN_H2,"electricity, residential, by conversion of hydrogen using fuel cell, PEM, allocated by exergy, distributed by pipeline, produced by Electrolysis, PEM using electricity from grid",bl283q5accrt0h3o2ugrxpdhj1imbcat,1.0
+DEC_BOILER_GAS,"heat production, natural gas, at boiler modulating <100kW",kzkkbnze2f71byd0oeglz8rtfqf5u9g1,1.0
+DEC_BOILER_OIL,"heat production, light fuel oil, at boiler 10kW condensing, non-modulating",d41j4i8ozwkw0q4uuacgkxc1xc5z007a,1.0
+DEC_BOILER_WOOD,"heat production, wood chips from industry, at furnace 50kW, state-of-the-art 2014",4jq35yqti19vp8bmi5olrvmdseq6va0r,1.0
+DEC_COGEN_GAS,"heat and power co-generation, natural gas, 50kW electrical, lean burn",ztdyv1cfj1dhhyuni951qr72jqivkwpo,1.0
+DEC_COGEN_OIL,"heat production, light fuel oil, at boiler 10kW condensing, non-modulating",dwpew0h939iuxc487ylqdnl90letcsav,1.0
+DEC_COGEN_WOOD,"heat production, wood chips from industry, at furnace 50kW, state-of-the-art 2014",omo2bg7ao4al88100rwhzc0hucxbz5fy,1.0
+DEC_DIRECT_ELEC,"market for electricity, low voltage",8l9d1zo882mjo815d1jvazulfldwsfpx,1.0
+DEC_HP_ELEC,"heat production, air-water heat pump 10kW",i1bikc2znbzg5qgxuvtb0o31yszeeugs,1.0
+DEC_THHP_GAS,"heat production, natural gas, at diffusion absorption heat pump 4kW, future",23inucg7xldwsjhgffp1riitj74a97tt,1.0
+DEEP_SALINE,"carbon dioxide compression, transport and storage",ahfr1dfqa3sjdks9wn4gt00ig7cmtezz,1.0
+DHN_BOILER_GAS,"heat production, natural gas, at boiler modulating >100kW",zyyghbucegwfsqx0col9aodvroufewap,1.0
+DHN_BOILER_OIL,"heat production, light fuel oil, at industrial furnace 1MW",i92anden2wphpa1ec4116zglyst1s9ot,1.0
+DHN_BOILER_WOOD,"heat production, wood chips from industry, at furnace 1000kW, state-of-the-art 2014",lvw6xi0yza62r4ti1oqipwpatt0834um,1.0
+DHN_COGEN_GAS,"heat and power co-generation, natural gas, 1MW electrical, lean burn",7c4nlrcn1mxipgmyga0r2268yduxu76k,1.0
+DHN_COGEN_WASTE,"treatment of waste polystyrene, municipal incineration",a2gew9qpxg3qwr35om8ihsnqmwjj42bo,0.01748793604559293
+DHN_COGEN_WASTE,"treatment of spent cation exchange resin from potable water production, municipal incineration",pot364nz504y4u9m31b9stziotxhyu00,1.108255152108245e-07
+DHN_COGEN_WASTE,"treatment of waste building wood, chrome preserved, municipal incineration",8gbiodvjjc88ncxpx7uxa9mqiazas9b7,0.0009529835823144692
+DHN_COGEN_WASTE,"treatment of waste wood, untreated, municipal incineration",5161oehn0qdaybj2et1e0lbuwmhrs28v,0.2531150616532692
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",lq4smf5st17osp3ed3t6ru94svnnq40s,6.165897727942606e-15
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT[R], WW from anaerobic digestion of whey, municipal incineration",5na8hfh1ta1hvfvkyzf50c3korxdmhku,0.007028617596899336
+DHN_COGEN_WASTE,"treatment of waste polypropylene, municipal incineration",4q2tj38b6j53yfuu53ceoeib0wivxlbn,0.02401089815079357
+DHN_COGEN_WASTE,"treatment of residue from mechanical treatment, laptop computer, municipal incineration",6olfur76n4rniwvwtauhs7grnqzrxyh5,0.0002478552691769348
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from maize starch production, municipal incineration",60bpbiwnizxw5do16jo37l59v8q0wfdw,0.0005915187340662672
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration",cq0tca2zvals2v98nvmc3nncu95ejed5,1.015318790529243e-12
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from potato starch production, municipal incineration",v3zbyen5xqg6fx5kvzx2vx3e15myk8lk,0.001318468958867559
+DHN_COGEN_WASTE,"treatment of waste paint, municipal incineration",yilo16lzeit6m98x8davkjl65zhmxybs,0.0009652743877517511
+DHN_COGEN_WASTE,"treatment of digester sludge, municipal incineration",l4ose31cslviay2h6ooiy4uf58bd93o9,0.003369980952428378
+DHN_COGEN_WASTE,"treatment of waste cement-fibre slab, dismantled, municipal incineration",hixdst3wmd1tlxj1jcxwdgelki0nvkui,0.0006597139725959587
+DHN_COGEN_WASTE,"treatment of residue from shredder fraction from manual dismantling, municipal incineration",k1w9wux3scchzfb0xu2f68srq0lq5nue,0.003339376199807556
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",6jjlkmjyhe3n6r9ngl9rsq4antajmz47,3.078276584020738e-16
+DHN_COGEN_WASTE,"treatment of waste polyethylene terephthalate, municipal incineration",czs89urit81bx7ipaqi4znxrxxtnt3uk,0.01520554771454857
+DHN_COGEN_WASTE,"treatment of waste plastic, industrial electronics, municipal incineration",a5oaupdi4bgb9uyogjyyb8ee00w26hyq,0.003932278441258398
+DHN_COGEN_WASTE,"treatment of waste polyvinylfluoride, municipal incineration",01l31oxfws05qlfa9mvf4gxqkb3lg9n7,0.0007900089519034191
+DHN_COGEN_WASTE,"treatment of waste sealing sheet, polyethylene, municipal incineration",fzlaj0mvbf4viipbh9ov49mjpblcs0ax,0.00141534012755785
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from vegetable oil refinery, municipal incineration",gx4g2dlcspgx7rcxxa4u0ev68giba7rh,0.08481063407681307
+DHN_COGEN_WASTE,"treatment of spent anion exchange resin from potable water production, municipal incineration",wksn0599cvr1ympnwj8s368usdbe4dao,1.44992176893731e-06
+DHN_COGEN_WASTE,"treatment of waste vapour barrier, flame-retarded, municipal incineration",iigdumrvysrnv7otk4cpyqi34d78jfci,0.000314831263118604
+DHN_COGEN_WASTE,"treatment of waste emulsion paint, municipal incineration",kn0raxi12qewinukj9gv6qhejv1vqxlk,0.000732471986898891
+DHN_COGEN_WASTE,"treatment of waste paperboard, municipal incineration",50rihy6lo1t88xq4rcyydzr6eckz5udf,0.03241596608807133
+DHN_COGEN_WASTE,"treatment of waste expanded polystyrene, municipal incineration",06wfaikqpwxw7tzceg0tbmbvxzce2bkh,0.007089582299203097
+DHN_COGEN_WASTE,"treatment of waste plastic, mixture, municipal incineration",b8eys70x8va3kt45ipanleokggcfo94h,0.07555506356080281
+DHN_COGEN_WASTE,"treatment of waste graphical paper, municipal incineration",fiqrd62bko5o9e3zl6ulbjg1pk8y7v5t,0.1236802245579232
+DHN_COGEN_WASTE,"treatment of waste polyurethane, municipal incineration",ruhe0szqn5srj39ryb7ss1choljtldou,0.02012305711870778
+DHN_COGEN_WASTE,"treatment of waste packaging paper, municipal incineration",kkzckxlrya8fzz8w54getwnqcgxplb75,0.04439072395674384
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from medium density board production, municipal incineration",riyjhma3y86m6vszm2dj2s3662r77c46,3.325775987079078e-06
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from soft fibreboard production, municipal incineration",ftd5w4f95kct03mwp5t3y3p17lquclr7,4.588092984105681e-05
+DHN_COGEN_WASTE,"treatment of waste polyethylene, municipal incineration",7kjsdlub9b0gmj81306jfrckxtw8rlob,0.08400399415691528
+DHN_COGEN_WASTE,"treatment of waste plastic, consumer electronics, municipal incineration",rkmzafme82yalfw68qfcm8jmjmli4m0g,0.003917754151879025
+DHN_COGEN_WASTE,"treatment of residue from mechanical treatment, cathode ray tube display, municipal incineration",fo2avzo16p44mn8a65fdh4ozgwg4s2be,0.0003639631301084718
+DHN_COGEN_WASTE,"treatment of waste sealing sheet, polyvinylchloride, municipal incineration",kgp6fxxyyc96qbnlz3ap40l2sxjaafv3,0.00087992986490036
+DHN_COGEN_WASTE,"treatment of waste paint, municipal incineration",c3e2m1xesgjtnws1d0t9dn70oxg335ce,0.006162328572572084
+DHN_COGEN_WASTE,"treatment of residue from mechanical treatment, laser printer, municipal incineration",tf7l1wkcx6ju2f0qhgejzgurywm5fgy3,0.0003085892768496114
+DHN_COGEN_WASTE,"treatment of waste rubber, unspecified, municipal incineration",n3pjdnorewumrz06vpjrpibfozhc48ri,0.00597053940406653
+DHN_COGEN_WASTE,"treatment of waste bitumen sheet, municipal incineration",mi8w6agrsoy9oe80emty87qv6629kk3t,0.005279233372988365
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from plywood production, municipal incineration",c0xdiz80hc50wjw3fsm4lp2m7h7uqvh5,0.0002254450273321832
+DHN_COGEN_WASTE,"treatment of municipal solid waste, municipal incineration",fvlw5pqirv9eh9knbgutarlkefihu15s,0.04342031299761565
+DHN_COGEN_WASTE,"treatment of waste newspaper, municipal incineration",hvljsr8xsbrzktu7859t7vy94ir53eg3,0.02776127715839601
+DHN_COGEN_WASTE,"treatment of raw sewage sludge, municipal incineration",9uvkl0mhi0uft0anmmbpzqbw6rl4k730,0.001997262697870713
+DHN_COGEN_WASTE,"treatment of waste polyvinylchloride, municipal incineration",l6bxqzwn2osxeumsjg5tsgl9l71va39o,0.006160978774061147
+DHN_COGEN_WASTE,"treatment of used liquid crystal display module, municipal incineration",33tyd4sravubdb909mqc0trr4gdhrb4u,0.0001425109441247547
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, heat carrier liquid, 40% C3H8O2, municipal incineration",hl54siqeoe4ili9g8uyv9n79g76jz57t,8.796603986101573e-08
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, condensate from light oil boiler, municipal incineration",vkiohakx9t051du026mofnmihxxi5p3a,4.845747101843789e-06
+DHN_COGEN_WASTE,"treatment of waste rubber, unspecified, municipal incineration",ydgdrkiabzpeavj8c0ebb1vfcjrsv33d,0.01062000304772941
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from LCD production, municipal incineration",3xafr5bkfegxbsd7pivmsltkejijwbrt,4.65802991646643e-12
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",19p9yplaajmg3p7x16pil2jkincd72ug,1.154013357849329e-07
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from glass production, municipal incineration",5esyuoqdwmtkhq4drr98pa1ulu8z9sok,3.026944379141186e-05
+DHN_COGEN_WASTE,"treatment of residue from mechanical treatment, IT accessory, municipal incineration",gplkq0rt7486qx8otjv4c7oc0tilnj43,0.0003753664263533487
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from hard fibreboard production, municipal incineration",0t8r70bpv7wl936g9d822p18xjh0x43r,4.327561580329696e-06
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from grass refinery, municipal incineration",z2eidlp6w2gt7pmkdv28v605c3hne6mo,1.259386852704175e-05
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from CRT production, municipal incineration",mhbjelizlrfn9wfrcu33ybsbccn3i52z,9.206405630948103e-15
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from particle board production, municipal incineration",dta6pt2ornxzp2a2rnqsazub74p08yp6,1.932304204860208e-08
+DHN_COGEN_WASTE,"treatment of residue from mechanical treatment, industrial device, municipal incineration",dhbagajltetsd6fhcclhprxanxlkpkc8,0.001045575927107973
+DHN_COGEN_WASTE,"treatment of waste textile, soiled, municipal incineration",euqqrjxctyu8qtbc72tsu96gja7fd6wl,0.00926615080762631
+DHN_COGEN_WASTE,"treatment of biowaste, municipal incineration",9tgem55sfhjcugi8wnr73u7pmg43cvgt,0.05903086183473824
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from LCD backlight production, municipal incineration",qbtkx47n6c80poat06v1eh8z8elnzz6o,9.797174095635677e-13
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",od5aoqe54pdvcg3p6w0jl8lzz7efe61z,1.359335863373781e-06
+DHN_COGEN_WASTE,"treatment of residue from mechanical treatment, liquid crystal display, municipal incineration",bm8rqga78ahzrqu4eti1585kdppm9hoq,0.001440757633971753
+DHN_COGEN_WASTE,"treatment of residue from mechanical treatment, desktop computer, municipal incineration",64mls45aj137uxqs3wkgpm1g0guqf7ah,0.0008487718060174665
+DHN_COGEN_WASTE,"treatment of waste wood pole, chrome preserved, municipal incineration",d9dvabycc1e7bae8q3jqe6lkkkt4avp6,0.00204100847421573
+DHN_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from concrete production, municipal incineration",7poh9f4lvgaxkg5y315tze9n9f3qmy2l,2.034467379614961e-09
+DHN_COGEN_WASTE,"treatment of waste emulsion paint, municipal incineration",6fb79hg0cmbzc21rj7e5xl9drxyl2zpe,0.004676113974171375
+DHN_COGEN_WASTE,"treatment of waste wire plastic, municipal incineration",ehve6wdf7c6653v38eookcyhn4rl9658,0.0002433077833355358
+DHN_COGEN_WASTE,"treatment of waste glass, municipal incineration",j2eh6fpt6gki0ay91ftyrm8hr8s6m6jz,0.000170158966407633
+DHN_COGEN_WASTE_CC,"treatment of waste polystyrene, municipal incineration",2nilabcr6eghhm42szm6wdkvpdps8jrl,0.01748793604559293
+DHN_COGEN_WASTE_CC,"treatment of spent cation exchange resin from potable water production, municipal incineration",hdajkpjg6519a3ztwddulykw0ye6fsi7,1.108255152108245e-07
+DHN_COGEN_WASTE_CC,"treatment of waste building wood, chrome preserved, municipal incineration",mrhgws61t3k02g1km7i46hramwf6onec,0.0009529835823144692
+DHN_COGEN_WASTE_CC,"treatment of waste wood, untreated, municipal incineration",euroz66pq78enltcyq1vt2y185wip9w0,0.2531150616532692
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",n4xjjzw13m04vagp1iwe8wok26q3f2sx,6.165897727942606e-15
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT[R], WW from anaerobic digestion of whey, municipal incineration",e0zciizt7p0c3k2hs6oaneemmtrr3ylo,0.007028617596899336
+DHN_COGEN_WASTE_CC,"treatment of waste polypropylene, municipal incineration",hghhvpbngo5azz496b7nlxbrzsf2tjww,0.02401089815079357
+DHN_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, laptop computer, municipal incineration",1xye9mdlvjcj7jnj46awvgx2accgwa6j,0.0002478552691769348
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from maize starch production, municipal incineration",9nvw1bkbbdqdtz5f766hhyzxyea1u89p,0.0005915187340662672
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration",4qdkeinobhxg0l8vgwvf8tsburhuqq17,1.015318790529243e-12
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from potato starch production, municipal incineration",v7hxo3jn16w0yr440c3cee6tbxb8t61d,0.001318468958867559
+DHN_COGEN_WASTE_CC,"treatment of waste paint, municipal incineration",09u51vcze8lb5xt017e5affi9imyi6md,0.0009652743877517511
+DHN_COGEN_WASTE_CC,"treatment of digester sludge, municipal incineration",lw6hvr3lpaoxfbzwuuv77n25xw9utegu,0.003369980952428378
+DHN_COGEN_WASTE_CC,"treatment of waste cement-fibre slab, dismantled, municipal incineration",iiof6v5pg36mx8ijnc3bj04l37lpugy7,0.0006597139725959587
+DHN_COGEN_WASTE_CC,"treatment of residue from shredder fraction from manual dismantling, municipal incineration",s7f6og2j96pgap5mt88vraieu9g6q2rl,0.003339376199807556
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",fk13yg9p7l9efh2klod7t5utdggbu2aa,3.078276584020738e-16
+DHN_COGEN_WASTE_CC,"treatment of waste polyethylene terephthalate, municipal incineration",rr3ut1apm7c36606kuxmnwhvqmqd3ge0,0.01520554771454857
+DHN_COGEN_WASTE_CC,"treatment of waste plastic, industrial electronics, municipal incineration",7rtyaxrfjwk7k8ht6fn99el2kojnlnwq,0.003932278441258398
+DHN_COGEN_WASTE_CC,"treatment of waste polyvinylfluoride, municipal incineration",gm6dmjt5yfjzpxcdo2ut52h89cn8b56u,0.0007900089519034191
+DHN_COGEN_WASTE_CC,"treatment of waste sealing sheet, polyethylene, municipal incineration",1sl594k3yrj39hddpwa6c7jtowbab3mq,0.00141534012755785
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from vegetable oil refinery, municipal incineration",5suvgs4wz9ofp8hb127f51stc0d25p84,0.08481063407681307
+DHN_COGEN_WASTE_CC,"treatment of spent anion exchange resin from potable water production, municipal incineration",gfwhcmawdhxrhosr4szsspi1l6zw9lp1,1.44992176893731e-06
+DHN_COGEN_WASTE_CC,"treatment of waste vapour barrier, flame-retarded, municipal incineration",pcw2ew4k42dtfbrs01mw4w4e1pv4zwfu,0.000314831263118604
+DHN_COGEN_WASTE_CC,"treatment of waste emulsion paint, municipal incineration",jiz732bwbh2m5rd3gu7by6fp2k9mr3sa,0.000732471986898891
+DHN_COGEN_WASTE_CC,"treatment of waste paperboard, municipal incineration",m4l4v0b4yk1h96mj9nnqtib5f768s6sl,0.03241596608807133
+DHN_COGEN_WASTE_CC,"treatment of waste expanded polystyrene, municipal incineration",yz3qroda1t26fb66u90gek7nzvqytdue,0.007089582299203097
+DHN_COGEN_WASTE_CC,"treatment of waste plastic, mixture, municipal incineration",0m85e1p5k7uvboncxeh9jw98kta7edn5,0.07555506356080281
+DHN_COGEN_WASTE_CC,"treatment of waste graphical paper, municipal incineration",m4obufewfoqfnhu3qkp1lh3vnqpb4mt3,0.1236802245579232
+DHN_COGEN_WASTE_CC,"treatment of waste polyurethane, municipal incineration",m55xfizdzl4dzccpcs0bj564mw02lw6i,0.02012305711870778
+DHN_COGEN_WASTE_CC,"treatment of waste packaging paper, municipal incineration",ru3bahqx30hqsxgduuhpt1xivdj8yw70,0.04439072395674384
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from medium density board production, municipal incineration",l4n2te5ldc0xkx162z9pqh18371aprpr,3.325775987079078e-06
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from soft fibreboard production, municipal incineration",1bc8b32m4p6xkdfkc8y7uho6ndan6ecd,4.588092984105681e-05
+DHN_COGEN_WASTE_CC,"treatment of waste polyethylene, municipal incineration",tu7oqcywpip83zjqg3ugm7v3tb8cxogv,0.08400399415691528
+DHN_COGEN_WASTE_CC,"treatment of waste plastic, consumer electronics, municipal incineration",w5se2ades4axo8agolxdsu6mfpdddijr,0.003917754151879025
+DHN_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, cathode ray tube display, municipal incineration",eshue4tvq62tc7xbp1aihqrzhpqhkzdx,0.0003639631301084718
+DHN_COGEN_WASTE_CC,"treatment of waste sealing sheet, polyvinylchloride, municipal incineration",k90h4nbwzboyn0xo1g323tedc4xj9eet,0.00087992986490036
+DHN_COGEN_WASTE_CC,"treatment of waste paint, municipal incineration",cta2ivwsyf7crk2h8dozzi6munren5oj,0.006162328572572084
+DHN_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, laser printer, municipal incineration",tgkqi4e0ocmkgghhljjbkrtscin5297k,0.0003085892768496114
+DHN_COGEN_WASTE_CC,"treatment of waste rubber, unspecified, municipal incineration",yx9wsqigapnwga9p7409g0hv3cbtyhyb,0.00597053940406653
+DHN_COGEN_WASTE_CC,"treatment of waste bitumen sheet, municipal incineration",csmzgjkmf12y016evdgxeylqkxcwolqt,0.005279233372988365
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from plywood production, municipal incineration",u49gror95rppsmqzcpkp4upnzzb5fj3u,0.0002254450273321832
+DHN_COGEN_WASTE_CC,"treatment of municipal solid waste, municipal incineration",018jnd2ai9thwzq1sevz18jk5cqo8flw,0.04342031299761565
+DHN_COGEN_WASTE_CC,"treatment of waste newspaper, municipal incineration",fawyw269jywlubxwuc1n7bdzciq88sni,0.02776127715839601
+DHN_COGEN_WASTE_CC,"treatment of raw sewage sludge, municipal incineration",25du7p6ceu2z9pp772qwct6ol1c6h1hf,0.001997262697870713
+DHN_COGEN_WASTE_CC,"treatment of waste polyvinylchloride, municipal incineration",64qh8kdxmvs177exurc5x3ri9pu44qdz,0.006160978774061147
+DHN_COGEN_WASTE_CC,"treatment of used liquid crystal display module, municipal incineration",h8cn9udf19gue8ef753u3cqg4p20ezbm,0.0001425109441247547
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, heat carrier liquid, 40% C3H8O2, municipal incineration",7r79yusad0k95op1iypxemafrnsicwot,8.796603986101573e-08
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, condensate from light oil boiler, municipal incineration",e5qq9z5btadiyt3f1zhrsrrfigr79dmj,4.845747101843789e-06
+DHN_COGEN_WASTE_CC,"treatment of waste rubber, unspecified, municipal incineration",27yf5e8mflmypw1welunq0wtp3h9103o,0.01062000304772941
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from LCD production, municipal incineration",cyehctvf6w15c897p6ukq8nlsj2dv21x,4.65802991646643e-12
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",zax90yrbktusompxn5qhardpz8o8m5a8,1.154013357849329e-07
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from glass production, municipal incineration",qa732a919h4nakc1s4281iwlpohnwuiy,3.026944379141186e-05
+DHN_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, IT accessory, municipal incineration",9y9jgjndeicn0d6a8x5932dd88d5sck9,0.0003753664263533487
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from hard fibreboard production, municipal incineration",rc12bsvkt08f1sh8wt2wsrniatylzscd,4.327561580329696e-06
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from grass refinery, municipal incineration",lxhn7h84s4c61xbrkgcccm8waw7x0qs9,1.259386852704175e-05
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from CRT production, municipal incineration",02suy184c087l3hdrxi8h6xpq65i3ddh,9.206405630948103e-15
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from particle board production, municipal incineration",c3volgc04gcgwr5nm1gl86ipoc23yqkv,1.932304204860208e-08
+DHN_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, industrial device, municipal incineration",7o2iw52lsfggd47dalqlxg7fs9ppi27u,0.001045575927107973
+DHN_COGEN_WASTE_CC,"treatment of waste textile, soiled, municipal incineration",n1jedofdhyfhb9fsrndqmq62c8vrtlvp,0.00926615080762631
+DHN_COGEN_WASTE_CC,"treatment of biowaste, municipal incineration",nz4g7ksufvz5rrrzxr3z7rjag4wp02sj,0.05903086183473824
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from LCD backlight production, municipal incineration",r0oj1mdsuoui3ncs5lg6l2irjeaxslao,9.797174095635677e-13
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",nk104lb9xk5gghhkflirt0no9m44urno,1.359335863373781e-06
+DHN_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, liquid crystal display, municipal incineration",rf3hwejjbvu6vva56hicjkbouem9mnx3,0.001440757633971753
+DHN_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, desktop computer, municipal incineration",t3xyc2cfnpx2390x9b89woyk3f24y2sq,0.0008487718060174665
+DHN_COGEN_WASTE_CC,"treatment of waste wood pole, chrome preserved, municipal incineration",drmwhqd5isbqyc2egidfaqmh9kxpmte6,0.00204100847421573
+DHN_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from concrete production, municipal incineration",z0l96o0b6nnkzbyflttdq8cjavvldj01,2.034467379614961e-09
+DHN_COGEN_WASTE_CC,"treatment of waste emulsion paint, municipal incineration",c8w6a9bdwzqdn9ev2v0eduf9akpysyqr,0.004676113974171375
+DHN_COGEN_WASTE_CC,"treatment of waste wire plastic, municipal incineration",bu7uf7x3om392a13rffx31ruh9eckp6s,0.0002433077833355358
+DHN_COGEN_WASTE_CC,"treatment of waste glass, municipal incineration",h434p6ff5s26hehs8uh5t2eclhqcvcqs,0.000170158966407633
+DHN_COGEN_WOOD,"heat and power co-generation, wood chips, 6667 kW, state-of-the-art 2014",sy2xekfhaz3te35bd4yj4oquezlzvujj,1.0
+DHN_DEEP_GEO,"heat production, deep geothermal",deeljyvml46buhalkxunvugw05b0hear,1.0
+DHN_HP_ELEC,"heat production, at heat pump 30kW, allocation exergy",36jejy89n3sapein8v2dm18xbo5zltrj,1.0
+DIRECT_USAGE,"carbon dioxide compression, transport and storage",n93hgpwhqzz2r2zcg9jyrsi93yjk21ai,1.0
+DOGR,"carbon dioxide compression, transport and storage",xretjtlzn0xusq6ioliwwbxs0r52s5wx,1.0
+EOR,"carbon dioxide compression, transport and storage",5yeej4ah62j9b775g4qxz5x6fp5lumdf,1.0
+ETHANE_CRACKING,natural gas liquids fractionation,r9mgdpxbg74pd1l2t6ysexbckfiesji4,1.0
+ETHANE_OXIDATION,"acetic acid production, methanol carboxylation (Monsanto), product in 98% solution state",az23ygnt4lr1zxtl0w065spj10riqk6j,1.0
+ETHANE_TO_ETHYLENE,"unsaturated hydrocarbons production, steam cracking operation, average",f1uh8dunakghrzn48kbsvoxjafcwkwzo,1.0
+ETHANOL_TO_JETFUELS,"kerosene production, from methanol, hydrogen from coal gasification, energy allocation",st19ier3vme3z0tz3572fy6vy3pl4sc5,1.0
+ETHYLENE_POLYMERIZATION,"unsaturated hydrocarbons production, steam cracking operation, average",7nh0rsdilpxea5sv8ilwmwzskgvk60bl,1.0
+FOOD_PROD,beet sugar production,w8mgo563y72ikxjx13mnbiccjo5zylkh,1.0
+FOOD_PROD_HP,beet sugar production,7d5ozrczsz8djef9mpa68l27ba1m7gxv,1.0
+FOOD_PROD_HR,beet sugar production,9gftyrm6dffgfrwddr26ewhrfnj1wxdg,1.0
+FT,"diesel production, synthetic, from Fischer Tropsch process, hydrogen from wood gasification, energy allocation, at fuelling station",vnnwdjvdp54uv2blue8pqiykh46slqgp,1.0
+FT,"diesel production, synthetic, Fischer Tropsch process, hydrogen from wood gasification, energy allocation",08yj9u1boyv0ksuf84qy1gruk696o116,1.00057
+FT,"syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from wood gasification",y70wsy52goju20jtv54p5kupox92b9ae,2.2612881999999996
+FT,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, at gasification plant",b8vi04vst80aqakyrceuddin8fow5vmt,0.28266102499999995
+FT,"carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from wood gasification",mquxcru7znhsca6kiacg7e1y45u114jz,1.9786271749999997
+GASIFICATION_H2,"hydrogen production, gaseous, 25 bar, from heatpipe reformer gasification of woody biomass, at gasification plant",pkrata6lg0j4u478lcurhtrllhxilyle,1.0
+GASIFICATION_SNG,"syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from wood gasification",df9vqc7x2c7qs09afr3hltc73e3kqh4j,1.0
+GASIFICATION_SNG,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, at gasification plant",xi4htjqx1ni6yppox3kzl5zjvfut9eh6,0.125
+GASIFICATION_SNG,"carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from wood gasification",1vk09kkb3hdza0q2g6zi2zrb9kgkub18,0.875
+GEOTHERMAL,"electricity production, deep geothermal",cdrj1af1loeux8il5m77p1wze7c0gac9,1.0
+H2_CCGT,"electricity production, from hydrogen-fired one gigawatt gas turbine",ivozwrjhh1q5ufv1q68du8ewwj1zwxk1,1.0
+H2_COMP_HE,"market for hydrogen, gaseous, low pressure",bqteo74h1bihmdcj4ale00rmy7m3gumr,1.0
+H2_COMP_LM,"market for hydrogen, gaseous, low pressure",yn3t7a3jwww4pr2atjbwse8j8bfw7oud,1.0
+H2_COMP_MH,"market for hydrogen, gaseous, low pressure",o11biptiq1x6cnl7e26u4zdg74bm2bq0,1.0
+H2_EXP_EH,"market for hydrogen, gaseous, low pressure",is4arvpg9c7wuk0c3rmg0324khe1ppbm,1.0
+H2_EXP_EH_COGEN,"market for hydrogen, gaseous, low pressure",8277rmt6ejq82xo0oinzq13xcnhrhsg5,1.0
+H2_EXP_HM,"market for hydrogen, gaseous, low pressure",y8wne2081psye5tj2gsvffhebql29d8m,1.0
+H2_EXP_HM_COGEN,"market for hydrogen, gaseous, low pressure",k0p1o0jdlsvn4qq2okf9f1qgcrz1ucfb,1.0
+H2_EXP_ML,"market for hydrogen, gaseous, low pressure",cyq76vj7z5855sge2qvtusu07nfp5u0m,1.0
+H2_EXP_ML_COGEN,"market for hydrogen, gaseous, low pressure",tfaj71ynh6z218dulxzl4wmrlybu9z4m,1.0
+H2_NG_CCGT,"electricity production, at natural gas-fired combined cycle power plant",6o8dpdq4fpeshdpn2r6r36nuzve4ayn1,1.0
+H2_NG_CCGT_CCS,"electricity production, at natural gas-fired combined cycle power plant, post, pipeline 200km, storage 1000m",fc9afbsu9vojbzq4hfcajt2nc1ik83kk,1.0
+HT_LT_DEC,"market for heat, district or industrial, other than natural gas",2ien6cct6rbmfx7xyc8d9k0ac6l5r30r,1.0
+HYDRO_DAM,"electricity production, hydro, reservoir, non-alpine region",1loc0jdgr1z756doaqnqmh4lhx3xzbve,1.0
+HYDRO_GAS,"syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from wood gasification",rz4yyg70hiqxt9ztyw2ciyxw4c07m7hl,1.0
+HYDRO_GAS,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, at gasification plant",vciw47msm30568xz4zec83i5x52qxj3h,0.125
+HYDRO_GAS,"carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from wood gasification",lh2yrehshe4ik1h39wv8elwesowvbhuj,0.875
+HYDRO_GAS_CHP,"syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from wood gasification",xij4p2he0kitl13ps2xd3mknz3qderrg,1.0
+HYDRO_GAS_CHP,"hydrogen production, gaseous, 25 bar, from gasification of woody biomass in entrained flow gasifier, at gasification plant",xp7cc30lk3hm6bqh42bkws5azaqi2eet,0.125
+HYDRO_GAS_CHP,"carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from wood gasification",hjnrgnxmkljymdbns2458stqai1w6y81,0.875
+HYDRO_RIVER,"electricity production, hydro, run-of-river",i9bnvf29bgahjc678qnn8sv60l2ceocl,1.0
+IND_BOILER_COAL,"heat production, at hard coal industrial furnace 1-10MW",646ybl1dcokmlc1ssmnbftog3ex60q17,1.0
+IND_BOILER_GAS,"heat production, natural gas, at industrial furnace >100kW",bd1djlb9soafsid713vt5af2s2zs9t76,1.0
+IND_BOILER_OIL,"heat production, heavy fuel oil, at industrial furnace 1MW",b4s50p4azwjqq7agsthsl36nuqfkphsm,1.0
+IND_BOILER_WASTE,"treatment of waste polystyrene, municipal incineration",pt4mc582kqgjsiiink0z03spsvmnfevm,0.01748793604559293
+IND_BOILER_WASTE,"treatment of spent cation exchange resin from potable water production, municipal incineration",1c2h6ompz7gk56kgymll39t4m13npibl,1.108255152108245e-07
+IND_BOILER_WASTE,"treatment of waste building wood, chrome preserved, municipal incineration",5qfe5o6pm950jcdiskkuwix852wn4c0n,0.0009529835823144692
+IND_BOILER_WASTE,"treatment of waste wood, untreated, municipal incineration",iodf7mj2bnmxw4ut5ou3ab8n686ek4k7,0.2531150616532692
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",d0j9oos4rk77n1jpenxhqrt27ygidwz9,6.165897727942606e-15
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT[R], WW from anaerobic digestion of whey, municipal incineration",z2j6kvwsnna03yj6o8nglrvah7wt2z9z,0.007028617596899336
+IND_BOILER_WASTE,"treatment of waste polypropylene, municipal incineration",jmttwoc099w61sd70vubx8t8v43l6zey,0.02401089815079357
+IND_BOILER_WASTE,"treatment of residue from mechanical treatment, laptop computer, municipal incineration",t312tgwfwse5j3re79zb9aqom1p7ag0t,0.0002478552691769348
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from maize starch production, municipal incineration",fwh9bur44j4v2h6o3ln15ioop1aykpt7,0.0005915187340662672
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration",4t0k57tbb9vegfrs8fpfyilbelk4qlbk,1.015318790529243e-12
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from potato starch production, municipal incineration",862ogy2k956a5ab74nzjevqp82ejg4jn,0.001318468958867559
+IND_BOILER_WASTE,"treatment of waste paint, municipal incineration",movyba0tjw0gq7ws44bln1gfycwlnctn,0.0009652743877517511
+IND_BOILER_WASTE,"treatment of digester sludge, municipal incineration",jswbt2vr0nnxq397foizm2lvbta6p6zj,0.003369980952428378
+IND_BOILER_WASTE,"treatment of waste cement-fibre slab, dismantled, municipal incineration",fcyujqdb4kx6w68v9nzhdkvmoa859c2r,0.0006597139725959587
+IND_BOILER_WASTE,"treatment of residue from shredder fraction from manual dismantling, municipal incineration",e182gd8lpc23t2kjei3zppkblcbxr2fn,0.003339376199807556
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",0aqlynpe41291riijoc6dg3wlgwkbm54,3.078276584020738e-16
+IND_BOILER_WASTE,"treatment of waste polyethylene terephthalate, municipal incineration",ei1ef53bukq72rkrpq89xwby3xl78jqu,0.01520554771454857
+IND_BOILER_WASTE,"treatment of waste plastic, industrial electronics, municipal incineration",1wk5fytrch6bdj45ie4jxcguyaf09y29,0.003932278441258398
+IND_BOILER_WASTE,"treatment of waste polyvinylfluoride, municipal incineration",4zd45und4lpj9026juy44qimu50zsvr4,0.0007900089519034191
+IND_BOILER_WASTE,"treatment of waste sealing sheet, polyethylene, municipal incineration",0q1vlyieefsyuo1c52twjameceesnbe9,0.00141534012755785
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from vegetable oil refinery, municipal incineration",qbc5j8exunzk3p1d0mha7bsc67lbvxwr,0.08481063407681307
+IND_BOILER_WASTE,"treatment of spent anion exchange resin from potable water production, municipal incineration",l12va3vj22p266oeud6w5oiav47lpryv,1.44992176893731e-06
+IND_BOILER_WASTE,"treatment of waste vapour barrier, flame-retarded, municipal incineration",2xvsucisfd1v3gagzm4vwxlsya67zuao,0.000314831263118604
+IND_BOILER_WASTE,"treatment of waste emulsion paint, municipal incineration",aaxwdv2n2oe8wnel6juvfsgk7ido70j6,0.000732471986898891
+IND_BOILER_WASTE,"treatment of waste paperboard, municipal incineration",vq3ym16azoafmz985kgxv3ymzrxfren8,0.03241596608807133
+IND_BOILER_WASTE,"treatment of waste expanded polystyrene, municipal incineration",bopxk0uiwgj0hren4xqlzgvc2wjps2gy,0.007089582299203097
+IND_BOILER_WASTE,"treatment of waste plastic, mixture, municipal incineration",dozuzgmwj3z509vf6ztf4ltkc7gxs8rd,0.07555506356080281
+IND_BOILER_WASTE,"treatment of waste graphical paper, municipal incineration",lbs69m4vbwudyntosbomqxk6erg03t65,0.1236802245579232
+IND_BOILER_WASTE,"treatment of waste polyurethane, municipal incineration",fp3o5av8k5w0vp6jr3iywpdf696k0lgn,0.02012305711870778
+IND_BOILER_WASTE,"treatment of waste packaging paper, municipal incineration",x91cl44fvtxcbtl8wjoureoha5o09k79,0.04439072395674384
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from medium density board production, municipal incineration",e5v3y1p6928aelktnsrmknuspnwep6ij,3.325775987079078e-06
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from soft fibreboard production, municipal incineration",w5j6gmpe8bqgj2pc0s6uwe7dgzy2amod,4.588092984105681e-05
+IND_BOILER_WASTE,"treatment of waste polyethylene, municipal incineration",hv0427tbdihza3apto1rbpc6zytzxt22,0.08400399415691528
+IND_BOILER_WASTE,"treatment of waste plastic, consumer electronics, municipal incineration",nj415u545q4f54b45jnay3sh2hgqmh7d,0.003917754151879025
+IND_BOILER_WASTE,"treatment of residue from mechanical treatment, cathode ray tube display, municipal incineration",fyemhm657kzl74bk9f85ljb9k9g3empd,0.0003639631301084718
+IND_BOILER_WASTE,"treatment of waste sealing sheet, polyvinylchloride, municipal incineration",3hrdo38ho8pjnq4zotjt0gglw9nuyexy,0.00087992986490036
+IND_BOILER_WASTE,"treatment of waste paint, municipal incineration",rvifofnr89a0xqkrttgq0201j5qb58po,0.006162328572572084
+IND_BOILER_WASTE,"treatment of residue from mechanical treatment, laser printer, municipal incineration",3ft4f5bfo9f07d9l3j1luhspcccez020,0.0003085892768496114
+IND_BOILER_WASTE,"treatment of waste rubber, unspecified, municipal incineration",9hb38t19fu7fdosf30yielhm2zoia3xc,0.00597053940406653
+IND_BOILER_WASTE,"treatment of waste bitumen sheet, municipal incineration",rioibq43f19wo85e11fcefei21h19gla,0.005279233372988365
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from plywood production, municipal incineration",bhrfn2n7onb6mkbbk8p708pvvet6p19c,0.0002254450273321832
+IND_BOILER_WASTE,"treatment of municipal solid waste, municipal incineration",0tenarlaftxzvv4eashrzhlhv6b6w37u,0.04342031299761565
+IND_BOILER_WASTE,"treatment of waste newspaper, municipal incineration",onvf8jn4d13kpa1dsbmnrxtf1li7x992,0.02776127715839601
+IND_BOILER_WASTE,"treatment of raw sewage sludge, municipal incineration",gx0bqfo29dmfd9xb83f5biyubft42ccl,0.001997262697870713
+IND_BOILER_WASTE,"treatment of waste polyvinylchloride, municipal incineration",ahosk5dosgowqng19evtmzdjvle08zzj,0.006160978774061147
+IND_BOILER_WASTE,"treatment of used liquid crystal display module, municipal incineration",j1z1s9bkq5s2oclpobh40fzux0zi1lsx,0.0001425109441247547
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, heat carrier liquid, 40% C3H8O2, municipal incineration",qybfn3skzzuf4r6imc40gcgrrscxxe7j,8.796603986101573e-08
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, condensate from light oil boiler, municipal incineration",x9rmfko915mtskcl6xfu3sohe87s7wa4,4.845747101843789e-06
+IND_BOILER_WASTE,"treatment of waste rubber, unspecified, municipal incineration",71mvxzbr7rhsf7h131etyi8wign1vvli,0.01062000304772941
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from LCD production, municipal incineration",56we06xnb7umlz545cackk6m1bksgvzy,4.65802991646643e-12
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",9ys7rg0u78ko2zhkx2l6lkwtfzifwc1s,1.154013357849329e-07
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from glass production, municipal incineration",v8tcxslfseigg61e1ondtas8dro73n3o,3.026944379141186e-05
+IND_BOILER_WASTE,"treatment of residue from mechanical treatment, IT accessory, municipal incineration",9uzkcweplpxv2m4wgbdnwq90lh5jhgj3,0.0003753664263533487
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from hard fibreboard production, municipal incineration",b3okev7pwa41cmfa7l28e7fnfj0d1qyi,4.327561580329696e-06
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from grass refinery, municipal incineration",vivjlujzy7tkbl1l9d24rca9k4s3691j,1.259386852704175e-05
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from CRT production, municipal incineration",pzm39sawhgrmsp7bz9h9zuy8394dpi4s,9.206405630948103e-15
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from particle board production, municipal incineration",lr0xwzpp3r31jmkghrm36s14wmcflj3o,1.932304204860208e-08
+IND_BOILER_WASTE,"treatment of residue from mechanical treatment, industrial device, municipal incineration",aezed7qjklr26hfdydyeup8rpgt1d3uf,0.001045575927107973
+IND_BOILER_WASTE,"treatment of waste textile, soiled, municipal incineration",hwaud4y1tzbdda5wpb9gvcdp6a79q39v,0.00926615080762631
+IND_BOILER_WASTE,"treatment of biowaste, municipal incineration",j3wx5tz73ucslxhzf0f9hpjj5hklh8sa,0.05903086183473824
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from LCD backlight production, municipal incineration",94ybbnm5e89r3w2o14vcvvvqd0xo5da9,9.797174095635677e-13
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",zbl3bh10pm1ywtoudk8kyc7839hh1o9d,1.359335863373781e-06
+IND_BOILER_WASTE,"treatment of residue from mechanical treatment, liquid crystal display, municipal incineration",cx22hlzsc3ap0ts8jp50bylqsa0mrqd2,0.001440757633971753
+IND_BOILER_WASTE,"treatment of residue from mechanical treatment, desktop computer, municipal incineration",oyrczh9p3889i4tkryxvk9tqh71qxnjz,0.0008487718060174665
+IND_BOILER_WASTE,"treatment of waste wood pole, chrome preserved, municipal incineration",q6cmmhacmwxp8vd6txd40m7hfhbkch5j,0.00204100847421573
+IND_BOILER_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from concrete production, municipal incineration",awd4wk3pwfo4je2hjkszdg6c06feppf5,2.034467379614961e-09
+IND_BOILER_WASTE,"treatment of waste emulsion paint, municipal incineration",ewwyuil6griv8343v149ko8zxll4rmk8,0.004676113974171375
+IND_BOILER_WASTE,"treatment of waste wire plastic, municipal incineration",fbd20lfmdonc4cqfxmntcdqppvgzrqy2,0.0002433077833355358
+IND_BOILER_WASTE,"treatment of waste glass, municipal incineration",qoazam9h00lgn5u0mthvxh7sf9epv64l,0.000170158966407633
+IND_BOILER_WASTE_CC,"treatment of waste polystyrene, municipal incineration",o3sm0sugsor6r29dvjxeppdf2de481n2,0.01748793604559293
+IND_BOILER_WASTE_CC,"treatment of spent cation exchange resin from potable water production, municipal incineration",65qajkva8c2lx520k1q74gz071g2dp56,1.108255152108245e-07
+IND_BOILER_WASTE_CC,"treatment of waste building wood, chrome preserved, municipal incineration",c8x9kvldkfhr0bxpboot2h0tdqbgof2e,0.0009529835823144692
+IND_BOILER_WASTE_CC,"treatment of waste wood, untreated, municipal incineration",x1dcfofgenjm1q5sqtqeyn9l05pqgmz7,0.2531150616532692
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",pwv3q04u7gm7e3tvvw5ouq08oqg32qnc,6.165897727942606e-15
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT[R], WW from anaerobic digestion of whey, municipal incineration",e79cgngshcwvt8nnzdomrpfb3zxuout9,0.007028617596899336
+IND_BOILER_WASTE_CC,"treatment of waste polypropylene, municipal incineration",505xw0gdsqsawkxkwszh0vmxa1ukfsbq,0.02401089815079357
+IND_BOILER_WASTE_CC,"treatment of residue from mechanical treatment, laptop computer, municipal incineration",b2fxkv5bidcf9c1tyrv5lwphb4xaqqyu,0.0002478552691769348
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from maize starch production, municipal incineration",w0yg00xsof9ayzgbho9txoql7f59xr2j,0.0005915187340662672
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration",cy3nhalmtm5gxouca9lkisa5ha6fwnun,1.015318790529243e-12
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from potato starch production, municipal incineration",tum9zidksyg4gm4b3mbhhdg782l5omx2,0.001318468958867559
+IND_BOILER_WASTE_CC,"treatment of waste paint, municipal incineration",fh4m8v37jek2vufgnw5txrr2cf2nwvke,0.0009652743877517511
+IND_BOILER_WASTE_CC,"treatment of digester sludge, municipal incineration",hqljpawpkg6ee9vwoqoz2boektj70k42,0.003369980952428378
+IND_BOILER_WASTE_CC,"treatment of waste cement-fibre slab, dismantled, municipal incineration",xr3vakqr74p854w4ogfyvbrknnxdagpg,0.0006597139725959587
+IND_BOILER_WASTE_CC,"treatment of residue from shredder fraction from manual dismantling, municipal incineration",ojz803bz9ocunlzl02hr2hh0profd4mb,0.003339376199807556
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",k6vaygp62cbfzsassjbyjfw6hdl8mb7a,3.078276584020738e-16
+IND_BOILER_WASTE_CC,"treatment of waste polyethylene terephthalate, municipal incineration",t3wnuzj4y8hi788suodnfxpsxdzsvmg9,0.01520554771454857
+IND_BOILER_WASTE_CC,"treatment of waste plastic, industrial electronics, municipal incineration",c6vpai3rf26lr0p8ppdggsn3nmy35u5e,0.003932278441258398
+IND_BOILER_WASTE_CC,"treatment of waste polyvinylfluoride, municipal incineration",bdxhnn1j7n0ff78qndra3sa05mr2qb39,0.0007900089519034191
+IND_BOILER_WASTE_CC,"treatment of waste sealing sheet, polyethylene, municipal incineration",37elhegzq1bz0jrn6s52cc0dj1i38yhf,0.00141534012755785
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from vegetable oil refinery, municipal incineration",4i0cz9sdi1sqlx1u0s404nojqx7p4i4t,0.08481063407681307
+IND_BOILER_WASTE_CC,"treatment of spent anion exchange resin from potable water production, municipal incineration",5a4z2kmvubaquk8g9lliq0h9ond6eywc,1.44992176893731e-06
+IND_BOILER_WASTE_CC,"treatment of waste vapour barrier, flame-retarded, municipal incineration",y7gak2yd4dl57snkvsfx3h6t8r5ccmm6,0.000314831263118604
+IND_BOILER_WASTE_CC,"treatment of waste emulsion paint, municipal incineration",88rm4hxroglpo9dfc5v7ohmae8bh85un,0.000732471986898891
+IND_BOILER_WASTE_CC,"treatment of waste paperboard, municipal incineration",qmxvjmb8k6sx4zjhm60ikmua8myoejw1,0.03241596608807133
+IND_BOILER_WASTE_CC,"treatment of waste expanded polystyrene, municipal incineration",tyzip2jmvchlw6rnx5kcxrnmy7f2sswu,0.007089582299203097
+IND_BOILER_WASTE_CC,"treatment of waste plastic, mixture, municipal incineration",2w94ztgzrfcfhfbenba13rvm8em3zrlz,0.07555506356080281
+IND_BOILER_WASTE_CC,"treatment of waste graphical paper, municipal incineration",m4awnvv7lu9ua6ff134ivvpjt6niemv3,0.1236802245579232
+IND_BOILER_WASTE_CC,"treatment of waste polyurethane, municipal incineration",q1fyzhwlckstnpjms9s47qimmrwjljyy,0.02012305711870778
+IND_BOILER_WASTE_CC,"treatment of waste packaging paper, municipal incineration",blya432obiiz4gsayx4iwxyggrxuce2t,0.04439072395674384
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from medium density board production, municipal incineration",fnuodz5u69smeqtha4qj2r23tcx5br1f,3.325775987079078e-06
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from soft fibreboard production, municipal incineration",0tftrzy33r9xbjw1jobk4tq4sdfa9he5,4.588092984105681e-05
+IND_BOILER_WASTE_CC,"treatment of waste polyethylene, municipal incineration",sqybqyz54l7r16hfsu0g4l6sfq9cwzkq,0.08400399415691528
+IND_BOILER_WASTE_CC,"treatment of waste plastic, consumer electronics, municipal incineration",yki3ntlmivrpucy05xa911sromkjwo9w,0.003917754151879025
+IND_BOILER_WASTE_CC,"treatment of residue from mechanical treatment, cathode ray tube display, municipal incineration",64yp157t8cqv5x7x2w7i187za8i12zul,0.0003639631301084718
+IND_BOILER_WASTE_CC,"treatment of waste sealing sheet, polyvinylchloride, municipal incineration",hwy2ut8nvkf87wpfxbgga87zwgt8z5ch,0.00087992986490036
+IND_BOILER_WASTE_CC,"treatment of waste paint, municipal incineration",mqijomrj8rgmzha4jg8mka1vzhdctw8e,0.006162328572572084
+IND_BOILER_WASTE_CC,"treatment of residue from mechanical treatment, laser printer, municipal incineration",0xb9yflq5riol5ajdi3s8k5kxh36fbbv,0.0003085892768496114
+IND_BOILER_WASTE_CC,"treatment of waste rubber, unspecified, municipal incineration",n12g1p4980wy7ry9ioi69wmha4supy3z,0.00597053940406653
+IND_BOILER_WASTE_CC,"treatment of waste bitumen sheet, municipal incineration",l60f6soosivpkj3fqo8ziqcj7fbmgs29,0.005279233372988365
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from plywood production, municipal incineration",rvc8q6s5cmmv35wvooukh6v6ks9ot6eq,0.0002254450273321832
+IND_BOILER_WASTE_CC,"treatment of municipal solid waste, municipal incineration",00lf95hj5cgbljrrt49auyt6v0kvxv2h,0.04342031299761565
+IND_BOILER_WASTE_CC,"treatment of waste newspaper, municipal incineration",xrigvt0eabat346697s29en1ba9y54pl,0.02776127715839601
+IND_BOILER_WASTE_CC,"treatment of raw sewage sludge, municipal incineration",recx5rp7e91y6zvofox56mx33h03ij6q,0.001997262697870713
+IND_BOILER_WASTE_CC,"treatment of waste polyvinylchloride, municipal incineration",g1b5wqw4wk71tg3cumzs8q2m7dsks3xx,0.006160978774061147
+IND_BOILER_WASTE_CC,"treatment of used liquid crystal display module, municipal incineration",2kzyppwchr062wrghw60m9kfenbosu2z,0.0001425109441247547
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, heat carrier liquid, 40% C3H8O2, municipal incineration",3ykqfjxe2wg3mxxnojm80ef6ghs06w6q,8.796603986101573e-08
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, condensate from light oil boiler, municipal incineration",eroyav4ue774z711522sj780itqvyq6z,4.845747101843789e-06
+IND_BOILER_WASTE_CC,"treatment of waste rubber, unspecified, municipal incineration",qbymtjhz4rp6t4ua49pgbpum3vay5dfo,0.01062000304772941
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from LCD production, municipal incineration",yropt55ce7jvki8k8cjebwvvatiif2m3,4.65802991646643e-12
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",p16p6edbrhk22yl0yhdwgh0ageapqlno,1.154013357849329e-07
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from glass production, municipal incineration",927c5dfjwspqj9s074uc4bwyp53trdft,3.026944379141186e-05
+IND_BOILER_WASTE_CC,"treatment of residue from mechanical treatment, IT accessory, municipal incineration",ntjnmd7ohzcvk6ol18qyiqcwhsc73k1u,0.0003753664263533487
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from hard fibreboard production, municipal incineration",ucea4zvhzcbkvcwcwgsymqk4ezr0p5lw,4.327561580329696e-06
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from grass refinery, municipal incineration",4p1z30welfpztbly97o3uh1sylzq2m57,1.259386852704175e-05
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from CRT production, municipal incineration",xufoc1hsywe0474ortwg74kstd9c14e3,9.206405630948103e-15
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from particle board production, municipal incineration",z45usb1c2ok72fucj6yj83y6w8m7d3f5,1.932304204860208e-08
+IND_BOILER_WASTE_CC,"treatment of residue from mechanical treatment, industrial device, municipal incineration",4k78a6oerj37lka0a7quorq5ifqw0ah6,0.001045575927107973
+IND_BOILER_WASTE_CC,"treatment of waste textile, soiled, municipal incineration",4mqpu90kjdcz2gsjx63qgmb7s0zekccr,0.00926615080762631
+IND_BOILER_WASTE_CC,"treatment of biowaste, municipal incineration",x0oohhi5ynzgbqs6n0p8kjjqg8dz6u45,0.05903086183473824
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from LCD backlight production, municipal incineration",st53xpa879sz0mhzo7qbzcmmj1ok3hc5,9.797174095635677e-13
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",u2okpswhsfjl7tf0xuoxp1molk2yu8qv,1.359335863373781e-06
+IND_BOILER_WASTE_CC,"treatment of residue from mechanical treatment, liquid crystal display, municipal incineration",v9lbisb0g3zpbouog9zvrby1jhl2haal,0.001440757633971753
+IND_BOILER_WASTE_CC,"treatment of residue from mechanical treatment, desktop computer, municipal incineration",31ygiq4x3m5syy52s3nivtod5dme7u48,0.0008487718060174665
+IND_BOILER_WASTE_CC,"treatment of waste wood pole, chrome preserved, municipal incineration",z7nppvoirhgybeb7wlwcgesmw2vn7jdx,0.00204100847421573
+IND_BOILER_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from concrete production, municipal incineration",63xgf367htb4es9nswwoiurqm627gaf7,2.034467379614961e-09
+IND_BOILER_WASTE_CC,"treatment of waste emulsion paint, municipal incineration",wvo6nkvlkrc6g6d0d3inj8i576igyu6c,0.004676113974171375
+IND_BOILER_WASTE_CC,"treatment of waste wire plastic, municipal incineration",zjk0lhzg3vxver0zon1y8we8ul7j095z,0.0002433077833355358
+IND_BOILER_WASTE_CC,"treatment of waste glass, municipal incineration",qa7nrxsq58a4ygcnla29vyy5h68u4to0,0.000170158966407633
+IND_BOILER_WOOD,"heat production, wood chips from industry, at furnace 1000kW",93tb1adh1x47bijbd9org1p56lumwg61,1.0
+IND_COGEN_GAS,"heat and power co-generation, natural gas, 1MW electrical, lean burn",3am4z3esxia1j1rnydqkxls8pyde4wlb,1.0
+IND_COGEN_WASTE,"treatment of waste polystyrene, municipal incineration",k5alh91rzp6bsctqo5yrxv7ui91bc130,0.01748793604559293
+IND_COGEN_WASTE,"treatment of spent cation exchange resin from potable water production, municipal incineration",o0n0jk96memd32h73tp0wmwdzx4p3yhs,1.108255152108245e-07
+IND_COGEN_WASTE,"treatment of waste building wood, chrome preserved, municipal incineration",8uu7qkdoij2eyldxyp7xc3u9gemau2e3,0.0009529835823144692
+IND_COGEN_WASTE,"treatment of waste wood, untreated, municipal incineration",v7zy144iqg63anjy7k7vila1pprtgiga,0.2531150616532692
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",9nd6l6qbt037rytd30j98qcddxalp0eq,6.165897727942606e-15
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT[R], WW from anaerobic digestion of whey, municipal incineration",tcwkcjnw98tleib62vynb1qq2a5pl820,0.007028617596899336
+IND_COGEN_WASTE,"treatment of waste polypropylene, municipal incineration",3ge10j2ov34p1mej9yfef3617ov1o63y,0.02401089815079357
+IND_COGEN_WASTE,"treatment of residue from mechanical treatment, laptop computer, municipal incineration",cvarhjtrtaw2gwk2ia1tht0avdmvlruj,0.0002478552691769348
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from maize starch production, municipal incineration",z2nwza88pbsphum9r83tqgxzs15o82km,0.0005915187340662672
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration",up865b1ygwzespgctrtn3jy5duv6701g,1.015318790529243e-12
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from potato starch production, municipal incineration",0dbp1z32jmud070fp7n3avk5337sm4r4,0.001318468958867559
+IND_COGEN_WASTE,"treatment of waste paint, municipal incineration",mypkiuovihxiw4vmkespw2a3juti3tl5,0.0009652743877517511
+IND_COGEN_WASTE,"treatment of digester sludge, municipal incineration",bkzc3en3sywm3a86wqe1f1dq6cdgj8oo,0.003369980952428378
+IND_COGEN_WASTE,"treatment of waste cement-fibre slab, dismantled, municipal incineration",ey23wdzcscg7ob3ptkhg5ui3ep99fozw,0.0006597139725959587
+IND_COGEN_WASTE,"treatment of residue from shredder fraction from manual dismantling, municipal incineration",4c2f4uqnnx6yw3icqkenwdid3xj7pqbb,0.003339376199807556
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",pocn28hzzal5jv51a6sd229gr6s7x9vv,3.078276584020738e-16
+IND_COGEN_WASTE,"treatment of waste polyethylene terephthalate, municipal incineration",6cs1doh9hdh37nuo12jxpdt6ewk4s6bt,0.01520554771454857
+IND_COGEN_WASTE,"treatment of waste plastic, industrial electronics, municipal incineration",g8khmqj7109hxet0pc0chxmcb13crg20,0.003932278441258398
+IND_COGEN_WASTE,"treatment of waste polyvinylfluoride, municipal incineration",qs2syhnbhnbx49j38sfjvbrpm0xmtl2a,0.0007900089519034191
+IND_COGEN_WASTE,"treatment of waste sealing sheet, polyethylene, municipal incineration",r2aphgxl06l38p3fwv4hqle4m8krhk6n,0.00141534012755785
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from vegetable oil refinery, municipal incineration",7xzsjg6uzw32y9lq3utkdjopccy3nk74,0.08481063407681307
+IND_COGEN_WASTE,"treatment of spent anion exchange resin from potable water production, municipal incineration",h9pjspees8vt0m20hznbcd8dzggwj1d5,1.44992176893731e-06
+IND_COGEN_WASTE,"treatment of waste vapour barrier, flame-retarded, municipal incineration",qxxg39tcoekf0y14gurmmrnsr4o2iyak,0.000314831263118604
+IND_COGEN_WASTE,"treatment of waste emulsion paint, municipal incineration",g8npa3dybh9ejnkdag7fbcnm5c2qrsv1,0.000732471986898891
+IND_COGEN_WASTE,"treatment of waste paperboard, municipal incineration",warmrqgq6sbzjo19iealh5ha5fllryaa,0.03241596608807133
+IND_COGEN_WASTE,"treatment of waste expanded polystyrene, municipal incineration",cnroh8x4ay0pjsbfw39okuxahn43lwqc,0.007089582299203097
+IND_COGEN_WASTE,"treatment of waste plastic, mixture, municipal incineration",8wi7b2h2nw917j4qcla37cuog8pkix03,0.07555506356080281
+IND_COGEN_WASTE,"treatment of waste graphical paper, municipal incineration",iv0u8wokzfvmstxfo35ekqf0x9rjsups,0.1236802245579232
+IND_COGEN_WASTE,"treatment of waste polyurethane, municipal incineration",uj24e4cqwq0eucsjj08gn7abnywepjst,0.02012305711870778
+IND_COGEN_WASTE,"treatment of waste packaging paper, municipal incineration",k44r88a2r9q79ptz2h41ywifiphiys20,0.04439072395674384
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from medium density board production, municipal incineration",mdq7wpg7jvkzz9x1jg1nztxkh5s878xj,3.325775987079078e-06
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from soft fibreboard production, municipal incineration",ds7r6zvqh5oag0fyvv9whak2e6vbc07k,4.588092984105681e-05
+IND_COGEN_WASTE,"treatment of waste polyethylene, municipal incineration",poxr7t8qzebir8aov0zz1ay08zau62as,0.08400399415691528
+IND_COGEN_WASTE,"treatment of waste plastic, consumer electronics, municipal incineration",j2wi0edqhmqc1x9pe743qo3bnxui0om6,0.003917754151879025
+IND_COGEN_WASTE,"treatment of residue from mechanical treatment, cathode ray tube display, municipal incineration",6j0yks6v46p4x84kwb9sibqujprk5vi6,0.0003639631301084718
+IND_COGEN_WASTE,"treatment of waste sealing sheet, polyvinylchloride, municipal incineration",zkld0th2rxxjouzy55zohuigehgf1g5n,0.00087992986490036
+IND_COGEN_WASTE,"treatment of waste paint, municipal incineration",84fwl95qlofmc7pq1wph8jrznbryrnst,0.006162328572572084
+IND_COGEN_WASTE,"treatment of residue from mechanical treatment, laser printer, municipal incineration",nbcf0pouw042q82v402uhunm5ldry0kz,0.0003085892768496114
+IND_COGEN_WASTE,"treatment of waste rubber, unspecified, municipal incineration",ecfcxei27nldh1yk3ktcjffrgvukn4f8,0.00597053940406653
+IND_COGEN_WASTE,"treatment of waste bitumen sheet, municipal incineration",9me74u97q7mm8f9n1rtdnwzusdszpc2q,0.005279233372988365
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from plywood production, municipal incineration",dgk5zav7a6o0vjmzzezp2lypepwws1hw,0.0002254450273321832
+IND_COGEN_WASTE,"treatment of municipal solid waste, municipal incineration",2xf9vss6ve1y7gyqpgeq8d9bma3sr7rz,0.04342031299761565
+IND_COGEN_WASTE,"treatment of waste newspaper, municipal incineration",vaipvroxs9wfaovxlgmxdd009i7frnhd,0.02776127715839601
+IND_COGEN_WASTE,"treatment of raw sewage sludge, municipal incineration",evgbbz8n2ozi1mjknu4i0df05sm5xsdi,0.001997262697870713
+IND_COGEN_WASTE,"treatment of waste polyvinylchloride, municipal incineration",4ji7qez2pssii5h24y4ul5mqkc678nds,0.006160978774061147
+IND_COGEN_WASTE,"treatment of used liquid crystal display module, municipal incineration",58j84slwmb1ket7pu0llz8yigyo8mi4j,0.0001425109441247547
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, heat carrier liquid, 40% C3H8O2, municipal incineration",jtjrlyssrjwegthf4hzbugk9zveu40et,8.796603986101573e-08
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, condensate from light oil boiler, municipal incineration",2morrxpsejzftcxv4g3m2zoe4uu35j10,4.845747101843789e-06
+IND_COGEN_WASTE,"treatment of waste rubber, unspecified, municipal incineration",ozcsuwsi5y61szydqesnu52r6l11sext,0.01062000304772941
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from LCD production, municipal incineration",jqz5comsfbukugp1qwbe2eg312vruwqk,4.65802991646643e-12
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",ufnozsm9k37hwh49pg8tevbmrj862rfb,1.154013357849329e-07
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from glass production, municipal incineration",lw2h85renmpf9hd1fo52l4ttnmloxtl2,3.026944379141186e-05
+IND_COGEN_WASTE,"treatment of residue from mechanical treatment, IT accessory, municipal incineration",db0l0vsgtj7fjlirt9b0pl4dxgdise98,0.0003753664263533487
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from hard fibreboard production, municipal incineration",93atrnnqkp71vf3srtfnir7knvw2fnl4,4.327561580329696e-06
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from grass refinery, municipal incineration",70s1zph1hoh3nyn4cy9bgadf8nykr1ga,1.259386852704175e-05
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from CRT production, municipal incineration",awb34ae4kn0soe8lamy0dg44t9rwzij2,9.206405630948103e-15
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from particle board production, municipal incineration",mqelsy5dlzzbuwsz74yqfyruk1r5c4jg,1.932304204860208e-08
+IND_COGEN_WASTE,"treatment of residue from mechanical treatment, industrial device, municipal incineration",p9gppk3t8vw33tihhcb7zy40suitfmn1,0.001045575927107973
+IND_COGEN_WASTE,"treatment of waste textile, soiled, municipal incineration",7iphm6zm9gd5qxgvcb58w71lvtjtol3g,0.00926615080762631
+IND_COGEN_WASTE,"treatment of biowaste, municipal incineration",0amaes2sxh65oahbn6nc9rst4szxwhfz,0.05903086183473824
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from LCD backlight production, municipal incineration",jwktd4p07vdffmkrd1pendyvtrzdtuqe,9.797174095635677e-13
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",ysgq4mam4kze2s46fvdazzwyx6osz428,1.359335863373781e-06
+IND_COGEN_WASTE,"treatment of residue from mechanical treatment, liquid crystal display, municipal incineration",q3mjrdqjxf5y98mofvxr0pxc4j8vpk90,0.001440757633971753
+IND_COGEN_WASTE,"treatment of residue from mechanical treatment, desktop computer, municipal incineration",gdolgde6um66fg7lxsu0xaleqionivao,0.0008487718060174665
+IND_COGEN_WASTE,"treatment of waste wood pole, chrome preserved, municipal incineration",5hlukpwxxrngi5xtaukivagpfh7hsyij,0.00204100847421573
+IND_COGEN_WASTE,"treatment of sewage sludge, 70% water, WWT, WW from concrete production, municipal incineration",3a1o65txhipm1h56tu2esyqqhh37arpi,2.034467379614961e-09
+IND_COGEN_WASTE,"treatment of waste emulsion paint, municipal incineration",xqmfh6xqbl1dzri2rpz1ls444ne65qya,0.004676113974171375
+IND_COGEN_WASTE,"treatment of waste wire plastic, municipal incineration",h6ksvvi9pdrqlq13m5qi1far091wazyb,0.0002433077833355358
+IND_COGEN_WASTE,"treatment of waste glass, municipal incineration",a5hrbqztj14ll2i3l6xcfwrvg0zccsqe,0.000170158966407633
+IND_COGEN_WASTE_CC,"treatment of waste polystyrene, municipal incineration",7q6scufjydmsrnoartvc58i81wg4u6dv,0.01748793604559293
+IND_COGEN_WASTE_CC,"treatment of spent cation exchange resin from potable water production, municipal incineration",1agwu2926gir0nl2uigfnxik3j5cxev4,1.108255152108245e-07
+IND_COGEN_WASTE_CC,"treatment of waste building wood, chrome preserved, municipal incineration",jo99v89jk0rie02xrtsr4cee06riyrbj,0.0009529835823144692
+IND_COGEN_WASTE_CC,"treatment of waste wood, untreated, municipal incineration",l71rj3ex5v6mqszh774fb0xj5pe1ifwc,0.2531150616532692
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",goxsmhnl5cbatj0sf0n7uith0o94tg88,6.165897727942606e-15
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT[R], WW from anaerobic digestion of whey, municipal incineration",mde3vwxogwg3fr9xdq1tokv1x04ls2hn,0.007028617596899336
+IND_COGEN_WASTE_CC,"treatment of waste polypropylene, municipal incineration",hakyd3ev9bu0kl1fqojwq39rboh48gme,0.02401089815079357
+IND_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, laptop computer, municipal incineration",wk2tkaggfog7dbddmu3w3hiy0pom9j3z,0.0002478552691769348
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from maize starch production, municipal incineration",fcx8bp7ss98v5d5f4y8ciwy3ryzphlhz,0.0005915187340662672
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration",exk89b0xf554wbppx6jtr5aytagf1l97,1.015318790529243e-12
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from potato starch production, municipal incineration",q0cuhaec4lz3gjpr0qa01zt8h1g5wae6,0.001318468958867559
+IND_COGEN_WASTE_CC,"treatment of waste paint, municipal incineration",pdf1viun18b1038qqblgp7ysw0f1t9ez,0.0009652743877517511
+IND_COGEN_WASTE_CC,"treatment of digester sludge, municipal incineration",bvuyddiwz71xnsjt8sou1l0eyprbx1ki,0.003369980952428378
+IND_COGEN_WASTE_CC,"treatment of waste cement-fibre slab, dismantled, municipal incineration",kagcggce6bypyihkoivpd8cbo4lvzo61,0.0006597139725959587
+IND_COGEN_WASTE_CC,"treatment of residue from shredder fraction from manual dismantling, municipal incineration",g6ciiky8efr20hlbnxhrprwpcg5xjf8r,0.003339376199807556
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, rainwater mineral oil storage, municipal incineration",6hcz7isuvu67eav566cw1ibj4kmubtll,3.078276584020738e-16
+IND_COGEN_WASTE_CC,"treatment of waste polyethylene terephthalate, municipal incineration",dr082tntcfr598et5ce8r2scdhx5z16y,0.01520554771454857
+IND_COGEN_WASTE_CC,"treatment of waste plastic, industrial electronics, municipal incineration",dv2xyy0nj9ucngf805pcfcj7r66jrwe9,0.003932278441258398
+IND_COGEN_WASTE_CC,"treatment of waste polyvinylfluoride, municipal incineration",iq60a5o1xadvlhhti8e69gitw6xnxfi7,0.0007900089519034191
+IND_COGEN_WASTE_CC,"treatment of waste sealing sheet, polyethylene, municipal incineration",5iws2o7qp6iljd4viw90wawk5xgvsv2a,0.00141534012755785
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from vegetable oil refinery, municipal incineration",ghteq5ffntpkcish8o0sq5mlyhsq4873,0.08481063407681307
+IND_COGEN_WASTE_CC,"treatment of spent anion exchange resin from potable water production, municipal incineration",7hq6xtwjzq4youityeyb8edi6yrc9abb,1.44992176893731e-06
+IND_COGEN_WASTE_CC,"treatment of waste vapour barrier, flame-retarded, municipal incineration",r84roq3jzjhdsvq5en318ksj39mw3r13,0.000314831263118604
+IND_COGEN_WASTE_CC,"treatment of waste emulsion paint, municipal incineration",47zduhh3qz38hp20xgifzb37k71bj62m,0.000732471986898891
+IND_COGEN_WASTE_CC,"treatment of waste paperboard, municipal incineration",x8o32pp67x5fkbovnlk71xy1foju4fgz,0.03241596608807133
+IND_COGEN_WASTE_CC,"treatment of waste expanded polystyrene, municipal incineration",x0t22phdkt6m78v8vsp3izd364h1jz83,0.007089582299203097
+IND_COGEN_WASTE_CC,"treatment of waste plastic, mixture, municipal incineration",5zn9503vm42fo1dxrxmnhquxydtc0e8a,0.07555506356080281
+IND_COGEN_WASTE_CC,"treatment of waste graphical paper, municipal incineration",buud6mybfeesme8y7uz8tbcj2rj5vugh,0.1236802245579232
+IND_COGEN_WASTE_CC,"treatment of waste polyurethane, municipal incineration",yvbwx5pmbmxpbndtz7fp7c05mwp36nwt,0.02012305711870778
+IND_COGEN_WASTE_CC,"treatment of waste packaging paper, municipal incineration",9w2y2t3muac8csi0silg69s9kmf1hrhx,0.04439072395674384
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from medium density board production, municipal incineration",q3beyg4lnlba80tyqh3oho2r8c35bwh6,3.325775987079078e-06
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from soft fibreboard production, municipal incineration",7u36uwhotglicn45d9kpk2f6ryw2yc6g,4.588092984105681e-05
+IND_COGEN_WASTE_CC,"treatment of waste polyethylene, municipal incineration",vjt5ot8g3cu5xqduvrr9u993oybmxsxa,0.08400399415691528
+IND_COGEN_WASTE_CC,"treatment of waste plastic, consumer electronics, municipal incineration",4z4g7h9ceo1n3nzuvmyve1wqz9xjw4z9,0.003917754151879025
+IND_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, cathode ray tube display, municipal incineration",tz4z500lcpohiljhdloss88h1rkhrikl,0.0003639631301084718
+IND_COGEN_WASTE_CC,"treatment of waste sealing sheet, polyvinylchloride, municipal incineration",zcb5cnugdk5pu1ckcgcd0dwzzssb7doe,0.00087992986490036
+IND_COGEN_WASTE_CC,"treatment of waste paint, municipal incineration",alq6ynwodu1ibnyzd4m4asbajemo67jc,0.006162328572572084
+IND_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, laser printer, municipal incineration",70ukdqxqm044oc3drhbsludux4dxag20,0.0003085892768496114
+IND_COGEN_WASTE_CC,"treatment of waste rubber, unspecified, municipal incineration",c3gburjj40uea2p8dpzp4j4yxj5iq9cz,0.00597053940406653
+IND_COGEN_WASTE_CC,"treatment of waste bitumen sheet, municipal incineration",cjsondeac9jy4b5mkur2hpiif3pnedgu,0.005279233372988365
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from plywood production, municipal incineration",g5zx5nbawnx9kjm6a0kwv5l60i4nk7c3,0.0002254450273321832
+IND_COGEN_WASTE_CC,"treatment of municipal solid waste, municipal incineration",m6i9ftosxj2h7nuj1535yo3h7xi2axr3,0.04342031299761565
+IND_COGEN_WASTE_CC,"treatment of waste newspaper, municipal incineration",zwbhti3z2dttt04bnygoz5w3u9icf974,0.02776127715839601
+IND_COGEN_WASTE_CC,"treatment of raw sewage sludge, municipal incineration",rl5natehayv2hhkrdwu90x2r3fwg3k6q,0.001997262697870713
+IND_COGEN_WASTE_CC,"treatment of waste polyvinylchloride, municipal incineration",ufhbs1q9k794j7ip3h3jhmndn84cwuvj,0.006160978774061147
+IND_COGEN_WASTE_CC,"treatment of used liquid crystal display module, municipal incineration",nk0o5flogjsp76dx2pg20lkrmzyk127x,0.0001425109441247547
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, heat carrier liquid, 40% C3H8O2, municipal incineration",jsjs22p83qgk603y8f3f9cxuvuj3azdn,8.796603986101573e-08
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, condensate from light oil boiler, municipal incineration",haz70n70h9xknbuiyei55h92vcbxrcet,4.845747101843789e-06
+IND_COGEN_WASTE_CC,"treatment of waste rubber, unspecified, municipal incineration",dt0rlwttgoj8vlcmsvikvqn4xwjrrchv,0.01062000304772941
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from LCD production, municipal incineration",lvv9vzbtbsod4cmog6mei35s9a4x6t2s,4.65802991646643e-12
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",xf9xiul2pdgbfdslj6zj5r14kdo0vnfx,1.154013357849329e-07
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from glass production, municipal incineration",evdazzai1m2twhiim160709vavekboj4,3.026944379141186e-05
+IND_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, IT accessory, municipal incineration",vnq6gjadnqkiq0dbss8xah6risifw8dp,0.0003753664263533487
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from hard fibreboard production, municipal incineration",eph1n6yy5e0zxuc83vy0onpepvg49m8y,4.327561580329696e-06
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from grass refinery, municipal incineration",plmf7aeofdva4v8y7afo92vdoy4783w4,1.259386852704175e-05
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from CRT production, municipal incineration",n7tvdt98f6jfyzujnmk2k3vkpawrf0ak,9.206405630948103e-15
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from particle board production, municipal incineration",r4h30qwk3x30i6narf9g06y4cpw07wyi,1.932304204860208e-08
+IND_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, industrial device, municipal incineration",wcwc3hq5rjftv9yd9w19jhxf8bq6s3dg,0.001045575927107973
+IND_COGEN_WASTE_CC,"treatment of waste textile, soiled, municipal incineration",641b4s4dfhyfqjhfzy396qbfybcp9u7z,0.00926615080762631
+IND_COGEN_WASTE_CC,"treatment of biowaste, municipal incineration",ph5t6jxdmu98r6q09wrncgj3ts74txov,0.05903086183473824
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from LCD backlight production, municipal incineration",k19kzx2rclr6n6f26aw4xfwk5ze3a1d9,9.797174095635677e-13
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW, average, municipal incineration",wleq454t0p9vreteo122biovsjf5hflh,1.359335863373781e-06
+IND_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, liquid crystal display, municipal incineration",wowkwgn2zy626mqa33hbwfvwjv9ag19y,0.001440757633971753
+IND_COGEN_WASTE_CC,"treatment of residue from mechanical treatment, desktop computer, municipal incineration",ztp5lr0qg50171nf2rcf5uzp0z5lh0f6,0.0008487718060174665
+IND_COGEN_WASTE_CC,"treatment of waste wood pole, chrome preserved, municipal incineration",s0fd143mn1sx702loqgfslqdcocs6ah8,0.00204100847421573
+IND_COGEN_WASTE_CC,"treatment of sewage sludge, 70% water, WWT, WW from concrete production, municipal incineration",zbauwromksvhmer7357bnihhrmkiwo4j,2.034467379614961e-09
+IND_COGEN_WASTE_CC,"treatment of waste emulsion paint, municipal incineration",zogakaqhd84jbqu0w1p6kevcbxiopq2s,0.004676113974171375
+IND_COGEN_WASTE_CC,"treatment of waste wire plastic, municipal incineration",hcmvwqsggb6gml1y2uen6dn30y3btza3,0.0002433077833355358
+IND_COGEN_WASTE_CC,"treatment of waste glass, municipal incineration",9io2v1b59cfyniqzoi0i1dhtz4d6buef,0.000170158966407633
+IND_COGEN_WOOD,"heat and power co-generation, wood chips, 6667 kW, state-of-the-art 2014",uilwvaufzqp6wbg2n08khvu9f5d1qyoq,1.0
+IND_DIRECT_ELEC,"market for electricity, high voltage",8yu6uknycpsyxrv2xruldowb4wa6i3fo,1.0
+IND_HP_ELEC,"heat production, air-water heat pump 10kW",wgtzvatl1qn78zlynchb0dcv3gpud4pu,1.0
+LCV_BIODIESEL_B100_MD,"transport, truck, diesel, 3.5t, urban delivery",53sr9zvkvga3c07w75qztmvy56mhcusg,1.0
+LCV_BIODIESEL_B100_SD,"transport, truck, diesel, 3.5t, urban delivery",rej9x625spu58t06kwacgpc9o54x4lzw,1.0
+LCV_BIODIESEL_B20_MD,"transport, truck, diesel, 3.5t, urban delivery",xn3bsq6udr4mwu3thyc2z5pzaftko9b2,1.0
+LCV_BIODIESEL_B20_SD,"transport, truck, diesel, 3.5t, urban delivery",t7mtjql4azjfinrueccda5kbfanajzdm,1.0
+LCV_CNG_MD,"transport, truck, compressed gas, 3.5t, urban delivery",ot66jm89mrm4kg2xqwzb68emaxvqhhms,1.0
+LCV_CNG_SD,"transport, truck, compressed gas, 3.5t, urban delivery",4hzfkwo4m1amha3329cacjnv6gp3rjj8,1.0
+LCV_DIESEL_MD,"transport, truck, diesel, 3.5t, urban delivery",efq8z7fipomuk3xnf6lh0c7j8wloxrxs,1.0
+LCV_DIESEL_SD,"transport, truck, diesel, 3.5t, urban delivery",1y9ko3o2t987oye0glwy1yp8oh6pnlx7,1.0
+LCV_ETOH_E10_MD,"transport, truck, diesel, 3.5t, urban delivery",ntftdha3s5cazr4balwnweixhpy3m8wq,1.0
+LCV_ETOH_E10_SD,"transport, truck, diesel, 3.5t, urban delivery",qykuqnqmd53m5xeyljso3ug4xvzu81ba,1.0
+LCV_ETOH_E85_MD,"transport, truck, diesel, 3.5t, urban delivery",62yt3jlmr7qn78zynmtasuht3dblk9wx,1.0
+LCV_ETOH_E85_SD,"transport, truck, diesel, 3.5t, urban delivery",693m9s5l1pdgz5qyn60by9tabhh5s9c2,1.0
+LCV_EV_MD,"transport, truck, battery electric, 3.5t, urban delivery",udqfsob3oh8bmtvf4qa0xkqul88kh4ob,1.0
+LCV_EV_SD,"transport, truck, battery electric, 3.5t, urban delivery",de0y6987ardea30j1j2exfdz7p79x6w5,1.0
+LCV_FC_CH4_MD,"transport, truck, fuel cell electric, 3.5t, urban delivery",70fwpitz2av1udf9pwsujexws1g2vw3x,1.0
+LCV_FC_CH4_SD,"transport, truck, fuel cell electric, 3.5t, urban delivery",6udpk0uup85bzirc5zsl73pmi6stb9jp,1.0
+LCV_FC_H2_MD,"transport, truck, fuel cell electric, 3.5t, urban delivery",mo7k1jcd9cksq5zgij3y47v0f3jkxx9f,1.0
+LCV_FC_H2_SD,"transport, truck, fuel cell electric, 3.5t, urban delivery",rdcgpe2kp9mtv6hpjd8lauyl2f3q5sx7,1.0
+LCV_GASOLINE_MD,"transport, truck, diesel, 3.5t, urban delivery",co4k3xgn22kw0xm1l5mp80ict9utw1pd,1.0
+LCV_GASOLINE_SD,"transport, truck, diesel, 3.5t, urban delivery",pfi177z0cts3usf27i8gk0ed8tgjnhgn,1.0
+LCV_PHEV_DIESEL_MD,"transport, truck, plugin diesel hybrid, 3.5t, urban delivery",gutmpwzdyd3nk6uq41fwk2kpdfthtfkt,1.0
+LCV_PHEV_DIESEL_SD,"transport, truck, plugin diesel hybrid, 3.5t, urban delivery",mn95k87ph6xvvq6q5ctkn45gydfd5e5s,1.0
+LCV_PROPANE_MD,"transport, truck, compressed gas, 3.5t, urban delivery",zf2sv5kv1gk4k6i8jxs8ns87hf9ypqvb,1.0
+LCV_PROPANE_SD,"transport, truck, compressed gas, 3.5t, urban delivery",rchenklcozcuq7ftubnhjemgy5qjp0ce,1.0
+METATHESIS_PROPYLENE,"unsaturated hydrocarbons production, steam cracking operation, average",ieecs9bzbjt78vt95ci4igr898rfrwkt,1.0
+METHANATION,"methane, from electrochemical methanation, with carbon from municipal waste incineration plant",wsivmxycdgung1udc2t5q43gkx9dycwd,1.0
+METHANE_TO_METHANOL,"methanol production, natural gas reforming",8tgk9wo6cx9waqthtz7k8gawv7a3qg3h,1.0
+METHANOL_CARBONYLATION,"acetic acid production, methanol carboxylation (Monsanto), product in 98% solution state",qzg4k3hdf2fhh02gbq8mt22txn3adhhh,1.0
+METHANOL_FT,"methanol production, biomass gasification",l0e194inopdr4qdefi6j9uj67qui5haq,1.0
+METHANOL_TO_AROMATICS,"BTX production, from pyrolysis gas, average",qt6fx0xl4paecns1uuaynlwugcxix8bu,1.0
+METHANOL_TO_OLEFINS,n-olefins production,2fk105bv6gblkhj7qycab7cr9cda7xvj,1.0
+MINES_STORAGE,"carbon dioxide compression, transport and storage",nef2gqgf26kj6jbvovkq3zby7yqqaots,1.0
+NEW_HYDRO_DAM,"electricity production, hydro, reservoir, non-alpine region",c4pdrwmdas7ct21ajz6wopfackbywzlc,1.0
+NEW_HYDRO_RIVER,"electricity production, hydro, run-of-river",m0esnn5xqswpm7ezgincsln7rdvf2stz,1.0
+NG_COMP_HE,"market for natural gas, high pressure",1e9meabfpy6jd78qkw7xsvvddpyig90m,1.0
+NG_COMP_LM,"market for natural gas, low pressure",dsg5i4fnapnrjpssved9fidh40a7g4op,1.0
+NG_COMP_MH,"market for natural gas, medium pressure, vehicle grade",cvy3sji06rfsjn0osbf9ovcttf2ela6d,1.0
+NG_EXP_EH,"market for natural gas, high pressure",sg0unsged0r6vwdx7d1mnycps8yxxstg,1.0
+NG_EXP_EH_COGEN,"market for natural gas, high pressure",uzpmuh5rf1lskv9ijhkaz0icmr8fcz6j,1.0
+NG_EXP_HM,"market for natural gas, high pressure",kq3ovrsnzfsld3kwhv9n70s6t507bfkq,1.0
+NG_EXP_HM_COGEN,"market for natural gas, high pressure",j96tboiaolc93vz0vbtgdr1ebxn7vmzo,1.0
+NG_EXP_ML,"market for natural gas, medium pressure, vehicle grade",2worx1mt02tnmg9q4yvo9n70sdgkuft0,1.0
+NG_EXP_ML_COGEN,"market for natural gas, medium pressure, vehicle grade",15q3g2ls8o717wdlsi7iibn9l1fq0dtw,1.0
+NG_PYROLYSIS_PLASMA,"hydrogen production, gaseous, 100 bar, from methane pyrolysis",skpiie6cbu7qwly9qi5l08kgl98ovcz6,1.0
+NG_PYROLYSIS_THERMAL,"hydrogen production, gaseous, 100 bar, from methane pyrolysis",igmznizz6l41v4qcizqqqe2ocuqszyh0,1.0
+NG_REFORMING,"hydrogen production, steam methane reforming",lqnxxqs8vbtuhzi8szrgwq0bs6oecakp,1.0
+NUCLEAR,"electricity production, nuclear, pressure water reactor",jp68exp1ll7ihnwgex31u9js609ew75f,1.0
+OCGT_LARGE,"natural gas, burned in gas turbine",mh5fdnkyxtyi5iucb493z52j2bwxbop7,1.0
+OCGT_SMALL,"natural gas, burned in gas turbine",rrhh66lzmevm5asr0tkq9aekrbe6nddw,1.0
+PAFC,"electricity, residential, by conversion of hydrogen using fuel cell, PEM, allocated by exergy, distributed by pipeline, produced by Electrolysis, PEM using electricity from grid",sehbp5t8125s2kbbcdimvv5mg2hasv9j,1.0
+PAPER_MAKING,"paper production, newsprint, recycled",ytkmfhs6dcmp669v60khp6txyu0qalxs,1.0
+PAPER_MAKING_HP,"paper production, newsprint, recycled",s7xeko4e1s0h31s38uoe3zfoa5ah27y3,1.0
+PAPER_MAKING_HR,"paper production, newsprint, recycled",x3x9boat9v4w4flmer3hnj85vhct00g4,1.0
+PEM_ELECTROLYSIS,"hydrogen production, gaseous, 30 bar, from PEM electrolysis, from grid electricity",xws576ym2usb0rpzxjp8lgb4sw8udww7,1.0
+PET_FORMATION,"polyethylene terephthalate production, granulate, amorphous",dwslj35inrifkwm0yhp2nca1jh1gxuhl,1.0
+PLANE_FREIGHT_ELD,"transport, freight, aircraft, dedicated freight, medium haul",58jor602h220o0jmecwi3uorc4u8hadc,1.0
+PLANE_LH_ELD,"transport, passenger aircraft, very short haul",is83vs8llnvbmecu2fc1xvjxfrtkt94u,1.0
+PLANE_SH_LD,"transport, passenger aircraft, medium haul",hmag9th1q0ly8mu3v2toz7mk2i10ihoo,1.0
+POLYPROPYLENE_PP,"polypropylene production, granulate",6d2rttg0oje38wyvr4z3eyf8zzqdnjr3,1.0
+PV,"electricity production, photovoltaic, residential",omaxj6ep519fplo197tw3m082yjijnmr,1.0
+PVC_FORMATION,"polyvinylchloride production, emulsion polymerisation",0mj0rbqe7egjbv1x3b9qkyqlickwgv4c,0.10332347826086952
+PVC_FORMATION,"polyvinylchloride production, emulsion polymerisation",3w9oe98n515zyw7uf3idge2cr9qy5729,0.024336521739130472
+PVC_FORMATION,"polyvinylchloride production, suspension polymerisation",hr6pfgqm42cx17meulebocqqs3xco7o9,0.16629892976588653
+PVC_FORMATION,"polyvinylchloride production, suspension polymerisation",ali857nnj1gf52fvcjvtalnutaw8sbfi,0.7060410702341134
+PYROLYSIS,"light fuel oil production, from waste polyethylene",wu3emhd4m1ozlh69j6v1jkpj8fa6tyqv,1.0
+SCHOOLBUS_BIODIESEL_B100_SD,"transport, passenger bus, diesel, 13m single deck urban bus, EURO-VI",wddh874te4q8nt8iwopziohxmm1ki9v3,1.0
+SCHOOLBUS_BIODIESEL_B20_SD,"transport, passenger bus, diesel, 13m single deck urban bus, EURO-VI",a24abz985k5f7h7uvjdbhjslm2288v1d,1.0
+SCHOOLBUS_CNG_SD,"transport, passenger bus, compressed gas, 13m single deck urban bus, EURO-VI",cv8jna7rfz8m9kwd2lzhirez51u8p65i,1.0
+SCHOOLBUS_DIESEL_SD,"transport, passenger bus, diesel, 13m single deck urban bus, EURO-VI",usqq8a0wj7ixcrvqoyid2298e5t1bjlu,1.0
+SCHOOLBUS_ETOH_E10_SD,"transport, passenger bus, diesel, 13m single deck urban bus, EURO-VI",nhq1qjo7afazaytadl6ah0mumjoet5jb,1.0
+SCHOOLBUS_EV_SD,"transport, passenger bus, battery electric - overnight charging, 13m single deck urban bus",459k2oapm8g5zrapqw00dqqavroaspw7,1.0
+SCHOOLBUS_FC_CH4_SD,"transport, passenger bus, fuel cell electric, 13m single deck urban bus",5jx6ss78s4oz1ja5nfpgd940geh1xnw9,1.0
+SCHOOLBUS_GASOLINE_SD,"transport, passenger bus, diesel, 13m single deck urban bus, EURO-VI",99vqnpqdtbbqtm1kxv0u6h3vt8qh3bow,1.0
+SCHOOLBUS_HY_DIESEL_SD,"transport, passenger bus, diesel hybrid, 13m single deck urban bus, EURO-VI",km5kkd6r9j5baepjpc6x1iijaq1pr3hc,1.0
+SCHOOLBUS_PROPANE_SD,"transport, passenger bus, compressed gas, 13m single deck urban bus, EURO-VI",dew20u6pczfnq26ypm5xvghth53e3qu4,1.0
+SEMI_LH_BIODIESEL_B100_ELD,"transport, freight, lorry, diesel, 26t gross weight, EURO-VI, long haul",5d4uacxh5gz97sekn4qce6u3ljl7njkn,1.0
+SEMI_LH_BIODIESEL_B100_LD,"transport, freight, lorry, diesel, 26t gross weight, EURO-VI, long haul",eitog6t65y892ggup3t6l76sr3cjv49y,1.0
+SEMI_LH_BIODIESEL_B20_ELD,"transport, freight, lorry, diesel, 26t gross weight, EURO-VI, long haul",e0117zjq0eyxpmq9nudzpo5pxaa2069y,1.0
+SEMI_LH_BIODIESEL_B20_LD,"transport, freight, lorry, diesel, 26t gross weight, EURO-VI, long haul",xpzmn6q0cu2o3mw3lx37usbrqbl2iuuq,1.0
+SEMI_LH_CNG_ELD,"transport, freight, lorry, compressed gas, 26t gross weight, EURO-VI, long haul",ch5tjhbwy4c2ilp7hitzr4rczvedxn2i,1.0
+SEMI_LH_CNG_LD,"transport, freight, lorry, compressed gas, 26t gross weight, EURO-VI, long haul",zftgbaeoqbi05kpkn6z09nd8bg30dynp,1.0
+SEMI_LH_DIESEL_ELD,"transport, freight, lorry, diesel, 26t gross weight, EURO-VI, long haul",339i08b4q08ayunmiisox3zxz1qvy0w0,1.0
+SEMI_LH_DIESEL_LD,"transport, freight, lorry, diesel, 26t gross weight, EURO-VI, long haul",8z8xx9la6ri5eouw4gllgbd61dpe2t42,1.0
+SEMI_LH_EV_ELD,"transport, freight, lorry, battery electric, 26t gross weight, long haul",6vz5snrv91kyoydw9roni24ejqnairar,1.0
+SEMI_LH_EV_LD,"transport, freight, lorry, battery electric, 26t gross weight, long haul",jmh60c82ems37sz8cyzjqfjn3xe2h87a,1.0
+SEMI_LH_FC_CH4_ELD,"transport, freight, lorry, fuel cell electric, 26t gross weight, long haul",7vguyysepdu0kcb6yg3exdfay744gina,1.0
+SEMI_LH_FC_CH4_LD,"transport, freight, lorry, fuel cell electric, 26t gross weight, long haul",4w00bxydx5cxoz7lg0si6114frv3tljs,1.0
+SEMI_LH_FC_H2_ELD,"transport, freight, lorry, fuel cell electric, 26t gross weight, long haul",3m9kc1yi1yhq0guuhpkpm0mn1l2xuoz8,1.0
+SEMI_LH_FC_H2_LD,"transport, freight, lorry, fuel cell electric, 26t gross weight, long haul",t395pcgqj1v05crisxmxfr13059inqgj,1.0
+SEMI_LH_HY_DIESEL_ELD,"transport, freight, lorry, diesel hybrid, 26t gross weight, EURO-VI, long haul",mov3tva8jz1sis4vb26oe45cee5ezljp,1.0
+SEMI_LH_HY_DIESEL_LD,"transport, freight, lorry, diesel hybrid, 26t gross weight, EURO-VI, long haul",csfr3wit17608ng8ccu3gv9d1l1vtjpv,1.0
+SEMI_LH_PROPANE_ELD,"transport, freight, lorry, compressed gas, 26t gross weight, EURO-VI, long haul",osu0cewha2htgbbxicc3xugumrbxd8x6,1.0
+SEMI_LH_PROPANE_LD,"transport, freight, lorry, compressed gas, 26t gross weight, EURO-VI, long haul",r0drsa4sbf8e1gtqmo1nhi9q61ixms2i,1.0
+SEMI_SH_BIODIESEL_B100_MD,"transport, truck, diesel, 26t, regional delivery",mbfgkx4814abydnuqkk36ob63btgmcc8,1.0
+SEMI_SH_BIODIESEL_B20_MD,"transport, truck, diesel, 26t, regional delivery",6z7kzyvyqh7fmy2uszxva49j3lpd73tm,1.0
+SEMI_SH_CNG_MD,"transport, truck, compressed gas, 26t, regional delivery",r2mrtp35h91qk9vos9a5inpwqvytwgdw,1.0
+SEMI_SH_DIESEL_MD,"transport, truck, diesel, 26t, regional delivery",5g4thx98rceesiykudmwnluxwv71729j,1.0
+SEMI_SH_EV_MD,"transport, truck, battery electric, 26t, regional delivery",yxo8gcei67m831exan90fnp13e33gsxq,1.0
+SEMI_SH_FC_CH4_MD,"transport, truck, fuel cell electric, 26t, regional delivery",hjrs2r0yyjo18fhke8qnlnxgkx8laz7n,1.0
+SEMI_SH_FC_H2_MD,"transport, truck, fuel cell electric, 26t, regional delivery",3hb7n6iw59dgji02on3mkwmwhqh2pmva,1.0
+SEMI_SH_HY_DIESEL_MD,"transport, truck, diesel hybrid, 26t, regional delivery",dicdw8jow66as95adnc523qbuef2nkj7,1.0
+SEMI_SH_PROPANE_MD,"transport, truck, compressed gas, 26t, regional delivery",p4wo4gjhha14813z8xar6qxyyfe46ju6,1.0
+SMART_PROCESS,styrene production,3arnlvac71pcmvhf7mp6j75kih6j7u2s,1.0
+SMR,"hydrogen production, steam methane reforming",dk39bk885b9pkwgwefh6w594e3n8bnto,1.0
+SMR_CCS,"hydrogen production, steam methane reforming, with CCS",l6hnpcg07lhipna3anvyqljryymyisjj,1.0
+SNG_NG,market for biogas,rcflk0vaib0e2morj6vfgd0j7p0qllj2,1.0
+SOEC_ELECTROLYSIS,"hydrogen production, gaseous, 1 bar, from SOEC electrolysis, from grid electricity",hf7un8flrb3f94w8vkr0abrvrljn1o4m,1.0
+SOFC,"electricity, residential, by conversion of hydrogen using fuel cell, SOFC, allocated by exergy, distributed by pipeline, produced by Electrolysis, PEM using electricity from grid",fqe7j3vdqbhhnu6eylje0pftmgnvlghc,1.0
+STEEL_MAKING,"steel production, electric, chromium steel 18/8",0cv8x2wreacp0fx4eeqlf26jw7u8gmwk,1.0
+STEEL_MAKING_HP,"steel production, electric, chromium steel 18/8",5u74aklvljmfd0vzp3gq8w96rtjwe3ok,1.0
+STEEL_MAKING_HR,"steel production, electric, chromium steel 18/8",301kekkhq1fgme21f51zqbomdgkyhtwl,1.0
+STYRENE_POLYMERIZATION,"polystyrene production, expandable",zburoe779eob4zhrim6prwvudo9spcn6,1.0
+SUV_BIODIESEL_B100_ELD,"transport, passenger car, diesel, Large SUV, EURO-6ab",6jifu0fj3h7h3pve2h75pn7t7fygs0jv,1.0
+SUV_BIODIESEL_B100_LD,"transport, passenger car, diesel, Large SUV, EURO-6ab",vljlewwmykcbfadki3s0j4mplv7fhnuc,1.0
+SUV_BIODIESEL_B100_MD,"transport, passenger car, diesel, Large SUV, EURO-6ab",mipx4ih2z3ze1oxfgig7h98b8n3klg4r,1.0
+SUV_BIODIESEL_B100_SD,"transport, passenger car, diesel, Large SUV, EURO-6ab",6dyp5zp40cez14spfbxzzghal0czjtk2,1.0
+SUV_BIODIESEL_B20_ELD,"transport, passenger car, diesel, Large SUV, EURO-6ab",6alvwkah4kiraic4psqdkshw7e7gglvv,1.0
+SUV_BIODIESEL_B20_LD,"transport, passenger car, diesel, Large SUV, EURO-6ab",hf7zq9bmy6idb31z9oiwu7s1ophi25u1,1.0
+SUV_BIODIESEL_B20_MD,"transport, passenger car, diesel, Large SUV, EURO-6ab",d14jqvi4v4npnc80w9zxgysejgvhivq7,1.0
+SUV_BIODIESEL_B20_SD,"transport, passenger car, diesel, Large SUV, EURO-6ab",bgkiq3myp4i9gpugojjxqlpa003ez6wh,1.0
+SUV_CNG_ELD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",fkbxpgp63z245dk2t7m7ey2zch6bgufk,1.0
+SUV_CNG_LD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",akjxlggjscu0cdizakhxrfabprlg9kij,1.0
+SUV_CNG_MD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",ltm06clkoltbj2xcg22nz89gkt4hyr9u,1.0
+SUV_CNG_SD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",zyrnpqplg4ulczi262sle8pfcdp2qjsm,1.0
+SUV_DIESEL_ELD,"transport, passenger car, diesel, Large SUV, EURO-6ab",r392l2zf9xgz9314he4043wpvrjv46ka,1.0
+SUV_DIESEL_LD,"transport, passenger car, diesel, Large SUV, EURO-6ab",20ky7bsbtzsfefravhyn7s9ho0jahz64,1.0
+SUV_DIESEL_MD,"transport, passenger car, diesel, Large SUV, EURO-6ab",1bhihqqj15aufqdtqr2fzh8i9tfp5dip,1.0
+SUV_DIESEL_SD,"transport, passenger car, diesel, Large SUV, EURO-6ab",p2ysy6e7vxpvfckdsthk1i7tgseowing,1.0
+SUV_ETOH_E10_ELD,"transport, passenger car, diesel, Large SUV, EURO-6ab",ba7fau425kyw0v97ady63s0gsngqnmhj,1.0
+SUV_ETOH_E10_LD,"transport, passenger car, diesel, Large SUV, EURO-6ab",dn5gi09yxscorufbdri7otm2b7nfqeei,1.0
+SUV_ETOH_E10_MD,"transport, passenger car, diesel, Large SUV, EURO-6ab",fvlsl99diq0ts9qg7iqs1a311cwdvy59,1.0
+SUV_ETOH_E10_SD,"transport, passenger car, diesel, Large SUV, EURO-6ab",8e9cj54c4g51iwb2v7e2qe21cllatg3l,1.0
+SUV_ETOH_E85_ELD,"transport, passenger car, diesel, Large SUV, EURO-6ab",7l2yx41rlabu5vdyccp4g87phjphurn5,1.0
+SUV_ETOH_E85_LD,"transport, passenger car, diesel, Large SUV, EURO-6ab",8f92k5w44ku8wtbr22rcwi3wgjwn5lz1,1.0
+SUV_ETOH_E85_MD,"transport, passenger car, diesel, Large SUV, EURO-6ab",k3mshayd730v01vfx5sg3m6cavjgqnrb,1.0
+SUV_ETOH_E85_SD,"transport, passenger car, diesel, Large SUV, EURO-6ab",jj830bnvssqjkfcxynd155ipxfrnisbj,1.0
+SUV_EV_ELD,"transport, passenger car, battery electric, Large SUV",xtv2sr5fyngu2jrb6y8y74v1c24zh567,1.0
+SUV_EV_LD,"transport, passenger car, battery electric, Large SUV",l51dzfcak4o690dl06xvptj46f0j01vs,1.0
+SUV_EV_MD,"transport, passenger car, battery electric, Large SUV",jyou716ata513v28hrr3yeoer6dimhtj,1.0
+SUV_EV_SD,"transport, passenger car, battery electric, Large SUV",e16snexbcsgdzi16jsenvffgqgfjcwhw,1.0
+SUV_FC_CH4_ELD,"transport, passenger car, fuel cell electric, Large SUV",u50xy41a61j2veshrt468ksl6ueyv6ao,1.0
+SUV_FC_CH4_LD,"transport, passenger car, fuel cell electric, Large SUV",37nlkbs5km7pib8d4eul7zpv4c5dmik6,1.0
+SUV_FC_CH4_MD,"transport, passenger car, fuel cell electric, Large SUV",22jq2m5d5mynvfvxarcqgdsh0rrqqqyb,1.0
+SUV_FC_CH4_SD,"transport, passenger car, fuel cell electric, Large SUV",gdi6b24rd9rj159gwkwe7dn2xu5a9d43,1.0
+SUV_FC_H2_ELD,"transport, passenger car, fuel cell electric, Large SUV",nxlk334wn3gyzhzwdzzac64dt8lfz848,1.0
+SUV_FC_H2_LD,"transport, passenger car, fuel cell electric, Large SUV",8jwceo42m0wbyedyvenwrbh9p5a6bbyw,1.0
+SUV_FC_H2_MD,"transport, passenger car, fuel cell electric, Large SUV",6e077ef0dl2537y82i7u65v7a6w8qp90,1.0
+SUV_FC_H2_SD,"transport, passenger car, fuel cell electric, Large SUV",m7miyfu9voel7j0bb923zm96sbg06uw0,1.0
+SUV_GASOLINE_ELD,"transport, passenger car, gasoline, Large SUV, EURO-6ab",016rm4h7sdhcipng80elmx7toafrudgu,1.0
+SUV_GASOLINE_LD,"transport, passenger car, gasoline, Large SUV, EURO-6ab",9aby5i4gqqpk5k03k6kfipwqi21nyr3c,1.0
+SUV_GASOLINE_MD,"transport, passenger car, gasoline, Large SUV, EURO-6ab",bag0m1x6htrycgfyjnm8rl18aoskncc3,1.0
+SUV_GASOLINE_SD,"transport, passenger car, gasoline, Large SUV, EURO-6ab",zgtti60rjg8zi5ao81k6mw7pco3mn51i,1.0
+SUV_HY_GASOLINE_ELD,"transport, passenger car, gasoline hybrid, Large SUV, EURO-6ab",webjpglo766c5og0z82siydixg9u0bhh,1.0
+SUV_HY_GASOLINE_LD,"transport, passenger car, gasoline hybrid, Large SUV, EURO-6ab",1919ni0f2a1iy335ycn7a6l30g3geu31,1.0
+SUV_HY_GASOLINE_MD,"transport, passenger car, gasoline hybrid, Large SUV, EURO-6ab",h7yyq5wwki8nalrrsn3zrtaw5yt3gzq0,1.0
+SUV_HY_GASOLINE_SD,"transport, passenger car, gasoline hybrid, Large SUV, EURO-6ab",koy49vef0qjh5jrlbe97p71vr7ltf5e1,1.0
+SUV_PHEV_GASOLINE_ELD,"transport, passenger car, plugin gasoline hybrid, Large SUV, EURO-6ab",n0tc4rnuekstkg95yvphxqwt5jsql4wq,1.0
+SUV_PHEV_GASOLINE_LD,"transport, passenger car, plugin gasoline hybrid, Large SUV, EURO-6ab",90v8pmqp2c4l73d7dmakc8h29yf35p6y,1.0
+SUV_PHEV_GASOLINE_MD,"transport, passenger car, plugin gasoline hybrid, Large SUV, EURO-6ab",ndzbnr0m586466tzkvz5rv09zadjr5w7,1.0
+SUV_PHEV_GASOLINE_SD,"transport, passenger car, plugin gasoline hybrid, Large SUV, EURO-6ab",ab0m7omwx7slm7ymjrxr3re6ldnot89q,1.0
+SUV_PROPANE_ELD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",gqlawfoa5dx3t0mv8ii46clc9jukvcy7,1.0
+SUV_PROPANE_LD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",lk03f1305cfkvwtkkunvaluwqiwve34o,1.0
+SUV_PROPANE_MD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",y9auxordh08wdu3u54qotc9xn6u6j9ew,1.0
+SUV_PROPANE_SD,"transport, passenger car, compressed gas, Large SUV, EURO-6ab",yi1vuh7zbkhkjdh9p558kfngmwteex01,1.0
+TIDAL,"electricity production, wave energy converter",1zc5n3xrw2msnf96ihg31xbxgjliq0g5,1.0
+TRAFO_EH,"market for electricity, high voltage",ikyyxtkxz9g28f0itm30djyv2oofwus3,1.0
+TRAFO_HE,"market for electricity, high voltage",a5p6qvpv91vgzfsc0432o7y1v7kj6ahg,1.0
+TRAFO_HM,"market for electricity, high voltage",xn1drp9cc71ykjipdywsfc49gkdxenab,1.0
+TRAFO_LM,"market for electricity, low voltage",k9vpda9ulwdydnbibxhlqbliclnc05cv,1.0
+TRAFO_MH,"market for electricity, medium voltage",7p9y08k5bh3th1i60unhhr75vm5fdrfb,1.0
+TRAFO_ML,"market for electricity, medium voltage",gq3tr145cc4tiaonlf1ss2kffwzgcize,1.0
+TRAIN_DIESEL_ELD,"transport, passenger train",b2g41ue8yyu27pt5ln3jse4a6h2lh5qd,1.0
+TRAIN_DIESEL_LD,"transport, passenger train",37qjq3qw8zt35xg0fm6hhq9arb9zb1db,1.0
+TRAIN_ELEC_ELD,"transport, passenger train, high-speed",u2m8co5y8k5cv2j4yamq09da2cfvo25m,1.0
+TRAIN_ELEC_LD,"transport, passenger train, high-speed",orsfrvjtj0jesy2xpycvp81ztyzxocu9,1.0
+TRAIN_FREIGHT_DIESEL_ELD,"transport, freight train, diesel",y6n4ho89nrnqdycer8qq6hegdguejh3f,1.0
+TRAIN_FREIGHT_DIESEL_LD,"transport, freight train, diesel",k3q9qqz4tvhrme9fw74bet7vpmkrovia,1.0
+TRAIN_FREIGHT_ELEC_ELD,"transport, freight train, electricity",pisbmk5os6ee8b139dfo3kz8cn31fk37,1.0
+TRAIN_FREIGHT_ELEC_LD,"transport, freight train, electricity",brgtvyrqfjvekenypcdvps4zdg9ndbo3,1.0
+TRAIN_FREIGHT_H2_ELD,"transport, freight train, electricity",6svmdru18a8eh63crnmbmjq69tpx19ql,1.0
+TRAIN_FREIGHT_H2_HYBRID_ELD,"transport, freight train, electricity",7ytuqmlot2n8u84ri2fkte846ierhpof,1.0
+TRAIN_FREIGHT_H2_HYBRID_LD,"transport, freight train, electricity",4gu52pp4y0s2szyawnoe6dqhblgnr2ou,1.0
+TRAIN_FREIGHT_H2_LD,"transport, freight train, electricity",4daq5nbaf9coe4ury7kzit6qtzs9hfef,1.0
+TRAIN_FREIGHT_NG_ELD,"transport, freight train, diesel",g2wkxx8dbjn6ktelatgfjwkzyas70cj4,1.0
+TRAIN_FREIGHT_NG_LD,"transport, freight train, diesel",7jswsuhjpsiao9du2kazjm9g72jshpbi,1.0
+TRAIN_H2_ELD,"transport, passenger train",bvme2kmmh92g47xaq4sycyhe0qlii1rs,1.0
+TRAIN_H2_LD,"transport, passenger train",hf0f4aw7ouh5p9gcm9635tkuf8sgyxiv,1.0
+TRAIN_NG_ELD,"transport, passenger train",dyhq8yossbvcb8gdezz9agypfnt4dz1g,1.0
+TRAIN_NG_LD,"transport, passenger train",hgavnflftf9abygoij7kmufhibrk4de2,1.0
+TRAMWAY_SD,"transport, tram",u4rsmm4yxxfwngs90dhxmuzrab1rdvgx,1.0
+TRUCK_LH_BIODIESEL_B100_LD,"transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul",bez7z8g4kswnfydlzka5v9cejhvvlcnt,1.0
+TRUCK_LH_BIODIESEL_B20_LD,"transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul",55xfg59go01nrbgzwx2jq3953fd4eao6,1.0
+TRUCK_LH_CNG_LD,"transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul",ujbm22nj3aikj78sqsnio74o9ugdg834,1.0
+TRUCK_LH_DIESEL_LD,"transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul",gsase04wxadrp7hso791xqsch4ce4ifk,1.0
+TRUCK_LH_EV_LD,"transport, freight, lorry, battery electric, 18t gross weight, long haul",8r4nnhoin53r9sohq0p4jbfb0vb9jcgc,1.0
+TRUCK_LH_FC_CH4_LD,"transport, freight, lorry, fuel cell electric, 18t gross weight, long haul",rj3jfrdxr2l5y565tvpv47r1f55xr4su,1.0
+TRUCK_LH_GASOLINE_LD,"transport, freight, lorry, diesel, 18t gross weight, EURO-VI, long haul",qpq3soeivdajuly7w95w6crn2owtrlse,1.0
+TRUCK_LH_HY_DIESEL_LD,"transport, freight, lorry, diesel hybrid, 18t gross weight, EURO-VI, long haul",qg0rfl6we2h6qn4s9fswr2zxs437i5zs,1.0
+TRUCK_LH_PROPANE_LD,"transport, freight, lorry, compressed gas, 18t gross weight, EURO-VI, long haul",hsygb7hj54iui7ch2qjk48ien78elnhe,1.0
+TRUCK_SH_BIODIESEL_B100_MD,"transport, truck, diesel, 18t, regional delivery",79k9dkxvdby5yqwl2et0y11ja5txwa3r,1.0
+TRUCK_SH_BIODIESEL_B100_SD,"transport, truck, diesel, 18t, regional delivery",k7q32j809c5j8d7ywz7ka8k4p9randpl,1.0
+TRUCK_SH_BIODIESEL_B20_MD,"transport, truck, diesel, 18t, regional delivery",49hxseu8fe3epy26kfnntqn3x51bi05f,1.0
+TRUCK_SH_BIODIESEL_B20_SD,"transport, truck, diesel, 18t, regional delivery",5nt2lmhrrgkagngt7sxvdqclm3k19cya,1.0
+TRUCK_SH_CNG_MD,"transport, truck, compressed gas, 18t, regional delivery",u7y9ts69pve8yxg6indxxbwmlec2xvq8,1.0
+TRUCK_SH_CNG_SD,"transport, truck, compressed gas, 18t, regional delivery",zujhpoqvz1adnil65woy0ewsj52m9fhh,1.0
+TRUCK_SH_DIESEL_MD,"transport, truck, diesel, 18t, regional delivery",wbmdtn3n74a90kzruyc99sehpbl20ivf,1.0
+TRUCK_SH_DIESEL_SD,"transport, truck, diesel, 18t, regional delivery",3okwu41ja12tys2ztbxht1xedzkpk4qg,1.0
+TRUCK_SH_EV_MD,"transport, truck, battery electric, 18t, regional delivery",nbmcq6h7yyqx589xy1a78b9v4m00rpvk,1.0
+TRUCK_SH_EV_SD,"transport, truck, battery electric, 18t, regional delivery",s54xw2ribxssarpatsvjorix99z4p8m1,1.0
+TRUCK_SH_FC_CH4_MD,"transport, truck, fuel cell electric, 18t, regional delivery",3uivr9cuh9izd1bep4wtse2hwr0m9fav,1.0
+TRUCK_SH_FC_CH4_SD,"transport, truck, fuel cell electric, 18t, regional delivery",v3kjd2jp3595fxxhpu1p06f7i8y98lyt,1.0
+TRUCK_SH_GASOLINE_MD,"transport, truck, diesel, 18t, regional delivery",e8qiejoffmx8lm6kh4vre12f9f0n9qqh,1.0
+TRUCK_SH_GASOLINE_SD,"transport, truck, diesel, 18t, regional delivery",isjqj9hmugw5tml4is8qjovcy9exyu9z,1.0
+TRUCK_SH_HY_DIESEL_MD,"transport, truck, diesel hybrid, 18t, regional delivery",at7ld3gxielqipsw6qikkboqg4s0s0jt,1.0
+TRUCK_SH_HY_DIESEL_SD,"transport, truck, diesel hybrid, 18t, regional delivery",gbou2einf47c7j6eky7v713x2hyxj5rh,1.0
+TRUCK_SH_PROPANE_MD,"transport, truck, compressed gas, 18t, regional delivery",574eeuaf4v0m5rdtr7yte1rtl35pq03h,1.0
+TRUCK_SH_PROPANE_SD,"transport, truck, compressed gas, 18t, regional delivery",zca3qzsvdvlmm1ask3lf1pk7giu5tz0x,1.0
+UNMINEABLE_COAL_SEAM,"carbon dioxide compression, transport and storage",ia3wjuavmmu97rs1v55s24fedi1unbas,1.0
+WIND_OFFSHORE,"electricity production, wind, 1-3MW turbine, offshore",jr6aj1nf2fgtqvyz1yo2rywjv71xe9lo,1.0
+WIND_ONSHORE,"electricity production, wind, 1-3MW turbine, onshore",ia7e95tl7ofw6wji3xkrmk4js9zu7eib,1.0
+WOOD_METHANOL,"methanol synthesis, from wood, with CCS",jvan6o8khcbvyx45ge5cygcb9epzxfx8,1.0
