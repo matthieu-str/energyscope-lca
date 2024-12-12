@@ -165,167 +165,165 @@ let c_maint['BIOMASS_GAS_FB_H2_CCS'] := 92.511*1 ;
 let c_p['BIOMASS_GAS_FB_H2_CCS'] := 0.85 ;                              # Average over 1 value(s) of (0.85 - from slaymakerDemographicGeographicRegion2021 set: CAN, converted into 0.85 -)
 let lifetime['BIOMASS_GAS_FB_H2_CCS'] := 30.0 ;                         # Average over 1 value(s) of (30.0 y from slaymakerDemographicGeographicRegion2021 set: CAN, converted into 30.0 yr)
 
-let c_inv['BUS_BIODIESEL_B100'] := 2676.044*1.0934872132055231 ;
-let c_maint['BUS_BIODIESEL_B100'] := 74.628*1.0934872132055231 ;
+let c_inv['BUS_BIODIESEL_B100'] := 2270.831*1.0934872132055231 ;
+let c_maint['BUS_BIODIESEL_B100'] := 63.328*1.0934872132055231 ;
+let c_p['BUS_BIODIESEL_B100'] := 0.297 ;                                # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_BIODIESEL_B100'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['BUS_BIODIESEL_B20'] := 2676.044*1.0934872132055231 ;
-let c_maint['BUS_BIODIESEL_B20'] := 74.628*1.0934872132055231 ;
+let c_inv['BUS_BIODIESEL_B20'] := 2270.831*1.0934872132055231 ;
+let c_maint['BUS_BIODIESEL_B20'] := 63.328*1.0934872132055231 ;
+let c_p['BUS_BIODIESEL_B20'] := 0.297 ;                                 # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_BIODIESEL_B20'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['BUS_CNG'] := 2890.125*1.0733625051278546 ;
-let c_maint['BUS_CNG'] := 64.885*1.0733625051278546 ;
-let c_p['BUS_CNG'] := 1.0 ;                                             # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['BUS_CNG'] := 0.0 ;                                      # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_inv['BUS_CNG'] := 2452.497*1.0733625051278546 ;
+let c_maint['BUS_CNG'] := 55.064*1.0733625051278546 ;
+let c_p['BUS_CNG'] := 0.297 ;                                           # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_CNG'] := 15.0 ;                                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['BUS_CNG'] := 9.0 ;                                             # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['BUS_DIESEL'] := 2676.044*1.0934872132055231 ;
-let c_maint['BUS_DIESEL'] := 74.628*1.0934872132055231 ;
-let c_p['BUS_DIESEL'] := 1.0 ;                                          # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['BUS_DIESEL'] := 0.0 ;                                   # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_inv['BUS_DIESEL'] := 2270.831*1.0934872132055231 ;
+let c_maint['BUS_DIESEL'] := 63.328*1.0934872132055231 ;
+let c_p['BUS_DIESEL'] := 0.297 ;                                        # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_DIESEL'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['BUS_DIESEL'] := 9.0 ;                                          # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['BUS_EV'] := 4816.872*1 ;
-let c_maint['BUS_EV'] := 44.775*1 ;
-let c_p['BUS_EV'] := 1.0 ;                                              # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_inv['BUS_EV'] := 4087.496*1 ;
+let c_maint['BUS_EV'] := 37.996*1 ;
+let c_p['BUS_EV'] := 0.297 ;                                            # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_EV'] := 15.0 ;                                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_EV'] := 0.0 ;                                         # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_EV'] := 0.0 ;                                         # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['BUS_EV'] := 9.0 ;                                              # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['BUS_FC_CH4'] := 2890.125*0.9411062439409716 ;
-let c_maint['BUS_FC_CH4'] := 64.885*0.9411062439409716 ;
-let c_p['BUS_FC_CH4'] := 1.0 ;                                          # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let lifetime['BUS_FC_CH4'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_FC_CH4'] := 0.0 ;                                     # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let c_inv['BUS_FC_CH4'] := 1181.25*0.9411062439409716 ;
+let c_maint['BUS_FC_CH4'] := 56.057*0.9411062439409716 ;
+let c_p['BUS_FC_CH4'] := 0.297 ;                                        # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
+let lifetime['BUS_FC_CH4'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 15.0 yr)
+let ref_size['BUS_FC_CH4'] := 0.0 ;                                     # Average over 1 value(s) of (360.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.0 Mpkm/h)
 let trl['BUS_FC_CH4'] := 9.0 ;                                          # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['BUS_FC_H2'] := 6021.09*0.9411062439409716 ;
-let c_maint['BUS_FC_H2'] := 44.775*0.9411062439409716 ;
-let c_p['BUS_FC_H2'] := 1.0 ;                                           # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['BUS_FC_H2'] := 0.0 ;                                    # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_inv['BUS_FC_H2'] := 5109.37*0.9411062439409716 ;
+let c_maint['BUS_FC_H2'] := 37.996*0.9411062439409716 ;
+let c_p['BUS_FC_H2'] := 0.297 ;                                         # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_FC_H2'] := 15.0 ;                                     # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['BUS_FC_H2'] := 9.0 ;                                           # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['BUS_GASOLINE'] := 2676.044*1.0934872132055231 ;
-let c_maint['BUS_GASOLINE'] := 74.628*1.0934872132055231 ;
+let c_inv['BUS_GASOLINE'] := 2270.831*1.0934872132055231 ;
+let c_maint['BUS_GASOLINE'] := 63.328*1.0934872132055231 ;
+let c_p['BUS_GASOLINE'] := 0.297 ;                                      # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_GASOLINE'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['BUS_HY_DIESEL'] := 3612.654*1.0468537249562342 ;
-let c_maint['BUS_HY_DIESEL'] := 64.885*1.0468537249562342 ;
-let c_p['BUS_HY_DIESEL'] := 1.0 ;                                       # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['BUS_HY_DIESEL'] := 0.0 ;                                # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_inv['BUS_HY_DIESEL'] := 3065.622*1.0468537249562342 ;
+let c_maint['BUS_HY_DIESEL'] := 55.064*1.0468537249562342 ;
+let c_p['BUS_HY_DIESEL'] := 0.297 ;                                     # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_HY_DIESEL'] := 15.0 ;                                 # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_HY_DIESEL'] := 0.0 ;                                  # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_HY_DIESEL'] := 0.0 ;                                  # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['BUS_HY_DIESEL'] := 9.0 ;                                       # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['BUS_PROPANE'] := 2408.436*1.0934872132055231 ;
-let c_maint['BUS_PROPANE'] := 49.003*1.0934872132055231 ;
+let c_inv['BUS_PROPANE'] := 2043.748*1.0934872132055231 ;
+let c_maint['BUS_PROPANE'] := 41.585*1.0934872132055231 ;
+let c_p['BUS_PROPANE'] := 0.297 ;                                       # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['BUS_PROPANE'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['BUS_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (255.71 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['BUS_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (301.339 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['CAR_BIODIESEL_B100'] := 705.993*1.0934845571591987 ;
-let c_maint['CAR_BIODIESEL_B100'] := 55.57*1.0934845571591987 ;
+let c_inv['CAR_BIODIESEL_B100'] := 679.363*1.0934845571591987 ;
+let c_maint['CAR_BIODIESEL_B100'] := 53.471*1.0934845571591987 ;
+let c_p['CAR_BIODIESEL_B100'] := 0.051 ;                                # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_BIODIESEL_B100'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['CAR_BIODIESEL_B20'] := 705.993*1.0934845571591987 ;
-let c_maint['CAR_BIODIESEL_B20'] := 55.57*1.0934845571591987 ;
+let c_inv['CAR_BIODIESEL_B20'] := 679.363*1.0934845571591987 ;
+let c_maint['CAR_BIODIESEL_B20'] := 53.471*1.0934845571591987 ;
+let c_p['CAR_BIODIESEL_B20'] := 0.051 ;                                 # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_BIODIESEL_B20'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['CAR_CNG'] := 705.993*1.07337128399747 ;
-let c_maint['CAR_CNG'] := 36.553*1.07337128399747 ;
-let c_p['CAR_CNG'] := 1.0 ;                                             # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
-let gwp_constr['CAR_CNG'] := 0.0 ;                                      # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_inv['CAR_CNG'] := 679.363*1.07337128399747 ;
+let c_maint['CAR_CNG'] := 35.179*1.07337128399747 ;
+let c_p['CAR_CNG'] := 0.051 ;                                           # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_CNG'] := 15.0 ;                                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_CNG'] := 9.0 ;                                             # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_DIESEL'] := 705.993*1.0934845571591987 ;
-let c_maint['CAR_DIESEL'] := 55.57*1.0934845571591987 ;
-let c_p['CAR_DIESEL'] := 1.0 ;                                          # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
-let gwp_constr['CAR_DIESEL'] := 0.0 ;                                   # Average over 1 value(s) of (0.0 kgCO2/(Mpkm/h) from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/(Mpkm/h))
+let c_inv['CAR_DIESEL'] := 679.363*1.0934845571591987 ;
+let c_maint['CAR_DIESEL'] := 53.471*1.0934845571591987 ;
+let c_p['CAR_DIESEL'] := 0.051 ;                                        # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_DIESEL'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_DIESEL'] := 9.0 ;                                          # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_ETOH_E10'] := 522.961*1 ;
-let c_maint['CAR_ETOH_E10'] := 36.553*1 ;
-let c_p['CAR_ETOH_E10'] := 1.0 ;                                        # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
+let c_inv['CAR_ETOH_E10'] := 503.232*1 ;
+let c_maint['CAR_ETOH_E10'] := 35.179*1 ;
+let c_p['CAR_ETOH_E10'] := 0.051 ;                                      # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_ETOH_E10'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_ETOH_E10'] := 0.0 ;                                   # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_ETOH_E10'] := 0.0 ;                                   # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_ETOH_E10'] := 9.0 ;                                        # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_ETOH_E85'] := 784.442*1.0934913326791957 ;
-let c_maint['CAR_ETOH_E85'] := 36.553*1.0934913326791957 ;
-let c_p['CAR_ETOH_E85'] := 1.0 ;                                        # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
+let c_inv['CAR_ETOH_E85'] := 754.848*1.0934913326791957 ;
+let c_maint['CAR_ETOH_E85'] := 35.179*1.0934913326791957 ;
+let c_p['CAR_ETOH_E85'] := 0.051 ;                                      # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_ETOH_E85'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_ETOH_E85'] := 0.0 ;                                   # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_ETOH_E85'] := 0.0 ;                                   # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_ETOH_E85'] := 9.0 ;                                        # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_EV'] := 967.474*0.6757324903040772 ;
-let c_maint['CAR_EV'] := 23.154*0.6757324903040772 ;
+let c_inv['CAR_EV'] := 930.979*0.6757324903040772 ;
+let c_maint['CAR_EV'] := 22.28*0.6757324903040772 ;
+let c_p['CAR_EV'] := 0.051 ;                                            # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_EV'] := 15.0 ;                                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_EV'] := 0.0 ;                                         # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_EV'] := 0.0 ;                                         # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['CAR_FC_CH4'] := 705.993*0.5425195367667829 ;
-let c_maint['CAR_FC_CH4'] := 36.553*0.5425195367667829 ;
-let c_p['CAR_FC_CH4'] := 1.0 ;                                          # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
-let lifetime['CAR_FC_CH4'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_FC_CH4'] := 0.0 ;                                     # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let c_inv['CAR_FC_CH4'] := 2810.566*0.5425195367667829 ;
+let c_maint['CAR_FC_CH4'] := 49.484*0.5425195367667829 ;
+let c_p['CAR_FC_CH4'] := 0.051 ;                                        # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
+let lifetime['CAR_FC_CH4'] := 8.0 ;                                     # Average over 1 value(s) of (8.0 y from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 8.0 yr)
+let ref_size['CAR_FC_CH4'] := 0.0 ;                                     # Average over 1 value(s) of (45.77 pkm/h from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 0.0 Mpkm/h)
 let trl['CAR_FC_CH4'] := 9.0 ;                                          # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_FC_H2'] := 1307.393*0.5425195367667829 ;
-let c_maint['CAR_FC_H2'] := 23.154*0.5425195367667829 ;
-let c_p['CAR_FC_H2'] := 1.0 ;                                           # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
-let gwp_constr['CAR_FC_H2'] := 0.0 ;                                    # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_inv['CAR_FC_H2'] := 1258.08*0.5425195367667829 ;
+let c_maint['CAR_FC_H2'] := 22.28*0.5425195367667829 ;
+let c_p['CAR_FC_H2'] := 0.051 ;                                         # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_FC_H2'] := 15.0 ;                                     # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_FC_H2'] := 9.0 ;                                           # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_GASOLINE'] := 522.961*1.0934913326791957 ;
-let c_maint['CAR_GASOLINE'] := 36.553*1.0934913326791957 ;
-let c_p['CAR_GASOLINE'] := 1.0 ;                                        # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
-let gwp_constr['CAR_GASOLINE'] := 0.0 ;                                 # Average over 1 value(s) of (0.0 kgCO2/(Mpkm/h) from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/(Mpkm/h))
+let c_inv['CAR_GASOLINE'] := 503.232*1.0934913326791957 ;
+let c_maint['CAR_GASOLINE'] := 35.179*1.0934913326791957 ;
+let c_p['CAR_GASOLINE'] := 0.051 ;                                      # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_GASOLINE'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_GASOLINE'] := 9.0 ;                                        # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_HEV'] := 575.253*1.046855093663002 ;
-let c_maint['CAR_HEV'] := 33.387*1.046855093663002 ;
-let c_p['CAR_HEV'] := 1.0 ;                                             # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
-let gwp_constr['CAR_HEV'] := 0.0 ;                                      # Average over 1 value(s) of (0.0 kgCO2/(Mpkm/h) from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/(Mpkm/h))
+let c_inv['CAR_HEV'] := 553.555*1.046855093663002 ;
+let c_maint['CAR_HEV'] := 32.129*1.046855093663002 ;
+let c_p['CAR_HEV'] := 0.051 ;                                           # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_HEV'] := 15.0 ;                                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_HEV'] := 0.0 ;                                        # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_HEV'] := 0.0 ;                                        # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_HEV'] := 9.0 ;                                             # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
 let c_inv['CAR_MEOH'] := 1285.438*1.0934913326791957 ;
 let c_maint['CAR_MEOH'] := 20.49*1.0934913326791957 ;
-let c_p['CAR_MEOH'] := 1.0 ;                                            # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
+let c_p['CAR_MEOH'] := 0.051 ;                                          # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_MEOH'] := 8.0 ;                                       # Average over 1 value(s) of (8.0 y from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 8.0 yr)
 let ref_size['CAR_MEOH'] := 0.0 ;                                       # Average over 1 value(s) of (45.77 pkm/h from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 0.0 Mpkm/h)
 let trl['CAR_MEOH'] := 9.0 ;                                            # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_PHEV'] := 705.993*0.9748447598529971 ;
-let c_maint['CAR_PHEV'] := 31.927*0.9748447598529971 ;
-let c_p['CAR_PHEV'] := 1.0 ;                                            # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 1.0 -)
-let gwp_constr['CAR_PHEV'] := 0.0 ;                                     # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_inv['CAR_PHEV'] := 679.363*0.9748447598529971 ;
+let c_maint['CAR_PHEV'] := 30.773*0.9748447598529971 ;
+let c_p['CAR_PHEV'] := 0.051 ;                                          # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_PHEV'] := 15.0 ;                                      # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_PHEV'] := 0.0 ;                                       # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_PHEV'] := 0.0 ;                                       # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 let trl['CAR_PHEV'] := 9.0 ;                                            # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: DEU, converted into 9.0 -)
 
-let c_inv['CAR_PROPANE'] := 705.993*1.0934913326791957 ;
-let c_maint['CAR_PROPANE'] := 36.553*1.0934913326791957 ;
+let c_inv['CAR_PROPANE'] := 679.363*1.0934913326791957 ;
+let c_maint['CAR_PROPANE'] := 35.179*1.0934913326791957 ;
+let c_p['CAR_PROPANE'] := 0.051 ;                                       # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['CAR_PROPANE'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['CAR_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (52.34 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['CAR_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
 let layers_in_out['CCGT','CO2_A'] := 0.314*1 ;
 let layers_in_out['CCGT','ELECTRICITY_HV'] := 1.0*1 ;
@@ -423,65 +421,70 @@ let lifetime['CO2_TO_JETFUELS'] := 20.0 ;                               # Averag
 let ref_size['CO2_TO_JETFUELS'] := 0.144 ;                              # Average over 1 value(s) of (0.144 GW from willauerFeasibilityCurrentEstimated2012 set:  , converted into 0.144 GW)
 let trl['CO2_TO_JETFUELS'] := 5.0 ;                                     # Average over 2 value(s) of (6.0 - from hanWellWakeAnalysic2017 set:  , converted into 6.0 -) and (4.0 - from willauerFeasibilityCurrentEstimated2012 set:  , converted into 4.0 -)
 
-let c_inv['COACH_BIODIESEL_B100'] := 278.312*1.0934872132055231 ;
-let c_maint['COACH_BIODIESEL_B100'] := 34.827*1.0934872132055231 ;
+let c_inv['COACH_BIODIESEL_B100'] := 413.291*1.0934872132055231 ;
+let c_maint['COACH_BIODIESEL_B100'] := 51.717*1.0934872132055231 ;
+let c_p['COACH_BIODIESEL_B100'] := 0.297 ;                              # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_BIODIESEL_B100'] := 15.0 ;                          # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_BIODIESEL_B100'] := 0.003 ;                         # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_BIODIESEL_B100'] := 0.002 ;                         # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 
-let c_inv['COACH_BIODIESEL_B20'] := 278.312*1.0934872132055231 ;
-let c_maint['COACH_BIODIESEL_B20'] := 34.827*1.0934872132055231 ;
+let c_inv['COACH_BIODIESEL_B20'] := 413.291*1.0934872132055231 ;
+let c_maint['COACH_BIODIESEL_B20'] := 51.717*1.0934872132055231 ;
+let c_p['COACH_BIODIESEL_B20'] := 0.297 ;                               # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_BIODIESEL_B20'] := 15.0 ;                           # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_BIODIESEL_B20'] := 0.003 ;                          # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_BIODIESEL_B20'] := 0.002 ;                          # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 
-let c_inv['COACH_CNG'] := 331.83*1.0733625051278546 ;
-let c_maint['COACH_CNG'] := 30.282*1.0733625051278546 ;
-let c_p['COACH_CNG'] := 1.0 ;                                           # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_inv['COACH_CNG'] := 492.771*1.0733625051278546 ;
+let c_maint['COACH_CNG'] := 44.969*1.0733625051278546 ;
+let c_p['COACH_CNG'] := 0.297 ;                                         # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_CNG'] := 15.0 ;                                     # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_CNG'] := 0.003 ;                                    # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_CNG'] := 0.002 ;                                    # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 let trl['COACH_CNG'] := 9.0 ;                                           # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['COACH_DIESEL'] := 278.312*1.0934872132055231 ;
-let c_maint['COACH_DIESEL'] := 34.827*1.0934872132055231 ;
-let c_p['COACH_DIESEL'] := 1.0 ;                                        # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_inv['COACH_DIESEL'] := 413.291*1.0934872132055231 ;
+let c_maint['COACH_DIESEL'] := 51.717*1.0934872132055231 ;
+let c_p['COACH_DIESEL'] := 0.297 ;                                      # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_DIESEL'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_DIESEL'] := 0.003 ;                                 # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_DIESEL'] := 0.002 ;                                 # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 let trl['COACH_DIESEL'] := 9.0 ;                                        # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['COACH_ETOH_E10'] := 222.65*1 ;
-let c_maint['COACH_ETOH_E10'] := 22.868*1 ;
+let c_inv['COACH_ETOH_E10'] := 330.633*1 ;
+let c_maint['COACH_ETOH_E10'] := 33.962*1 ;
+let c_p['COACH_ETOH_E10'] := 0.297 ;                                    # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_ETOH_E10'] := 15.0 ;                                # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_ETOH_E10'] := 0.003 ;                               # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_ETOH_E10'] := 0.002 ;                               # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 
-let c_inv['COACH_EV'] := 599.438*1 ;
-let c_maint['COACH_EV'] := 20.896*1 ;
-let c_p['COACH_EV'] := 1.0 ;                                            # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_inv['COACH_EV'] := 890.166*1 ;
+let c_maint['COACH_EV'] := 31.03*1 ;
+let c_p['COACH_EV'] := 0.297 ;                                          # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_EV'] := 15.0 ;                                      # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_EV'] := 0.003 ;                                     # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_EV'] := 0.002 ;                                     # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 let trl['COACH_EV'] := 9.0 ;                                            # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['COACH_FC_CH4'] := 331.83*0.9411062439409716 ;
-let c_maint['COACH_FC_CH4'] := 30.282*0.9411062439409716 ;
-let c_p['COACH_FC_CH4'] := 1.0 ;                                        # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let lifetime['COACH_FC_CH4'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_FC_CH4'] := 0.003 ;                                 # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let c_inv['COACH_FC_CH4'] := 289.948*0.9411062439409716 ;
+let c_maint['COACH_FC_CH4'] := 79.253*0.9411062439409716 ;
+let c_p['COACH_FC_CH4'] := 0.297 ;                                      # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
+let lifetime['COACH_FC_CH4'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 15.0 yr)
+let ref_size['COACH_FC_CH4'] := 0.002 ;                                 # Average over 1 value(s) of (1485.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.002 Mpkm/h)
 let trl['COACH_FC_CH4'] := 9.0 ;                                        # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['COACH_GASOLINE'] := 222.65*1.0934872132055231 ;
-let c_maint['COACH_GASOLINE'] := 22.868*1.0934872132055231 ;
+let c_inv['COACH_GASOLINE'] := 330.633*1.0934872132055231 ;
+let c_maint['COACH_GASOLINE'] := 33.962*1.0934872132055231 ;
+let c_p['COACH_GASOLINE'] := 0.297 ;                                    # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_GASOLINE'] := 15.0 ;                                # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_GASOLINE'] := 0.003 ;                               # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_GASOLINE'] := 0.002 ;                               # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 
 let c_inv['COACH_HY_DIESEL'] := 315.85*1.0468537249562342 ;
 let c_maint['COACH_HY_DIESEL'] := 100.515*1.0468537249562342 ;
-let c_p['COACH_HY_DIESEL'] := 1.0 ;                                     # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_p['COACH_HY_DIESEL'] := 0.297 ;                                   # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_HY_DIESEL'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 15.0 yr)
 let ref_size['COACH_HY_DIESEL'] := 0.002 ;                              # Average over 1 value(s) of (1485.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.002 Mpkm/h)
 let trl['COACH_HY_DIESEL'] := 9.0 ;                                     # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['COACH_PROPANE'] := 276.525*1.0934872132055231 ;
-let c_maint['COACH_PROPANE'] := 22.868*1.0934872132055231 ;
+let c_inv['COACH_PROPANE'] := 410.642*1.0934872132055231 ;
+let c_maint['COACH_PROPANE'] := 33.962*1.0934872132055231 ;
+let c_p['COACH_PROPANE'] := 0.297 ;                                     # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['COACH_PROPANE'] := 15.0 ;                                 # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['COACH_PROPANE'] := 0.003 ;                                # Average over 1 value(s) of (3196.35 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.003 Mpkm/h)
+let ref_size['COACH_PROPANE'] := 0.002 ;                                # Average over 1 value(s) of (2152.422 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mpkm/h)
 
 let layers_in_out['COAL_GAS_H2','CO2_A'] := 0.656*1 ;
 let layers_in_out['COAL_GAS_H2','COAL'] := -1.635*1 ;
@@ -569,14 +572,14 @@ let trl['COAL_US_CC'] := 9.0 ;                                          # Averag
 
 let c_inv['COMMUTER_RAIL_DIESEL'] := 2911.082*1 ;
 let c_maint['COMMUTER_RAIL_DIESEL'] := 119.845*1 ;
-let c_p['COMMUTER_RAIL_DIESEL'] := 1.0 ;                                # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_p['COMMUTER_RAIL_DIESEL'] := 0.342 ;                              # Average over 1 value(s) of (0.342 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.342 -)
 let lifetime['COMMUTER_RAIL_DIESEL'] := 40.0 ;                          # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
 let ref_size['COMMUTER_RAIL_DIESEL'] := 0.007 ;                         # Average over 1 value(s) of (6640.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.007 Mpkm/h)
 let trl['COMMUTER_RAIL_DIESEL'] := 9.0 ;                                # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
 let c_inv['COMMUTER_RAIL_ELEC'] := 2911.082*1 ;
 let c_maint['COMMUTER_RAIL_ELEC'] := 119.845*1 ;
-let c_p['COMMUTER_RAIL_ELEC'] := 1.0 ;                                  # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_p['COMMUTER_RAIL_ELEC'] := 0.342 ;                                # Average over 1 value(s) of (0.342 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.342 -)
 let lifetime['COMMUTER_RAIL_ELEC'] := 40.0 ;                            # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
 let ref_size['COMMUTER_RAIL_ELEC'] := 0.007 ;                           # Average over 1 value(s) of (6640.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.007 Mpkm/h)
 let trl['COMMUTER_RAIL_ELEC'] := 9.0 ;                                  # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
@@ -1328,7 +1331,7 @@ let trl['HV_GRID'] := 9.0 ;                                             # Averag
 let layers_in_out['HYDRO_DAM','ELECTRICITY_EHV'] := 1.0*1 ;
 let layers_in_out['HYDRO_DAM','RES_HYDRO'] := -1.0*1 ;
 let c_inv['HYDRO_DAM'] := 2067.174*1 ;
-let c_maint['HYDRO_DAM'] := 40.021*1 ;
+let c_maint['HYDRO_DAM'] := 39.876*1 ;
 let c_p['HYDRO_DAM'] := 1 ;                                             # Average over 1 value(s) of (0.37 - from sasthavORNLHydropowerCost2022 set: USA, converted into 0.37 -) but set to 1 for modelling reasons
 let c_p_t['HYDRO_DAM',10] := 0.443 ;                                    # Average over 2 value(s) of (0.45 - from brunIntegrationLifeCycle2022 set: QC, converted into 0.45 -) and (0.436 - from statisticscanadaElectricPowerGeneration2023 set: QC, converted into 0.436 -)
 let c_p_t['HYDRO_DAM',11] := 0.552 ;                                    # Average over 2 value(s) of (0.58 - from brunIntegrationLifeCycle2022 set: QC, converted into 0.58 -) and (0.523 - from statisticscanadaElectricPowerGeneration2023 set: QC, converted into 0.523 -)
@@ -1545,65 +1548,71 @@ let lifetime['IND_HP_ELEC'] := 25.0 ;                                   # Averag
 let ref_size['IND_HP_ELEC'] := 0.001 ;                                  # Average over 1 value(s) of (0.001 GW from moretStrategicEnergyPlanning2017 set:  , converted into 0.001 GW)
 let trl['IND_HP_ELEC'] := 9.0 ;                                         # Average over 1 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 9.0 -)
 
-let c_inv['LCV_BIODIESEL_B100'] := 8666.045*1.093483773541898 ;
-let c_maint['LCV_BIODIESEL_B100'] := 862.788*1.093483773541898 ;
+let c_inv['LCV_BIODIESEL_B100'] := 2783.448*1.093483773541898 ;
+let c_maint['LCV_BIODIESEL_B100'] := 277.119*1.093483773541898 ;
+let c_p['LCV_BIODIESEL_B100'] := 0.093 ;                                # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_BIODIESEL_B100'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (26.059 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_BIODIESEL_B20'] := 8666.045*1.093483773541898 ;
-let c_maint['LCV_BIODIESEL_B20'] := 862.788*1.093483773541898 ;
+let c_inv['LCV_BIODIESEL_B20'] := 2783.448*1.093483773541898 ;
+let c_maint['LCV_BIODIESEL_B20'] := 277.119*1.093483773541898 ;
+let c_p['LCV_BIODIESEL_B20'] := 0.093 ;                                 # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_BIODIESEL_B20'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (26.059 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_CNG'] := 8175.511*1.0733505967124521 ;
-let c_maint['LCV_CNG'] := 568.655*1.0733505967124521 ;
+let c_inv['LCV_CNG'] := 3040.51*1.0733505967124521 ;
+let c_maint['LCV_CNG'] := 211.486*1.0733505967124521 ;
+let c_p['LCV_CNG'] := 0.093 ;                                           # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_CNG'] := 15.0 ;                                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (22.506 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_DIESEL'] := 8666.045*1.093483773541898 ;
-let c_maint['LCV_DIESEL'] := 862.788*1.093483773541898 ;
+let c_inv['LCV_DIESEL'] := 2783.448*1.093483773541898 ;
+let c_maint['LCV_DIESEL'] := 277.119*1.093483773541898 ;
+let c_p['LCV_DIESEL'] := 0.093 ;                                        # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_DIESEL'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (26.059 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_ETOH_E10'] := 6867.424*1.093483773541898 ;
-let c_maint['LCV_ETOH_E10'] := 568.655*1.093483773541898 ;
+let c_inv['LCV_ETOH_E10'] := 2426.328*1.093483773541898 ;
+let c_maint['LCV_ETOH_E10'] := 200.912*1.093483773541898 ;
+let c_p['LCV_ETOH_E10'] := 0.093 ;                                      # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_ETOH_E10'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_ETOH_E10'] := 0.0 ;                                   # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_ETOH_E10'] := 0.0 ;                                   # Average over 1 value(s) of (23.69 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_ETOH_E85'] := 6867.424*1.093483773541898 ;
-let c_maint['LCV_ETOH_E85'] := 568.655*1.093483773541898 ;
+let c_inv['LCV_ETOH_E85'] := 2426.328*1.093483773541898 ;
+let c_maint['LCV_ETOH_E85'] := 200.912*1.093483773541898 ;
+let c_p['LCV_ETOH_E85'] := 0.093 ;                                      # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_ETOH_E85'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_ETOH_E85'] := 0.0 ;                                   # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_ETOH_E85'] := 0.0 ;                                   # Average over 1 value(s) of (23.69 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_EV'] := 15206.45*0.8471959744074319 ;
-let c_maint['LCV_EV'] := 356.883*0.8471959744074319 ;
+let c_inv['LCV_EV'] := 5372.582*0.8471959744074319 ;
+let c_maint['LCV_EV'] := 126.09*0.8471959744074319 ;
+let c_p['LCV_EV'] := 0.093 ;                                            # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_EV'] := 15.0 ;                                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_EV'] := 0.0 ;                                         # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_EV'] := 0.0 ;                                         # Average over 1 value(s) of (23.69 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_FC_CH4'] := 8175.511*0.941093056233582 ;
-let c_maint['LCV_FC_CH4'] := 568.655*0.941093056233582 ;
-let lifetime['LCV_FC_CH4'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_FC_CH4'] := 0.0 ;                                     # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
-
-let c_inv['LCV_FC_H2'] := 9019.047*0.941093056233582 ;
-let c_maint['LCV_FC_H2'] := 356.883*0.941093056233582 ;
+let c_inv['LCV_FC_H2'] := 2276.083*0.941093056233582 ;
+let c_maint['LCV_FC_H2'] := 90.065*0.941093056233582 ;
+let c_p['LCV_FC_H2'] := 0.093 ;                                         # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_FC_H2'] := 15.0 ;                                     # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (33.166 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_GASOLINE'] := 6867.424*1.093483773541898 ;
-let c_maint['LCV_GASOLINE'] := 568.655*1.093483773541898 ;
+let c_inv['LCV_GASOLINE'] := 2205.752*1.093483773541898 ;
+let c_maint['LCV_GASOLINE'] := 182.647*1.093483773541898 ;
+let c_p['LCV_GASOLINE'] := 0.093 ;                                      # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_GASOLINE'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (26.059 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_PHEV_DIESEL'] := 8216.507*1 ;
-let c_maint['LCV_PHEV_DIESEL'] := 494.139*1 ;
+let c_inv['LCV_PHEV_DIESEL'] := 2902.97*1 ;
+let c_maint['LCV_PHEV_DIESEL'] := 174.585*1 ;
+let c_p['LCV_PHEV_DIESEL'] := 0.093 ;                                   # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_PHEV_DIESEL'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_PHEV_DIESEL'] := 0.0 ;                                # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_PHEV_DIESEL'] := 0.0 ;                                # Average over 1 value(s) of (23.69 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['LCV_PROPANE'] := 8175.511*1 ;
-let c_maint['LCV_PROPANE'] := 568.655*1 ;
+let c_inv['LCV_PROPANE'] := 2625.895*1 ;
+let c_maint['LCV_PROPANE'] := 182.647*1 ;
+let c_p['LCV_PROPANE'] := 0.093 ;                                       # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['LCV_PROPANE'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['LCV_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (8.37 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['LCV_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (26.059 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
 let c_inv['LP_H2_GRID'] := 835.83*1 ;
 let c_maint['LP_H2_GRID'] := 1e-07*1 ;
@@ -2046,19 +2055,20 @@ let trl['PET_FORMATION'] := 9.0 ;                                       # Averag
 
 let c_inv['PLANE_FREIGHT'] := 31762.546*1 ;
 let c_maint['PLANE_FREIGHT'] := 3481.097*1 ;
+let c_p['PLANE_FREIGHT'] := 0.6 ;                                       # Average over 1 value(s) of (0.6 - from worldbankAirFreightMarket2009 set: GLO, converted into 0.6 -)
 let ref_size['PLANE_FREIGHT'] := 0.004 ;                                # Average over 2 value(s) of (5765.4 tkm/h from doranFedExTopsIATA2022 set: GLO, converted into 0.006 Mtkm/h) and (3198.3 tkm/h from jeffreyTop25Air2023 set: GLO, converted into 0.003 Mtkm/h)
 let trl['PLANE_FREIGHT'] := 9.0 ;                                       # Average over 1 value(s) of (9.0 - from atagTrackingAviationEfficiency2021 set: GLO, converted into 9.0 -)
 
 let c_inv['PLANE_LH'] := 4404.965*1 ;
 let c_maint['PLANE_LH'] := 49.949*1 ;
-let c_p['PLANE_LH'] := 1.0 ;                                            # Average over 1 value(s) of (1.0 - from fischerAir_Transportation2023 set: CAN, converted into 1.0 -)
+let c_p['PLANE_LH'] := 0.444 ;                                          # Average over 1 value(s) of (0.444 - from fischerAir_Transportation2023 set: CAN, converted into 0.444 -)
 let lifetime['PLANE_LH'] := 25.0 ;                                      # Average over 1 value(s) of (25.0 y from m.durgutHowLongDoes2023 set: GLO, converted into 25.0 yr)
 let ref_size['PLANE_LH'] := 0.075 ;                                     # Average over 1 value(s) of (75078.0 pkm/h from fischerAir_Transportation2023 set: CAN, converted into 0.075 Mpkm/h)
 let trl['PLANE_LH'] := 9.0 ;                                            # Average over 1 value(s) of (9.0 - from fischerAir_Transportation2023 set: CAN, converted into 9.0 -)
 
 let c_inv['PLANE_SH'] := 4305.067*1 ;
 let c_maint['PLANE_SH'] := 159.297*1 ;
-let c_p['PLANE_SH'] := 1.0 ;                                            # Average over 1 value(s) of (1.0 - from fischerAir_Transportation2023 set: CAN, converted into 1.0 -)
+let c_p['PLANE_SH'] := 0.349 ;                                          # Average over 1 value(s) of (0.349 - from fischerAir_Transportation2023 set: CAN, converted into 0.349 -)
 let lifetime['PLANE_SH'] := 25.0 ;                                      # Average over 1 value(s) of (25.0 y from m.durgutHowLongDoes2023 set: GLO, converted into 25.0 yr)
 let ref_size['PLANE_SH'] := 0.028 ;                                     # Average over 1 value(s) of (28000.0 pkm/h from fischerAir_Transportation2023 set: CAN, converted into 0.028 Mpkm/h)
 let trl['PLANE_SH'] := 9.0 ;                                            # Average over 1 value(s) of (9.0 - from fischerAir_Transportation2023 set: CAN, converted into 9.0 -)
@@ -2075,8 +2085,8 @@ let trl['POLYPROPYLENE_PP'] := 9.0 ;                                    # Averag
 
 let layers_in_out['PV','ELECTRICITY_LV'] := 1.0*1 ;
 let layers_in_out['PV','RES_SOLAR'] := -1.0*1 ;
-let c_inv['PV'] := 1699.224*0.5233648687389933 ;
-let c_maint['PV'] := 15.922*0.5233648687389933 ;
+let c_inv['PV'] := 1764.38*0.5233648687389933 ;
+let c_maint['PV'] := 18.33*0.5233648687389933 ;
 let c_p['PV'] := 1 ;                                                    # Average over 1 value(s) of (0.169 - from irenaRenewablePowerGeneration2023 set: CAN, converted into 0.169 -) but set to 1 for modelling reasons
 let c_p_t['PV',10] := 0.103 ;                                           # Average over 1 value(s) of (0.103 - from governmentofcanadaPhotovoltaicPotentialSolar2020 set: QC, converted into 0.103 -)
 let c_p_t['PV',11] := 0.076 ;                                           # Average over 1 value(s) of (0.076 - from governmentofcanadaPhotovoltaicPotentialSolar2020 set: QC, converted into 0.076 -)
@@ -2117,145 +2127,155 @@ let lifetime['PYROLYSIS'] := 25.0 ;                                     # Averag
 let ref_size['PYROLYSIS'] := 0.0 ;                                      # Average over 1 value(s) of (0.0 GW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 GW)
 let trl['PYROLYSIS'] := 8.0 ;                                           # Average over 1 value(s) of (8.0 - from moretStrategicEnergyPlanning2017 set:  , converted into 8.0 -)
 
-let c_inv['SCHOOLBUS_BIODIESEL_B100'] := 233.823*1.0934872132055231 ;
-let c_maint['SCHOOLBUS_BIODIESEL_B100'] := 76.079*1.0934872132055231 ;
+let c_inv['SCHOOLBUS_BIODIESEL_B100'] := 315.662*1.0934872132055231 ;
+let c_maint['SCHOOLBUS_BIODIESEL_B100'] := 102.701*1.0934872132055231 ;
+let c_p['SCHOOLBUS_BIODIESEL_B100'] := 0.297 ;                          # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_BIODIESEL_B100'] := 15.0 ;                      # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_BIODIESEL_B100'] := 0.001 ;                     # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_BIODIESEL_B100'] := 0.0 ;                       # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_BIODIESEL_B20'] := 233.823*1.0934872132055231 ;
-let c_maint['SCHOOLBUS_BIODIESEL_B20'] := 76.079*1.0934872132055231 ;
+let c_inv['SCHOOLBUS_BIODIESEL_B20'] := 315.662*1.0934872132055231 ;
+let c_maint['SCHOOLBUS_BIODIESEL_B20'] := 102.701*1.0934872132055231 ;
+let c_p['SCHOOLBUS_BIODIESEL_B20'] := 0.297 ;                           # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_BIODIESEL_B20'] := 15.0 ;                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_BIODIESEL_B20'] := 0.001 ;                      # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_BIODIESEL_B20'] := 0.0 ;                        # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_CNG'] := 303.968*1.0733625051278546 ;
-let c_maint['SCHOOLBUS_CNG'] := 66.152*1.0733625051278546 ;
+let c_inv['SCHOOLBUS_CNG'] := 410.36*1.0733625051278546 ;
+let c_maint['SCHOOLBUS_CNG'] := 89.3*1.0733625051278546 ;
+let c_p['SCHOOLBUS_CNG'] := 0.297 ;                                     # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_CNG'] := 15.0 ;                                 # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_CNG'] := 0.001 ;                                # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_CNG'] := 0.0 ;                                  # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_DIESEL'] := 233.823*1.0934872132055231 ;
-let c_maint['SCHOOLBUS_DIESEL'] := 76.079*1.0934872132055231 ;
+let c_inv['SCHOOLBUS_DIESEL'] := 315.662*1.0934872132055231 ;
+let c_maint['SCHOOLBUS_DIESEL'] := 102.701*1.0934872132055231 ;
+let c_p['SCHOOLBUS_DIESEL'] := 0.297 ;                                  # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_DIESEL'] := 15.0 ;                              # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_DIESEL'] := 0.001 ;                             # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_DIESEL'] := 0.0 ;                               # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_ETOH_E10'] := 187.056*1 ;
-let c_maint['SCHOOLBUS_ETOH_E10'] := 49.953*1 ;
+let c_inv['SCHOOLBUS_ETOH_E10'] := 252.53*1 ;
+let c_maint['SCHOOLBUS_ETOH_E10'] := 67.441*1 ;
+let c_p['SCHOOLBUS_ETOH_E10'] := 0.297 ;                                # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_ETOH_E10'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_ETOH_E10'] := 0.001 ;                           # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_ETOH_E10'] := 0.0 ;                             # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_EV'] := 701.469*1 ;
-let c_maint['SCHOOLBUS_EV'] := 45.643*1 ;
+let c_inv['SCHOOLBUS_EV'] := 946.985*1 ;
+let c_maint['SCHOOLBUS_EV'] := 61.62*1 ;
+let c_p['SCHOOLBUS_EV'] := 0.297 ;                                      # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_EV'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_EV'] := 0.001 ;                                 # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_EV'] := 0.0 ;                                   # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_FC_CH4'] := 303.968*0.9411062439409716 ;
-let c_maint['SCHOOLBUS_FC_CH4'] := 66.152*0.9411062439409716 ;
-let lifetime['SCHOOLBUS_FC_CH4'] := 15.0 ;                              # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_FC_CH4'] := 0.001 ;                             # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
-
-let c_inv['SCHOOLBUS_GASOLINE'] := 187.056*1.0934872132055231 ;
-let c_maint['SCHOOLBUS_GASOLINE'] := 49.953*1.0934872132055231 ;
+let c_inv['SCHOOLBUS_GASOLINE'] := 252.53*1.0934872132055231 ;
+let c_maint['SCHOOLBUS_GASOLINE'] := 67.441*1.0934872132055231 ;
+let c_p['SCHOOLBUS_GASOLINE'] := 0.297 ;                                # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_GASOLINE'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_GASOLINE'] := 0.001 ;                           # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_GASOLINE'] := 0.0 ;                             # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_HY_DIESEL'] := 374.113*1.0468537249562342 ;
-let c_maint['SCHOOLBUS_HY_DIESEL'] := 66.152*1.0468537249562342 ;
+let c_inv['SCHOOLBUS_HY_DIESEL'] := 505.058*1.0468537249562342 ;
+let c_maint['SCHOOLBUS_HY_DIESEL'] := 89.3*1.0468537249562342 ;
+let c_p['SCHOOLBUS_HY_DIESEL'] := 0.297 ;                               # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_HY_DIESEL'] := 15.0 ;                           # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_HY_DIESEL'] := 0.001 ;                          # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_HY_DIESEL'] := 0.0 ;                            # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SCHOOLBUS_PROPANE'] := 252.524*1.0934872132055231 ;
-let c_maint['SCHOOLBUS_PROPANE'] := 49.953*1.0934872132055231 ;
+let c_inv['SCHOOLBUS_PROPANE'] := 340.914*1.0934872132055231 ;
+let c_maint['SCHOOLBUS_PROPANE'] := 67.441*1.0934872132055231 ;
+let c_p['SCHOOLBUS_PROPANE'] := 0.297 ;                                 # Average over 1 value(s) of (0.297 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.297 -)
 let lifetime['SCHOOLBUS_PROPANE'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SCHOOLBUS_PROPANE'] := 0.001 ;                            # Average over 1 value(s) of (585.31 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mpkm/h)
+let ref_size['SCHOOLBUS_PROPANE'] := 0.0 ;                              # Average over 1 value(s) of (433.559 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SEMI_LH_BIODIESEL_B100'] := 196.667*1.093483773541898 ;
-let c_maint['SEMI_LH_BIODIESEL_B100'] := 31.814*1.093483773541898 ;
+let c_inv['SEMI_LH_BIODIESEL_B100'] := 135.64*1.093483773541898 ;
+let c_maint['SEMI_LH_BIODIESEL_B100'] := 21.939*1.093483773541898 ;
+let c_p['SEMI_LH_BIODIESEL_B100'] := 0.093 ;                            # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_BIODIESEL_B100'] := 15.0 ;                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_BIODIESEL_B100'] := 0.001 ;                       # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_BIODIESEL_B100'] := 0.002 ;                       # Average over 1 value(s) of (1513.478 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mtkm/h)
 
-let c_inv['SEMI_LH_BIODIESEL_B20'] := 196.667*1.093483773541898 ;
-let c_maint['SEMI_LH_BIODIESEL_B20'] := 31.814*1.093483773541898 ;
+let c_inv['SEMI_LH_BIODIESEL_B20'] := 135.64*1.093483773541898 ;
+let c_maint['SEMI_LH_BIODIESEL_B20'] := 21.939*1.093483773541898 ;
+let c_p['SEMI_LH_BIODIESEL_B20'] := 0.093 ;                             # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_BIODIESEL_B20'] := 15.0 ;                         # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_BIODIESEL_B20'] := 0.001 ;                        # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_BIODIESEL_B20'] := 0.002 ;                        # Average over 1 value(s) of (1513.478 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mtkm/h)
 
-let c_inv['SEMI_LH_CNG'] := 281.897*1.0733505967124521 ;
-let c_maint['SEMI_LH_CNG'] := 32.979*1.0733505967124521 ;
+let c_inv['SEMI_LH_CNG'] := 202.517*1.0733505967124521 ;
+let c_maint['SEMI_LH_CNG'] := 23.695*1.0733505967124521 ;
+let c_p['SEMI_LH_CNG'] := 0.093 ;                                       # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_CNG'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_CNG'] := 0.001 ;                                  # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_CNG'] := 0.002 ;                                  # Average over 1 value(s) of (1452.939 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mtkm/h)
 
-let c_inv['SEMI_LH_DIESEL'] := 196.667*1.093483773541898 ;
-let c_maint['SEMI_LH_DIESEL'] := 31.814*1.093483773541898 ;
+let c_inv['SEMI_LH_DIESEL'] := 135.64*1.093483773541898 ;
+let c_maint['SEMI_LH_DIESEL'] := 21.939*1.093483773541898 ;
+let c_p['SEMI_LH_DIESEL'] := 0.093 ;                                    # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_DIESEL'] := 15.0 ;                                # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_DIESEL'] := 0.001 ;                               # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_DIESEL'] := 0.002 ;                               # Average over 1 value(s) of (1513.478 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mtkm/h)
 
-let c_inv['SEMI_LH_EV'] := 1114.464*0.8471959744074319 ;
-let c_maint['SEMI_LH_EV'] := 26.953*0.8471959744074319 ;
+let c_inv['SEMI_LH_EV'] := 1746.87*0.8471959744074319 ;
+let c_maint['SEMI_LH_EV'] := 42.25*0.8471959744074319 ;
+let c_p['SEMI_LH_EV'] := 0.093 ;                                        # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_EV'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_EV'] := 0.001 ;                                   # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_EV'] := 0.001 ;                                   # Average over 1 value(s) of (665.93 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
 
-let c_inv['SEMI_LH_FC_CH4'] := 281.897*0.941093056233582 ;
-let c_maint['SEMI_LH_FC_CH4'] := 32.979*0.941093056233582 ;
-let lifetime['SEMI_LH_FC_CH4'] := 15.0 ;                                # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_FC_CH4'] := 0.001 ;                               # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
-
-let c_inv['SEMI_LH_FC_H2'] := 524.452*0.941093056233582 ;
-let c_maint['SEMI_LH_FC_H2'] := 26.953*0.941093056233582 ;
+let c_inv['SEMI_LH_FC_H2'] := 347.793*0.941093056233582 ;
+let c_maint['SEMI_LH_FC_H2'] := 17.875*0.941093056233582 ;
+let c_p['SEMI_LH_FC_H2'] := 0.093 ;                                     # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_FC_H2'] := 15.0 ;                                 # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_FC_H2'] := 0.001 ;                                # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_FC_H2'] := 0.002 ;                                # Average over 1 value(s) of (1574.017 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mtkm/h)
 
-let c_inv['SEMI_LH_HY_DIESEL'] := 216.338*1 ;
-let c_maint['SEMI_LH_HY_DIESEL'] := 28.802*1 ;
+let c_inv['SEMI_LH_HY_DIESEL'] := 149.203*1 ;
+let c_maint['SEMI_LH_HY_DIESEL'] := 19.861*1 ;
+let c_p['SEMI_LH_HY_DIESEL'] := 0.093 ;                                 # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_HY_DIESEL'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_HY_DIESEL'] := 0.001 ;                            # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_HY_DIESEL'] := 0.002 ;                            # Average over 1 value(s) of (1513.478 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mtkm/h)
 
-let c_inv['SEMI_LH_PROPANE'] := 216.838*1.093483773541898 ;
-let c_maint['SEMI_LH_PROPANE'] := 32.979*1.093483773541898 ;
+let c_inv['SEMI_LH_PROPANE'] := 149.551*1.093483773541898 ;
+let c_maint['SEMI_LH_PROPANE'] := 22.747*1.093483773541898 ;
+let c_p['SEMI_LH_PROPANE'] := 0.093 ;                                   # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_LH_PROPANE'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_LH_PROPANE'] := 0.001 ;                              # Average over 1 value(s) of (1043.81 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_LH_PROPANE'] := 0.002 ;                              # Average over 1 value(s) of (1513.478 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.002 Mtkm/h)
 
-let c_inv['SEMI_SH_BIODIESEL_B100'] := 386.542*1.093483773541898 ;
-let c_maint['SEMI_SH_BIODIESEL_B100'] := 36.86*1.093483773541898 ;
+let c_inv['SEMI_SH_BIODIESEL_B100'] := 552.168*1.093483773541898 ;
+let c_maint['SEMI_SH_BIODIESEL_B100'] := 52.653*1.093483773541898 ;
+let c_p['SEMI_SH_BIODIESEL_B100'] := 0.093 ;                            # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_BIODIESEL_B100'] := 15.0 ;                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_BIODIESEL_B100'] := 0.0 ;                         # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_BIODIESEL_B100'] := 0.0 ;                         # Average over 1 value(s) of (322.212 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['SEMI_SH_BIODIESEL_B20'] := 386.542*1.093483773541898 ;
-let c_maint['SEMI_SH_BIODIESEL_B20'] := 36.86*1.093483773541898 ;
+let c_inv['SEMI_SH_BIODIESEL_B20'] := 552.168*1.093483773541898 ;
+let c_maint['SEMI_SH_BIODIESEL_B20'] := 52.653*1.093483773541898 ;
+let c_p['SEMI_SH_BIODIESEL_B20'] := 0.093 ;                             # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_BIODIESEL_B20'] := 15.0 ;                         # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_BIODIESEL_B20'] := 0.0 ;                          # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_BIODIESEL_B20'] := 0.0 ;                          # Average over 1 value(s) of (322.212 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['SEMI_SH_CNG'] := 505.486*1.0733505967124521 ;
-let c_maint['SEMI_SH_CNG'] := 38.218*1.0733505967124521 ;
+let c_inv['SEMI_SH_CNG'] := 752.152*1.0733505967124521 ;
+let c_maint['SEMI_SH_CNG'] := 56.868*1.0733505967124521 ;
+let c_p['SEMI_SH_CNG'] := 0.093 ;                                       # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_CNG'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_CNG'] := 0.0 ;                                    # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_CNG'] := 0.0 ;                                    # Average over 1 value(s) of (309.324 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['SEMI_SH_DIESEL'] := 386.542*1.093483773541898 ;
-let c_maint['SEMI_SH_DIESEL'] := 36.86*1.093483773541898 ;
+let c_inv['SEMI_SH_DIESEL'] := 552.168*1.093483773541898 ;
+let c_maint['SEMI_SH_DIESEL'] := 52.653*1.093483773541898 ;
+let c_p['SEMI_SH_DIESEL'] := 0.093 ;                                    # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_DIESEL'] := 15.0 ;                                # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_DIESEL'] := 0.0 ;                                 # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_DIESEL'] := 0.0 ;                                 # Average over 1 value(s) of (322.212 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['SEMI_SH_EV'] := 1427.246*0.8471959744074319 ;
-let c_maint['SEMI_SH_EV'] := 31.232*0.8471959744074319 ;
+let c_inv['SEMI_SH_EV'] := 2548.468*0.8471959744074319 ;
+let c_maint['SEMI_SH_EV'] := 55.771*0.8471959744074319 ;
+let c_p['SEMI_SH_EV'] := 0.093 ;                                        # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_EV'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_EV'] := 0.0 ;                                     # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_EV'] := 0.0 ;                                     # Average over 1 value(s) of (257.77 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['SEMI_SH_FC_CH4'] := 505.486*0.941093056233582 ;
-let c_maint['SEMI_SH_FC_CH4'] := 38.218*0.941093056233582 ;
-let lifetime['SEMI_SH_FC_CH4'] := 15.0 ;                                # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_FC_CH4'] := 0.0 ;                                 # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
-
-let c_inv['SEMI_SH_FC_H2'] := 1070.434*0.941093056233582 ;
-let c_maint['SEMI_SH_FC_H2'] := 31.232*0.941093056233582 ;
+let c_inv['SEMI_SH_FC_H2'] := 1470.27*0.941093056233582 ;
+let c_maint['SEMI_SH_FC_H2'] := 42.9*0.941093056233582 ;
+let c_p['SEMI_SH_FC_H2'] := 0.093 ;                                     # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_FC_H2'] := 15.0 ;                                 # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_FC_H2'] := 0.0 ;                                  # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_FC_H2'] := 0.0 ;                                  # Average over 1 value(s) of (335.101 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['SEMI_SH_HY_DIESEL'] := 431.144*1 ;
-let c_maint['SEMI_SH_HY_DIESEL'] := 33.367*1 ;
+let c_inv['SEMI_SH_HY_DIESEL'] := 615.88*1 ;
+let c_maint['SEMI_SH_HY_DIESEL'] := 47.664*1 ;
+let c_p['SEMI_SH_HY_DIESEL'] := 0.093 ;                                 # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_HY_DIESEL'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_HY_DIESEL'] := 0.0 ;                              # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_HY_DIESEL'] := 0.0 ;                              # Average over 1 value(s) of (322.212 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['SEMI_SH_PROPANE'] := 388.83*1.093483773541898 ;
-let c_maint['SEMI_SH_PROPANE'] := 38.218*1.093483773541898 ;
+let c_inv['SEMI_SH_PROPANE'] := 555.433*1.093483773541898 ;
+let c_maint['SEMI_SH_PROPANE'] := 54.593*1.093483773541898 ;
+let c_p['SEMI_SH_PROPANE'] := 0.093 ;                                   # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['SEMI_SH_PROPANE'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SEMI_SH_PROPANE'] := 0.0 ;                                # Average over 1 value(s) of (460.27 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.001 Mtkm/h)
+let ref_size['SEMI_SH_PROPANE'] := 0.0 ;                                # Average over 1 value(s) of (322.212 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
 let layers_in_out['SMART_PROCESS','CO2_A'] := 0.296*1 ;
 let layers_in_out['SMART_PROCESS','ETHYLBENZENE'] := -2.0*1 ;
@@ -2428,70 +2448,77 @@ let lifetime['STYRENE_POLYMERIZATION'] := 25.0 ;                        # Averag
 let ref_size['STYRENE_POLYMERIZATION'] := 0.001 ;                       # Average over 1 value(s) of (1.0 t/h from towlerPrinciplesPracticeEconomics2012 set:  , converted into 0.001 kt/h)
 let trl['STYRENE_POLYMERIZATION'] := 9.0 ;                              # Average over 1 value(s) of (9.0 - from towlerPrinciplesPracticeEconomics2012 set:  , converted into 9.0 -)
 
-let c_inv['SUV_BIODIESEL_B100'] := 942.523*1.0934845571591987 ;
-let c_maint['SUV_BIODIESEL_B100'] := 33.939*1.0934845571591987 ;
+let c_inv['SUV_BIODIESEL_B100'] := 1107.111*1.0934845571591987 ;
+let c_maint['SUV_BIODIESEL_B100'] := 39.868*1.0934845571591987 ;
+let c_p['SUV_BIODIESEL_B100'] := 0.051 ;                                # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_BIODIESEL_B100'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_BIODIESEL_B100'] := 0.0 ;                             # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_BIODIESEL_B20'] := 942.523*1.0934845571591987 ;
-let c_maint['SUV_BIODIESEL_B20'] := 33.939*1.0934845571591987 ;
+let c_inv['SUV_BIODIESEL_B20'] := 1107.111*1.0934845571591987 ;
+let c_maint['SUV_BIODIESEL_B20'] := 39.868*1.0934845571591987 ;
+let c_p['SUV_BIODIESEL_B20'] := 0.051 ;                                 # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_BIODIESEL_B20'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_BIODIESEL_B20'] := 0.0 ;                              # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_CNG'] := 1038.916*1.07337128399747 ;
-let c_maint['SUV_CNG'] := 22.357*1.07337128399747 ;
+let c_inv['SUV_CNG'] := 1220.338*1.07337128399747 ;
+let c_maint['SUV_CNG'] := 26.266*1.07337128399747 ;
+let c_p['SUV_CNG'] := 0.051 ;                                           # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_CNG'] := 15.0 ;                                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_CNG'] := 0.0 ;                                        # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_DIESEL'] := 942.523*1.0934845571591987 ;
-let c_maint['SUV_DIESEL'] := 33.939*1.0934845571591987 ;
+let c_inv['SUV_DIESEL'] := 1107.111*1.0934845571591987 ;
+let c_maint['SUV_DIESEL'] := 39.868*1.0934845571591987 ;
+let c_p['SUV_DIESEL'] := 0.051 ;                                        # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_DIESEL'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_DIESEL'] := 0.0 ;                                     # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_ETOH_E10'] := 792.572*1.0934913326791957 ;
-let c_maint['SUV_ETOH_E10'] := 22.357*1.0934913326791957 ;
+let c_inv['SUV_ETOH_E10'] := 930.979*1.0934913326791957 ;
+let c_maint['SUV_ETOH_E10'] := 26.266*1.0934913326791957 ;
+let c_p['SUV_ETOH_E10'] := 0.051 ;                                      # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_ETOH_E10'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_ETOH_E10'] := 0.0 ;                                   # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_ETOH_E10'] := 0.0 ;                                   # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_ETOH_E85'] := 792.572*1.0934913326791957 ;
-let c_maint['SUV_ETOH_E85'] := 22.357*1.0934913326791957 ;
+let c_inv['SUV_ETOH_E85'] := 930.979*1.0934913326791957 ;
+let c_maint['SUV_ETOH_E85'] := 26.266*1.0934913326791957 ;
+let c_p['SUV_ETOH_E85'] := 0.051 ;                                      # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_ETOH_E85'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_ETOH_E85'] := 0.0 ;                                   # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_ETOH_E85'] := 0.0 ;                                   # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_EV'] := 1649.405*0.6757324903040772 ;
-let c_maint['SUV_EV'] := 13.972*0.6757324903040772 ;
+let c_inv['SUV_EV'] := 1937.443*0.6757324903040772 ;
+let c_maint['SUV_EV'] := 16.417*0.6757324903040772 ;
+let c_p['SUV_EV'] := 0.051 ;                                            # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_EV'] := 15.0 ;                                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_EV'] := 0.0 ;                                         # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_EV'] := 0.0 ;                                         # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_FC_CH4'] := 1038.916*0.5425195367667829 ;
-let c_maint['SUV_FC_CH4'] := 22.357*0.5425195367667829 ;
-let lifetime['SUV_FC_CH4'] := 15.0 ;                                    # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_FC_CH4'] := 0.0 ;                                     # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
-
-let c_inv['SUV_FC_H2'] := 1392.357*0.5425195367667829 ;
-let c_maint['SUV_FC_H2'] := 13.972*0.5425195367667829 ;
+let c_inv['SUV_FC_H2'] := 1633.626*0.5425195367667829 ;
+let c_maint['SUV_FC_H2'] := 16.417*0.5425195367667829 ;
+let c_p['SUV_FC_H2'] := 0.051 ;                                         # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_FC_H2'] := 15.0 ;                                     # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_FC_H2'] := 0.0 ;                                      # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_GASOLINE'] := 792.572*1.0934913326791957 ;
-let c_maint['SUV_GASOLINE'] := 22.357*1.0934913326791957 ;
+let c_inv['SUV_GASOLINE'] := 930.979*1.0934913326791957 ;
+let c_maint['SUV_GASOLINE'] := 26.266*1.0934913326791957 ;
+let c_p['SUV_GASOLINE'] := 0.051 ;                                      # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_GASOLINE'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_GASOLINE'] := 0.0 ;                                   # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_HY_GASOLINE'] := 899.678*1 ;
-let c_maint['SUV_HY_GASOLINE'] := 20.365*1 ;
+let c_inv['SUV_HY_GASOLINE'] := 1056.787*1 ;
+let c_maint['SUV_HY_GASOLINE'] := 23.922*1 ;
+let c_p['SUV_HY_GASOLINE'] := 0.051 ;                                   # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_HY_GASOLINE'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_HY_GASOLINE'] := 0.0 ;                                # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_HY_GASOLINE'] := 0.0 ;                                # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_PHEV_GASOLINE'] := 1156.726*0.9748447598529971 ;
-let c_maint['SUV_PHEV_GASOLINE'] := 19.569*0.9748447598529971 ;
+let c_inv['SUV_PHEV_GASOLINE'] := 1358.727*0.9748447598529971 ;
+let c_maint['SUV_PHEV_GASOLINE'] := 22.983*0.9748447598529971 ;
+let c_p['SUV_PHEV_GASOLINE'] := 0.051 ;                                 # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_PHEV_GASOLINE'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_PHEV_GASOLINE'] := 0.0 ;                              # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_PHEV_GASOLINE'] := 0.0 ;                              # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
-let c_inv['SUV_PROPANE'] := 1038.916*1.0934913326791957 ;
-let c_maint['SUV_PROPANE'] := 22.357*1.0934913326791957 ;
+let c_inv['SUV_PROPANE'] := 1220.338*1.0934913326791957 ;
+let c_maint['SUV_PROPANE'] := 26.266*1.0934913326791957 ;
+let c_p['SUV_PROPANE'] := 0.051 ;                                       # Average over 1 value(s) of (0.051 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.051 -)
 let lifetime['SUV_PROPANE'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['SUV_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (63.89 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
+let ref_size['SUV_PROPANE'] := 0.0 ;                                    # Average over 1 value(s) of (54.392 pkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mpkm/h)
 
 let layers_in_out['TIDAL','ELECTRICITY_MV'] := 1.0*1 ;
 let layers_in_out['TIDAL','RES_TIDAL'] := -1.0*1 ;
@@ -2567,24 +2594,23 @@ let lifetime['TRAIN_DIESEL'] := 40.0 ;                                  # Averag
 let ref_size['TRAIN_DIESEL'] := 0.003 ;                                 # Average over 1 value(s) of (2578.52 pkm/h from railwayassociationofcanadaRailTrends20222022 set: CAN, converted into 0.003 Mpkm/h)
 let trl['TRAIN_DIESEL'] := 9.0 ;                                        # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['TRAIN_ELEC'] := 545.296*1 ;
-let c_maint['TRAIN_ELEC'] := 13.531*1 ;
-let c_p['TRAIN_ELEC'] := 1.0 ;                                          # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set: CHE, converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['TRAIN_ELEC'] := 0.0 ;                                   # Average over 1 value(s) of (0.0 kgCO2/(Mpkm/h) from moretStrategicEnergyPlanning2017 set: CHE, converted into 0.0 kgCO2/(Mpkm/h))
-let lifetime['TRAIN_ELEC'] := 20.5 ;                                    # Average over 2 value(s) of (1.0 y from moretStrategicEnergyPlanning2017 set: CHE, converted into 1.0 yr) and (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
-let ref_size['TRAIN_ELEC'] := 0.027 ;                                   # Average over 2 value(s) of (0.001 Mpkm/h from moretStrategicEnergyPlanning2017 set: CHE, converted into 0.001 Mpkm/h) and (53170.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.053 Mpkm/h)
+let c_inv['TRAIN_ELEC'] := 1090.592*1 ;
+let c_maint['TRAIN_ELEC'] := 27.062*1 ;
+let c_p['TRAIN_ELEC'] := 0.275 ;                                        # Average over 1 value(s) of (0.275 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.275 -)
+let lifetime['TRAIN_ELEC'] := 40.0 ;                                    # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
+let ref_size['TRAIN_ELEC'] := 0.053 ;                                   # Average over 1 value(s) of (53170.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.053 Mpkm/h)
 let trl['TRAIN_ELEC'] := 9.0 ;                                          # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set: CHE, converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
 let c_inv['TRAIN_FREIGHT_DIESEL'] := 201.804*1 ;
 let c_maint['TRAIN_FREIGHT_DIESEL'] := 5.026*1 ;
-let c_p['TRAIN_FREIGHT_DIESEL'] := 1.0 ;                                # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_p['TRAIN_FREIGHT_DIESEL'] := 0.342 ;                              # Average over 1 value(s) of (0.342 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.342 -)
 let lifetime['TRAIN_FREIGHT_DIESEL'] := 40.0 ;                          # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
 let ref_size['TRAIN_FREIGHT_DIESEL'] := 0.038 ;                         # Average over 1 value(s) of (38500.0 tkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.038 Mtkm/h)
 let trl['TRAIN_FREIGHT_DIESEL'] := 9.0 ;                                # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
 let c_inv['TRAIN_FREIGHT_ELEC'] := 201.804*1 ;
 let c_maint['TRAIN_FREIGHT_ELEC'] := 5.026*1 ;
-let c_p['TRAIN_FREIGHT_ELEC'] := 1.0 ;                                  # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_p['TRAIN_FREIGHT_ELEC'] := 0.342 ;                                # Average over 1 value(s) of (0.342 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.342 -)
 let lifetime['TRAIN_FREIGHT_ELEC'] := 40.0 ;                            # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
 let ref_size['TRAIN_FREIGHT_ELEC'] := 0.038 ;                           # Average over 1 value(s) of (38500.0 tkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.038 Mtkm/h)
 let trl['TRAIN_FREIGHT_ELEC'] := 9.0 ;                                  # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
@@ -2603,7 +2629,7 @@ let lifetime['TRAIN_FREIGHT_H2_HYBRID'] := 40.0 ;                       # Averag
 
 let c_inv['TRAIN_FREIGHT_NG'] := 201.804*1 ;
 let c_maint['TRAIN_FREIGHT_NG'] := 5.026*1 ;
-let c_p['TRAIN_FREIGHT_NG'] := 1.0 ;                                    # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_p['TRAIN_FREIGHT_NG'] := 0.342 ;                                  # Average over 1 value(s) of (0.342 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.342 -)
 let lifetime['TRAIN_FREIGHT_NG'] := 40.0 ;                              # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
 let ref_size['TRAIN_FREIGHT_NG'] := 0.038 ;                             # Average over 1 value(s) of (38500.0 tkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.038 Mtkm/h)
 let trl['TRAIN_FREIGHT_NG'] := 9.0 ;                                    # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
@@ -2617,116 +2643,116 @@ let trl['TRAIN_H2'] := 9.0 ;                                            # Averag
 
 let c_inv['TRAIN_NG'] := 1090.592*1 ;
 let c_maint['TRAIN_NG'] := 27.062*1 ;
-let c_p['TRAIN_NG'] := 1.0 ;                                            # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_p['TRAIN_NG'] := 0.275 ;                                          # Average over 1 value(s) of (0.275 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.275 -)
 let lifetime['TRAIN_NG'] := 40.0 ;                                      # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
 let ref_size['TRAIN_NG'] := 0.053 ;                                     # Average over 1 value(s) of (53170.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.053 Mpkm/h)
 let trl['TRAIN_NG'] := 9.0 ;                                            # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
 let c_inv['TRAMWAY'] := 1208.118*1 ;
 let c_maint['TRAMWAY'] := 185.567*1 ;
-let c_p['TRAMWAY'] := 1.0 ;                                             # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['TRAMWAY'] := 0.0 ;                                      # Average over 1 value(s) of (0.0 kgCO2/kW from moretStrategicEnergyPlanning2017 set:  , converted into 0.0 kgCO2/kW)
+let c_p['TRAMWAY'] := 0.342 ;                                           # Average over 1 value(s) of (0.342 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.342 -)
 let lifetime['TRAMWAY'] := 40.0 ;                                       # Average over 1 value(s) of (40.0 y from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 40.0 yr)
 let ref_size['TRAMWAY'] := 0.004 ;                                      # Average over 1 value(s) of (4000.0 pkm/h from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 0.004 Mpkm/h)
 let trl['TRAMWAY'] := 9.0 ;                                             # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['TRUCK_LH_BIODIESEL_B100'] := 743.149*1.093483773541898 ;
-let c_maint['TRUCK_LH_BIODIESEL_B100'] := 32.458*1.093483773541898 ;
+let c_inv['TRUCK_LH_BIODIESEL_B100'] := 1255.58*1.093483773541898 ;
+let c_maint['TRUCK_LH_BIODIESEL_B100'] := 54.846*1.093483773541898 ;
+let c_p['TRUCK_LH_BIODIESEL_B100'] := 0.093 ;                           # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_BIODIESEL_B100'] := 15.0 ;                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_BIODIESEL_B100'] := 0.0 ;                        # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_BIODIESEL_B100'] := 0.0 ;                        # Average over 1 value(s) of (81.75 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_LH_BIODIESEL_B20'] := 743.149*1.093483773541898 ;
-let c_maint['TRUCK_LH_BIODIESEL_B20'] := 32.458*1.093483773541898 ;
+let c_inv['TRUCK_LH_BIODIESEL_B20'] := 1255.58*1.093483773541898 ;
+let c_maint['TRUCK_LH_BIODIESEL_B20'] := 54.846*1.093483773541898 ;
+let c_p['TRUCK_LH_BIODIESEL_B20'] := 0.093 ;                            # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_BIODIESEL_B20'] := 15.0 ;                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_BIODIESEL_B20'] := 0.0 ;                         # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_BIODIESEL_B20'] := 0.0 ;                         # Average over 1 value(s) of (81.75 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_LH_CNG'] := 1139.496*1.0733505967124521 ;
-let c_maint['TRUCK_LH_CNG'] := 34.337*1.0733505967124521 ;
-let c_p['TRUCK_LH_CNG'] := 1.0 ;                                        # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set: CHE, converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['TRUCK_LH_CNG'] := 0.0 ;                                 # Average over 1 value(s) of (0.0 kgCO2/(Mtkm/h) from moretStrategicEnergyPlanning2017 set: CHE, converted into 0.0 kgCO2/(Mtkm/h))
+let c_inv['TRUCK_LH_CNG'] := 2100.243*1.0733505967124521 ;
+let c_maint['TRUCK_LH_CNG'] := 63.297*1.0733505967124521 ;
+let c_p['TRUCK_LH_CNG'] := 0.093 ;                                      # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_CNG'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_CNG'] := 0.0 ;                                   # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_CNG'] := 0.0 ;                                   # Average over 1 value(s) of (74.937 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 let trl['TRUCK_LH_CNG'] := 9.0 ;                                        # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set: CHE, converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['TRUCK_LH_DIESEL'] := 743.149*1.093483773541898 ;
-let c_maint['TRUCK_LH_DIESEL'] := 32.458*1.093483773541898 ;
-let c_p['TRUCK_LH_DIESEL'] := 1.0 ;                                     # Average over 2 value(s) of (1.0 - from moretStrategicEnergyPlanning2017 set: CHE, converted into 1.0 -) and (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
-let gwp_constr['TRUCK_LH_DIESEL'] := 0.0 ;                              # Average over 1 value(s) of (0.0 kgCO2/(Mtkm/h) from moretStrategicEnergyPlanning2017 set: CHE, converted into 0.0 kgCO2/(Mtkm/h))
+let c_inv['TRUCK_LH_DIESEL'] := 1255.58*1.093483773541898 ;
+let c_maint['TRUCK_LH_DIESEL'] := 54.846*1.093483773541898 ;
+let c_p['TRUCK_LH_DIESEL'] := 0.093 ;                                   # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_DIESEL'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_DIESEL'] := 0.0 ;                                # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_DIESEL'] := 0.0 ;                                # Average over 1 value(s) of (81.75 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 let trl['TRUCK_LH_DIESEL'] := 9.0 ;                                     # Average over 2 value(s) of (9.0 - from moretStrategicEnergyPlanning2017 set: CHE, converted into 9.0 -) and (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['TRUCK_LH_EV'] := 1833.101*0.8471959744074319 ;
-let c_maint['TRUCK_LH_EV'] := 22.04*0.8471959744074319 ;
-let c_p['TRUCK_LH_EV'] := 1.0 ;                                         # Average over 1 value(s) of (1.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 1.0 -)
+let c_inv['TRUCK_LH_EV'] := 24776.78*0.8471959744074319 ;
+let c_maint['TRUCK_LH_EV'] := 297.907*0.8471959744074319 ;
+let c_p['TRUCK_LH_EV'] := 0.093 ;                                       # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_EV'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_EV'] := 0.0 ;                                    # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_EV'] := 0.0 ;                                    # Average over 1 value(s) of (10.219 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 let trl['TRUCK_LH_EV'] := 9.0 ;                                         # Average over 1 value(s) of (9.0 - from schnidrigAssessmentGreenMobility2020 set: FRA, converted into 9.0 -)
 
-let c_inv['TRUCK_LH_FC_CH4'] := 1139.496*0.941093056233582 ;
-let c_maint['TRUCK_LH_FC_CH4'] := 34.337*0.941093056233582 ;
-let lifetime['TRUCK_LH_FC_CH4'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_FC_CH4'] := 0.0 ;                                # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
-
-let c_inv['TRUCK_LH_GASOLINE'] := 743.149*1.093483773541898 ;
-let c_maint['TRUCK_LH_GASOLINE'] := 32.458*1.093483773541898 ;
+let c_inv['TRUCK_LH_GASOLINE'] := 1255.58*1.093483773541898 ;
+let c_maint['TRUCK_LH_GASOLINE'] := 54.846*1.093483773541898 ;
+let c_p['TRUCK_LH_GASOLINE'] := 0.093 ;                                 # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_GASOLINE'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_GASOLINE'] := 0.0 ;                              # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_GASOLINE'] := 0.0 ;                              # Average over 1 value(s) of (81.75 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_LH_HY_DIESEL'] := 891.773*1 ;
-let c_maint['TRUCK_LH_HY_DIESEL'] := 25.114*1 ;
+let c_inv['TRUCK_LH_HY_DIESEL'] := 1446.428*1 ;
+let c_maint['TRUCK_LH_HY_DIESEL'] := 40.737*1 ;
+let c_p['TRUCK_LH_HY_DIESEL'] := 0.093 ;                                # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_HY_DIESEL'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_HY_DIESEL'] := 0.0 ;                             # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_HY_DIESEL'] := 0.0 ;                             # Average over 1 value(s) of (85.156 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_LH_PROPANE'] := 881.866*1.093483773541898 ;
-let c_maint['TRUCK_LH_PROPANE'] := 35.706*1.093483773541898 ;
+let c_inv['TRUCK_LH_PROPANE'] := 1489.955*1.093483773541898 ;
+let c_maint['TRUCK_LH_PROPANE'] := 60.331*1.093483773541898 ;
+let c_p['TRUCK_LH_PROPANE'] := 0.093 ;                                  # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_LH_PROPANE'] := 15.0 ;                              # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_LH_PROPANE'] := 0.0 ;                               # Average over 1 value(s) of (138.12 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_LH_PROPANE'] := 0.0 ;                               # Average over 1 value(s) of (81.75 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_BIODIESEL_B100'] := 3219.105*1.093483773541898 ;
-let c_maint['TRUCK_SH_BIODIESEL_B100'] := 144.416*1.093483773541898 ;
+let c_inv['TRUCK_SH_BIODIESEL_B100'] := 2445.077*1.093483773541898 ;
+let c_maint['TRUCK_SH_BIODIESEL_B100'] := 109.693*1.093483773541898 ;
+let c_p['TRUCK_SH_BIODIESEL_B100'] := 0.093 ;                           # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_BIODIESEL_B100'] := 15.0 ;                       # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_BIODIESEL_B100'] := 0.0 ;                        # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_BIODIESEL_B100'] := 0.0 ;                        # Average over 1 value(s) of (39.181 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_BIODIESEL_B20'] := 3219.105*1.093483773541898 ;
-let c_maint['TRUCK_SH_BIODIESEL_B20'] := 144.416*1.093483773541898 ;
+let c_inv['TRUCK_SH_BIODIESEL_B20'] := 2445.077*1.093483773541898 ;
+let c_maint['TRUCK_SH_BIODIESEL_B20'] := 109.693*1.093483773541898 ;
+let c_p['TRUCK_SH_BIODIESEL_B20'] := 0.093 ;                            # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_BIODIESEL_B20'] := 15.0 ;                        # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_BIODIESEL_B20'] := 0.0 ;                         # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_BIODIESEL_B20'] := 0.0 ;                         # Average over 1 value(s) of (39.181 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_CNG'] := 5058.6*1.0733505967124521 ;
-let c_maint['TRUCK_SH_CNG'] := 152.781*1.0733505967124521 ;
+let c_inv['TRUCK_SH_CNG'] := 4009.319*1.0733505967124521 ;
+let c_maint['TRUCK_SH_CNG'] := 121.09*1.0733505967124521 ;
+let c_p['TRUCK_SH_CNG'] := 0.093 ;                                      # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_CNG'] := 15.0 ;                                  # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_CNG'] := 0.0 ;                                   # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_CNG'] := 0.0 ;                                   # Average over 1 value(s) of (37.548 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_DIESEL'] := 3219.105*1.093483773541898 ;
-let c_maint['TRUCK_SH_DIESEL'] := 144.416*1.093483773541898 ;
+let c_inv['TRUCK_SH_DIESEL'] := 2445.077*1.093483773541898 ;
+let c_maint['TRUCK_SH_DIESEL'] := 109.693*1.093483773541898 ;
+let c_p['TRUCK_SH_DIESEL'] := 0.093 ;                                   # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_DIESEL'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_DIESEL'] := 0.0 ;                                # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_DIESEL'] := 0.0 ;                                # Average over 1 value(s) of (39.181 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_EV'] := 6898.084*0.8471959744074319 ;
-let c_maint['TRUCK_SH_EV'] := 98.058*0.8471959744074319 ;
+let c_inv['TRUCK_SH_EV'] := 7859.176*0.8471959744074319 ;
+let c_maint['TRUCK_SH_EV'] := 111.715*0.8471959744074319 ;
+let c_p['TRUCK_SH_EV'] := 0.093 ;                                       # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_EV'] := 15.0 ;                                   # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_EV'] := 0.0 ;                                    # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_EV'] := 0.0 ;                                    # Average over 1 value(s) of (26.121 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_FC_CH4'] := 5058.6*0.941093056233582 ;
-let c_maint['TRUCK_SH_FC_CH4'] := 152.781*0.941093056233582 ;
-let lifetime['TRUCK_SH_FC_CH4'] := 15.0 ;                               # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_FC_CH4'] := 0.0 ;                                # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
-
-let c_inv['TRUCK_SH_GASOLINE'] := 3219.105*1.093483773541898 ;
-let c_maint['TRUCK_SH_GASOLINE'] := 144.416*1.093483773541898 ;
+let c_inv['TRUCK_SH_GASOLINE'] := 2445.077*1.093483773541898 ;
+let c_maint['TRUCK_SH_GASOLINE'] := 109.693*1.093483773541898 ;
+let c_p['TRUCK_SH_GASOLINE'] := 0.093 ;                                 # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_GASOLINE'] := 15.0 ;                             # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_GASOLINE'] := 0.0 ;                              # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_GASOLINE'] := 0.0 ;                              # Average over 1 value(s) of (39.181 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_HY_DIESEL'] := 3908.911*1 ;
-let c_maint['TRUCK_SH_HY_DIESEL'] := 111.733*1 ;
+let c_inv['TRUCK_SH_HY_DIESEL'] := 2969.022*1 ;
+let c_maint['TRUCK_SH_HY_DIESEL'] := 84.868*1 ;
+let c_p['TRUCK_SH_HY_DIESEL'] := 0.093 ;                                # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_HY_DIESEL'] := 15.0 ;                            # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_HY_DIESEL'] := 0.0 ;                             # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_HY_DIESEL'] := 0.0 ;                             # Average over 1 value(s) of (39.181 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
-let c_inv['TRUCK_SH_PROPANE'] := 3587.008*1.093483773541898 ;
-let c_maint['TRUCK_SH_PROPANE'] := 158.858*1.093483773541898 ;
+let c_inv['TRUCK_SH_PROPANE'] := 2724.515*1.093483773541898 ;
+let c_maint['TRUCK_SH_PROPANE'] := 120.662*1.093483773541898 ;
+let c_p['TRUCK_SH_PROPANE'] := 0.093 ;                                  # Average over 1 value(s) of (0.093 - from limpensGeneratingEnergyTransition2021 set: EU, converted into 0.093 -)
 let lifetime['TRUCK_SH_PROPANE'] := 15.0 ;                              # Average over 1 value(s) of (15.0 y from agezAnalyseCycleVie2022 set: NA, converted into 15.0 yr)
-let ref_size['TRUCK_SH_PROPANE'] := 0.0 ;                               # Average over 1 value(s) of (29.76 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
+let ref_size['TRUCK_SH_PROPANE'] := 0.0 ;                               # Average over 1 value(s) of (39.181 tkm/h from agezAnalyseCycleVie2022 set: NA, converted into 0.0 Mtkm/h)
 
 let layers_in_out['UNMINEABLE_COAL_SEAM','CO2_C'] := -1.0*1 ;
 let layers_in_out['UNMINEABLE_COAL_SEAM','CO2_E'] := 0.05*1 ;
@@ -2743,7 +2769,7 @@ let trl['UNMINEABLE_COAL_SEAM'] := 9.0 ;                                # Averag
 let layers_in_out['WIND_OFFSHORE','ELECTRICITY_MV'] := 1.0*1 ;
 let layers_in_out['WIND_OFFSHORE','RES_WIND_OFFSHORE'] := -1.0*1 ;
 let c_inv['WIND_OFFSHORE'] := 4267.521*0.86857185522558 ;
-let c_maint['WIND_OFFSHORE'] := 132.018*0.86857185522558 ;
+let c_maint['WIND_OFFSHORE'] := 151.984*0.86857185522558 ;
 let c_p['WIND_OFFSHORE'] := 1 ;                                         # Average over 1 value(s) of (0.38 - from irenaRenewablePowerGeneration2022 set: OECD, converted into 0.38 -) but set to 1 for modelling reasons
 let c_p_t['WIND_OFFSHORE',10] := 0.506 ;                                # Average over 1 value(s) of (0.506 - from princeBlockIslandWind2023 set: QC, converted into 0.506 -)
 let c_p_t['WIND_OFFSHORE',11] := 0.528 ;                                # Average over 1 value(s) of (0.528 - from princeBlockIslandWind2023 set: QC, converted into 0.528 -)
@@ -2764,8 +2790,8 @@ let trl['WIND_OFFSHORE'] := 9.0 ;                                       # Averag
 let layers_in_out['WIND_ONSHORE','ELECTRICITY_MV'] := 1.0*1 ;
 let layers_in_out['WIND_ONSHORE','RES_WIND_ONSHORE'] := -1.0*1 ;
 let c_inv['WIND_ONSHORE'] := 2471.53*0.8571403551788154 ;
-let c_maint['WIND_ONSHORE'] := 59.043*0.8571403551788154 ;
-let c_p['WIND_ONSHORE'] := 1 ;                                          # Average over 2 value(s) of (0.45 - from irenaRenewablePowerGeneration2022 set: NA, converted into 0.45 -) and (0.47 - from irenaRenewablePowerGeneration2023 set: NA, converted into 0.47 -) but set to 1 for modelling reasons
+let c_maint['WIND_ONSHORE'] := 67.973*0.8571403551788154 ;
+let c_p['WIND_ONSHORE'] := 1 ;                                          # Average over 1 value(s) of (0.39 - from irenaRenewablePowerGeneration2024 set: CAN, converted into 0.39 -) but set to 1 for modelling reasons
 let c_p_t['WIND_ONSHORE',10] := 0.349 ;                                 # Average over 1 value(s) of (0.349 - from statisticscanadaElectricPowerGeneration2023 set: QC, converted into 0.349 -)
 let c_p_t['WIND_ONSHORE',11] := 0.407 ;                                 # Average over 1 value(s) of (0.407 - from statisticscanadaElectricPowerGeneration2023 set: QC, converted into 0.407 -)
 let c_p_t['WIND_ONSHORE',12] := 0.394 ;                                 # Average over 1 value(s) of (0.394 - from statisticscanadaElectricPowerGeneration2023 set: QC, converted into 0.394 -)
