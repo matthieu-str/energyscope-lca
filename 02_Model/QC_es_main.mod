@@ -673,7 +673,16 @@ subject to freightmob_use_pertech1 {j in TECHNOLOGIES_OF_FREIGHTMOB_ALL_DISTANCE
 	F_Mult_t [j,t] = sum {i in MODELS_OF_TECHNOLOGIES_OF_FREIGHTMOB_ALL_DISTANCES [j]} F_Mult_t [i,t];	
 
 subject to publicmob_use_pertech1 {j in TECHNOLOGIES_OF_PUBLICMOB_ALL_DISTANCES, t in PERIODS}: # connexion local/longd
-	F_Mult_t [j,t] = sum {i in MODELS_OF_TECHNOLOGIES_OF_PUBLICMOB_ALL_DISTANCES [j]} F_Mult_t [i,t];	
+	F_Mult_t [j,t] = sum {i in MODELS_OF_TECHNOLOGIES_OF_PUBLICMOB_ALL_DISTANCES [j]} F_Mult_t [i,t];
+
+subject to privatemob_installed_pertech1 {j in TECHNOLOGIES_OF_PRIVATEMOB_ALL_DISTANCES}: # connexion local/longd
+	F_Mult [j] = sum {i in MODELS_OF_TECHNOLOGIES_OF_PRIVATEMOB_ALL_DISTANCES [j]} F_Mult [i];
+
+subject to freightmob_installed_pertech1 {j in TECHNOLOGIES_OF_FREIGHTMOB_ALL_DISTANCES}: # connexion local/longd
+	F_Mult [j] = sum {i in MODELS_OF_TECHNOLOGIES_OF_FREIGHTMOB_ALL_DISTANCES [j]} F_Mult [i];
+
+subject to publicmob_installed_pertech1 {j in TECHNOLOGIES_OF_PUBLICMOB_ALL_DISTANCES}: # connexion local/longd
+	F_Mult [j] = sum {i in MODELS_OF_TECHNOLOGIES_OF_PUBLICMOB_ALL_DISTANCES [j]} F_Mult [i];
 
 
 ## Grid calculations
