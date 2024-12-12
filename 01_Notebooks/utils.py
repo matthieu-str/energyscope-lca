@@ -119,3 +119,20 @@ def get_impact_category_unit(
         return 'PDF.m2.yr'
     else:
         raise ValueError(f"Unknown impact category: {impact_category}")
+
+
+def get_contribution_df(
+        df: pd.DataFrame,
+        impact_category: str,
+        N: int = 5,
+        n_run: int = 0,
+) -> pd.DataFrame:
+    df = df[df.Run == n_run]
+    df = df.sort_values(impact_category, ascending=False)
+    total = df[impact_category].sum()
+    df = df.head(N).reset_index(drop=True)
+    total_in_top_N = df[impact_category].sum()
+    df = df[['Run', 'index', impact_category]]
+    df.loc[len(df)] = [n_run, 'OTHER', total - total_in_top_N]
+    df[f'{impact_category} (ratio)'] = df[impact_category] / total
+    return df
