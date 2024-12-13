@@ -123,16 +123,37 @@ def get_impact_category_unit(
 
 def get_contribution_df(
         df: pd.DataFrame,
-        impact_category: str,
-        N: int = 5,
+        impact_category_list: str or list[str],
+        N: int = -1,
         n_run: int = 0,
 ) -> pd.DataFrame:
+    if isinstance(impact_category_list, str):
+        impact_category_list = [impact_category_list]
+    if len(impact_category_list) > 1 and N > 0:
+        raise ValueError('N should be set to -1 when multiple impact categories are selected')
+    if 'Annual_Prod' in df.columns:
+        df_type = 'Annual_Prod'
+    elif 'F_Mult' in df.columns:
+        df_type = 'F_Mult'
+    elif 'Annual_Res' in df.columns:
+        df_type = 'Annual_Res'
+    else:
+        raise ValueError('Unknown data frame type')
     df = df[df.Run == n_run]
-    df = df.sort_values(impact_category, ascending=False)
-    total = df[impact_category].sum()
-    df = df.head(N).reset_index(drop=True)
-    total_in_top_N = df[impact_category].sum()
-    df = df[['Run', 'index', impact_category]]
-    df.loc[len(df)] = [n_run, 'OTHER', total - total_in_top_N]
-    df[f'{impact_category} (ratio)'] = df[impact_category] / total
+    df = df[['Run', 'index', df_type]+impact_category_list]
+    total_type = df[df_type].sum()
+    for impact_category in impact_category_list:
+        total_impact = df[impact_category].sum()
+        if N > 0:
+            df = df.sort_values(impact_category, ascending=False)
+            df = df.head(N).reset_index(drop=True)
+            total_impact_in_top_N = df[impact_category].sum()
+            total_type_in_top_N = df[df_type].sum()
+            df = df[['Run', 'index', df_type, impact_category]]
+            df.loc[len(df)] = [n_run, 'OTHER', total_type - total_type_in_top_N, total_impact - total_impact_in_top_N]
+        df[f'{impact_category} (ratio)'] = df[impact_category] / total_impact
+    if df_type == 'Annual_Res':  # other df have different units, so ratios are meaningless
+        df[f'{df_type} (ratio)'] = df[df_type] / total_type
+    df.rename(columns={'index': 'Name'}, inplace=True)
+    df.dropna(inplace=True)
     return df
