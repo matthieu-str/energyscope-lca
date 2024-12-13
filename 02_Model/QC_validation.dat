@@ -24,8 +24,8 @@ let f_min['CCGT'] := 0.531 ; 		    #Source: gouvernementducanadaProfilsEnergetiq
 let f_max['CCGT'] := 0.532 ;  		    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
 
 
-let f_max['VIRTUAL_TECH']:= 1.6230726193137187 ;
-let f_min['VIRTUAL_TECH']:= 1.6230726193137186 ;
+let f_max['VIRTUAL_TECH']:= 1.6230727742903 ;
+let f_min['VIRTUAL_TECH']:= 1.6230727742903 ;
 
 let f_max['HYDRO_STORAGE']:= 0;
 let f_min['HYDRO_STORAGE']:= 0;
@@ -41,6 +41,7 @@ let avail['LNG'] := 0 ; # GWh
 # Carbon Capture
 let f_max['DAC_LT']:= 0;
 let f_max['DAC_HT']:= 0;
+let f_max['VIRTUAL_CC']:= 0;
 
 #--------------------------------------------------- Mobility ----------------------------------------------#
 
@@ -65,14 +66,6 @@ let fmax_perc_mob['SUV_DIESEL_SD'] := 1;
 let fmax_perc_mob['SUV_GASOLINE_SD'] := 1;
 let fmax_perc_mob['SUV_PROPANE_SD'] := 1;
 
-# let c_p['CAR_DIESEL_SD'] := 0.051;
-# let c_p['CAR_GASOLINE_SD'] := 0.051;
-# let c_p['CAR_PROPANE_SD'] := 0.051;
-# let c_p['CAR_CNG_SD'] := 0.051;
-# let c_p['SUV_DIESEL_SD'] := 0.051;
-# let c_p['SUV_GASOLINE_SD'] := 0.051;
-# let c_p['SUV_PROPANE_SD'] := 0.051;
-
 # Private mobility MD distribution (MOB_PRIVATE_ROAD_MD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['CAR_DIESEL_MD'] := 0.005;
@@ -90,14 +83,6 @@ let fmax_perc_mob['CAR_CNG_MD'] := 1;
 let fmax_perc_mob['SUV_DIESEL_MD'] := 1;
 let fmax_perc_mob['SUV_GASOLINE_MD'] := 1;
 let fmax_perc_mob['SUV_PROPANE_MD'] := 1;
-
-# let c_p['CAR_DIESEL_MD'] := 0.051;
-# let c_p['CAR_GASOLINE_MD'] := 0.051;
-# let c_p['CAR_PROPANE_MD'] := 0.051;
-# let c_p['CAR_CNG_MD'] := 0.051;
-# let c_p['SUV_DIESEL_MD'] := 0.051;
-# let c_p['SUV_GASOLINE_MD'] := 0.051;
-# let c_p['SUV_PROPANE_MD'] := 0.051;
 
 # Private mobility LD distribution (MOB_PRIVATE_ROAD_LD)
 # Source: souttreDemandsGoogleDrive2024
@@ -117,22 +102,6 @@ let fmax_perc_mob['SUV_DIESEL_LD'] := 1;
 let fmax_perc_mob['SUV_GASOLINE_LD'] := 1;
 let fmax_perc_mob['SUV_PROPANE_LD'] := 1;
 
-# let c_p['CAR_DIESEL_LD'] := 0.051;
-# let c_p['CAR_GASOLINE_LD'] := 0.051;
-# let c_p['CAR_PROPANE_LD'] := 0.051;
-# let c_p['CAR_CNG_LD'] := 0.051;
-# let c_p['SUV_DIESEL_LD'] := 0.051;
-# let c_p['SUV_GASOLINE_LD'] := 0.051;
-# let c_p['SUV_PROPANE_LD'] := 0.051;
-
-# let c_p['CAR_DIESEL'] := 0.051;
-# let c_p['CAR_GASOLINE'] := 0.051;
-# let c_p['CAR_PROPANE'] := 0.051;
-# let c_p['CAR_CNG'] := 0.051;
-# let c_p['SUV_DIESEL'] := 0.051;
-# let c_p['SUV_GASOLINE'] := 0.051;
-# let c_p['SUV_PROPANE'] := 0.051;
-
 # Public mobility SD distribution (MOB_PUBLIC_ROAD_SD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['SCHOOLBUS_DIESEL_SD'] := 0.293;	
@@ -151,28 +120,10 @@ let fmax_perc_mob['BUS_EV_SD'] := 1;
 let fmax_perc_mob['BUS_CNG_SD'] := 1;
 let fmax_perc_mob['BUS_GASOLINE_SD'] := 1;
 
-# let c_p['SCHOOLBUS_DIESEL_SD'] := 0.297;
-# let c_p['SCHOOLBUS_GASOLINE_SD'] := 0.297;
-# let c_p['SCHOOLBUS_CNG_SD'] := 0.297;
-# let c_p['BUS_DIESEL_SD'] := 0.297;
-# let c_p['BUS_EV_SD'] := 0.297;
-# let c_p['BUS_CNG_SD'] := 0.297;
-# let c_p['BUS_GASOLINE_SD'] := 0.297;
-
-# let c_p['SCHOOLBUS_DIESEL'] := 0.297;
-# let c_p['SCHOOLBUS_GASOLINE'] := 0.297;
-# let c_p['SCHOOLBUS_CNG'] := 0.297;
-# let c_p['BUS_DIESEL'] := 0.297;
-# let c_p['BUS_EV'] := 0.297;
-# let c_p['BUS_CNG'] := 0.297;
-# let c_p['BUS_GASOLINE'] := 0.297;
-
 # Public mobility SD distribution (MOB_PUBLIC_RAIL_SD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['TRAMWAY_SD'] := 1;
 let fmax_perc_mob['TRAMWAY_SD'] := 1;
-# let c_p['TRAMWAY_SD'] := 0.342;
-# let c_p['TRAMWAY'] := 0.342;
 
 # Public mobility MD distribution (MOB_PUBLIC_ROAD_MD)
 # Source: souttreDemandsGoogleDrive2024
@@ -182,18 +133,10 @@ let fmin_perc_mob['COACH_GASOLINE_MD'] := 0.1690;
 let fmax_perc_mob['COACH_DIESEL_MD'] := 1;
 let fmax_perc_mob['COACH_GASOLINE_MD'] := 1;
 
-# let c_p['COACH_DIESEL_MD'] := 0.297;
-# let c_p['COACH_GASOLINE_MD'] := 0.297;
-
-# let c_p['COACH_DIESEL'] := 0.297;
-# let c_p['COACH_GASOLINE'] := 0.297;
-
 # Public mobility MD distribution (MOB_PUBLIC_RAIL_MD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['COMMUTER_RAIL_DIESEL_MD'] := 1;
 let fmax_perc_mob['COMMUTER_RAIL_DIESEL_MD'] := 1;
-# let c_p['COMMUTER_RAIL_DIESEL_MD'] := 0.345;
-# let c_p['COMMUTER_RAIL_DIESEL'] := 0.345;
 
 # Public mobility LD distribution (MOB_PUBLIC_ROAD_LD)
 # Source: souttreDemandsGoogleDrive2024
@@ -203,25 +146,15 @@ let fmin_perc_mob['COACH_GASOLINE_LD'] := 0.1690;
 let fmax_perc_mob['COACH_DIESEL_LD'] := 1;
 let fmax_perc_mob['COACH_GASOLINE_LD'] := 1;
 
-# let c_p['COACH_DIESEL_LD'] := 0.297;
-# let c_p['COACH_GASOLINE_LD'] := 0.297;
-
-# let c_p['COACH_DIESEL'] := 0.297;
-# let c_p['COACH_GASOLINE'] := 0.297;
-
 # Public mobility LD distribution (MOB_PUBLIC_RAIL_LD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['TRAIN_DIESEL_LD'] := 1;
 let fmax_perc_mob['TRAIN_DIESEL_LD'] := 1;
-# let c_p['TRAIN_DIESEL_LD'] := 0.275;
-# let c_p['TRAIN_DIESEL'] := 0.275;
 
 # Public mobility LD distribution (MOB_PUBLIC_AIR_LD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['PLANE_SH_LD'] := 1;
 let fmax_perc_mob['PLANE_SH_LD'] := 1;
-# let c_p['PLANE_SH_LD'] := 0.349;
-# let c_p['PLANE_SH'] := 0.349;
 
 # Freight mobility SD distribution (MOB_FREIGHT_ROAD_SD)
 # Source: souttreDemandsGoogleDrive2024
@@ -236,18 +169,6 @@ let fmax_perc_mob['LCV_GASOLINE_SD'] := 1;
 let fmax_perc_mob['LCV_PROPANE_SD'] := 1;
 let fmax_perc_mob['TRUCK_SH_DIESEL_SD'] := 1;
 let fmax_perc_mob['TRUCK_SH_GASOLINE_SD'] := 1;
-
-# let c_p['LCV_DIESEL_SD'] := 0.093;
-# let c_p['LCV_GASOLINE_SD'] := 0.093;
-# let c_p['LCV_PROPANE_SD'] := 0.093;
-# let c_p['TRUCK_SH_DIESEL_SD'] := 0.093;
-# let c_p['TRUCK_SH_GASOLINE_SD'] := 0.093;
-
-# let c_p['LCV_DIESEL'] := 0.093;
-# let c_p['LCV_GASOLINE'] := 0.093;
-# let c_p['LCV_PROPANE'] := 0.093;
-# let c_p['TRUCK_SH_DIESEL'] := 0.093;
-# let c_p['TRUCK_SH_GASOLINE'] := 0.093;
 
 # Freight mobility MD distribution (MOB_FREIGHT_ROAD_MD)
 # Source: souttreDemandsGoogleDrive2024
@@ -265,20 +186,6 @@ let fmax_perc_mob['TRUCK_SH_DIESEL_MD'] := 1;
 let fmax_perc_mob['TRUCK_SH_GASOLINE_MD'] := 1;
 let fmax_perc_mob['SEMI_SH_DIESEL_MD'] := 1;
 
-# let c_p['LCV_DIESEL_MD'] := 0.093;
-# let c_p['LCV_GASOLINE_MD'] := 0.093;
-# let c_p['LCV_PROPANE_MD'] := 0.093;
-# let c_p['TRUCK_SH_DIESEL_MD'] := 0.093;
-# let c_p['TRUCK_SH_GASOLINE_MD'] := 0.093;
-# let c_p['SEMI_SH_DIESEL_MD'] := 0.093;
-
-# let c_p['LCV_DIESEL'] := 0.093;
-# let c_p['LCV_GASOLINE'] := 0.093;
-# let c_p['LCV_PROPANE'] := 0.093;
-# let c_p['TRUCK_SH_DIESEL'] := 0.093;
-# let c_p['TRUCK_SH_GASOLINE'] := 0.093;
-# let c_p['SEMI_SH_DIESEL'] := 0.093;
-
 # Freight mobility LD distribution (MOB_FREIGHT_ROAD_LD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['SEMI_LH_DIESEL_LD'] := 0.983;
@@ -289,20 +196,10 @@ let fmax_perc_mob['SEMI_LH_DIESEL_LD'] := 1;
 let fmax_perc_mob['TRUCK_LH_DIESEL_LD'] := 1;
 let fmax_perc_mob['TRUCK_LH_GASOLINE_LD'] := 1;
 
-# let c_p['SEMI_LH_DIESEL_LD'] := 0.093;
-# let c_p['TRUCK_LH_DIESEL_LD'] := 0.093;
-# let c_p['TRUCK_LH_GASOLINE_LD'] := 0.093;
-
-# let c_p['SEMI_LH_DIESEL'] := 0.093;
-# let c_p['TRUCK_LH_DIESEL'] := 0.093;
-# let c_p['TRUCK_LH_GASOLINE'] := 0.093;
-
 # Freight mobility LD distribution (MOB_FREIGHT_RAIL_LD)
 # Source: souttreDemandsGoogleDrive2024
 let fmin_perc_mob['TRAIN_FREIGHT_DIESEL_LD'] := 1;
 let fmax_perc_mob['TRAIN_FREIGHT_DIESEL_LD'] := 1;
-# let c_p['TRAIN_FREIGHT_DIESEL_LD'] := 0.342;
-# let c_p['TRAIN_FREIGHT_DIESEL'] := 0.342;
 
 # Freight mobility ELD distribution MOB_FREIGHT_ELD
 # Source: souttreDemandsGoogleDrive2024
@@ -313,14 +210,6 @@ let fmin_perc_mob['PLANE_FREIGHT_ELD'] := 1;
 let fmax_perc_mob['TRAIN_FREIGHT_DIESEL_ELD'] := 1;
 let fmax_perc_mob['SEMI_LH_DIESEL_ELD'] := 1;
 let fmax_perc_mob['PLANE_FREIGHT_ELD'] := 1;
-
-# let c_p['TRAIN_FREIGHT_DIESEL_ELD'] := 0.342;
-# let c_p['SEMI_LH_DIESEL_ELD'] := 0.093;
-# let c_p['PLANE_FREIGHT_ELD'] := 0.60;
-
-# let c_p['TRAIN_FREIGHT_DIESEL'] := 0.342;
-# let c_p['SEMI_LH_DIESEL'] := 0.093;
-# let c_p['PLANE_FREIGHT'] := 0.60;
 
 
 # Enforce Mobility Repartition
