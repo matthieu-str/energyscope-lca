@@ -148,7 +148,9 @@ def generate_sankey_flows(results: Result, aggregate_mobility, aggregate_grid, a
     EUD = EUD.loc[EUD['end_uses_demand_year'] > 0, :]
     EUD = EUD.reset_index().groupby('index0').sum().reset_index().loc[:, ['index0', 'end_uses_demand_year']]
     EUD = EUD.rename(columns={'index0': 'source', 'end_uses_demand_year': 'value'})
-    EUD = EUD.loc[EUD['source'].str.contains('ELECTRICITY'), :]
+    EUD = EUD.loc[(EUD['source'].str.contains('ELECTRICITY'))
+                  | (EUD['source'].str.contains('LIGHTING'))
+                  | (EUD['source'].str.contains('HEAT_LOW_T_SC')), :]
     EUD['target'] = 'EUD_' + EUD['source']
 
     df_flow = pd.concat([df_flow, EUD]).reset_index().drop(columns='index')
@@ -210,9 +212,13 @@ def generate_sankey_flows(results: Result, aggregate_mobility, aggregate_grid, a
         # Extract all flows that have an input/output of ELECTRICITY
         df_elec = df_flow.loc[
                   df_flow['target'].str.contains('ELECTRICITY_') + df_flow['source'].str.contains('ELECTRICITY_'), :]
-        # Exception for exports
+        # Exception for exports, space cooling and lighting
         df_elec = df_elec.loc[~df_elec['target'].str.contains('EXPORT')]
         df_flow.loc[df_flow['target'].str.contains('EXPORT'), 'source'] = "ELECTRICITY"
+        df_elec = df_elec.loc[~df_elec['target'].str.contains('LIGHTING')]
+        df_flow.loc[df_flow['target'].str.contains('LIGHTING'), 'source'] = "ELECTRICITY"
+        df_elec = df_elec.loc[~df_elec['target'].str.contains('HEAT_LOW_T_SC')]
+        df_flow.loc[df_flow['target'].str.contains('HEAT_LOW_T_SC'), 'source'] = "ELECTRICITY"
         # Drop them from the main df
         df_flow = df_flow.drop(df_elec.index)
         # Remove the flows related to the grid infrastructure
