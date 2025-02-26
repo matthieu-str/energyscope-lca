@@ -1,31 +1,31 @@
 #------------------------------------------------- Electricity Production ------------------------------------------#
 
 # Adding virtual technology to avoid infeasibility
-let layers_in_out['VIRTUAL_TECH','ELECTRICITY_EHV'] := 1.0 ;
-let c_inv['VIRTUAL_TECH'] := 0 ;
-let c_maint['VIRTUAL_TECH'] := 0 ;
-let c_p['VIRTUAL_TECH'] := 1 ;
-let ref_size['VIRTUAL_TECH'] := 1 ;
+# let layers_in_out['VIRTUAL_TECH','ELECTRICITY_EHV'] := 1.0 ;
+# let c_inv['VIRTUAL_TECH'] := 0 ;
+# let c_maint['VIRTUAL_TECH'] := 0 ;
+# let c_p['VIRTUAL_TECH'] := 1 ;
+# let ref_size['VIRTUAL_TECH'] := 1 ;
 
 # Electricity production installed power
 # Set every electricity production technology to zero.
 let {i in TECHNOLOGIES diff STORAGE_TECH diff INFRASTRUCTURE_ELEC_GRID, e in ELECTRICITY_LAYERS: layers_in_out[i,e]>0} f_max[i]:=0 ;
 
-let f_min['WIND_ONSHORE'] := 4.363 ; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_max['WIND_ONSHORE'] := 4.363 ; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
+let f_min['WIND_ONSHORE'] := 3.947 ; 	#Source: statisticscanadaInstalledPlantsAnnual2024
+let f_max['WIND_ONSHORE'] := 3.947 ; 	#Source: statisticscanadaInstalledPlantsAnnual2024
 let f_min['HYDRO_RIVER'] := 15.130 ; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
 let f_max['HYDRO_RIVER'] := 15.130 ;    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
 let f_min['HYDRO_DAM'] := 26.357 ; 	    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
 let f_max['HYDRO_DAM'] := 26.357 ;      #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_min['PV'] := 0.0095 ; 			#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_max['PV'] := 0.0095 ;  		    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
+let f_min['PV'] := 0.0118 ; 			#Source: statisticscanadaInstalledPlantsAnnual2024
+let f_max['PV'] := 0.0118 ;  		    #Source: statisticscanadaInstalledPlantsAnnual2024
 
-let f_min['CCGT'] := 0.531 ; 		    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_max['CCGT'] := 0.532 ;  		    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
+let f_min['CCGT'] := 0.541+0.811 ; 		#Source: statisticscanadaInstalledPlantsAnnual2024
+let f_max['CCGT'] := 0.542+0.811 ;  	#Source: statisticscanadaInstalledPlantsAnnual2024
 
 
-let f_max['VIRTUAL_TECH']:= 1.6230727742903 ;
-let f_min['VIRTUAL_TECH']:= 1.6230727742903 ;
+# let f_max['VIRTUAL_TECH']:= 1.62318207441498 ;
+# let f_min['VIRTUAL_TECH']:= 1.62318207441498 ;
 
 let f_max['HYDRO_STORAGE']:= 0;
 let f_min['HYDRO_STORAGE']:= 0;
@@ -41,7 +41,6 @@ let avail['LNG'] := 0 ; # GWh
 # Carbon Capture
 let f_max['DAC_LT']:= 0;
 let f_max['DAC_HT']:= 0;
-let f_max['VIRTUAL_CC']:= 0;
 
 #--------------------------------------------------- Mobility ----------------------------------------------#
 
@@ -50,13 +49,13 @@ let {i in MOBILITY_TYPE, j in TECHNOLOGIES_OF_MOB_TYPE[i]} fmax_perc_mob[j]:=0 ;
 
 # Private mobility SD distribution (MOB_PRIVATE_ROAD_SD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['CAR_DIESEL_SD'] := 0.005;
-let fmin_perc_mob['CAR_GASOLINE_SD'] := 0.5901;
-let fmin_perc_mob['CAR_PROPANE_SD'] := 0.0014;
-let fmin_perc_mob['CAR_CNG_SD'] := 0.0001;
-let fmin_perc_mob['SUV_DIESEL_SD'] := 0.0067;
-let fmin_perc_mob['SUV_GASOLINE_SD'] := 0.3962;
-let fmin_perc_mob['SUV_PROPANE_SD'] := 0.0002;
+let fmin_perc_mob['CAR_DIESEL_SD'] := 0.0043;
+let fmin_perc_mob['CAR_GASOLINE_SD'] := 0.5659;
+let fmin_perc_mob['CAR_PROPANE_SD'] := 0.0010;
+let fmin_perc_mob['CAR_CNG_SD'] := 0.0;
+let fmin_perc_mob['SUV_DIESEL_SD'] := 0.0063;
+let fmin_perc_mob['SUV_GASOLINE_SD'] := 0.4223;
+let fmin_perc_mob['SUV_PROPANE_SD'] := 0.0001;
 
 let fmax_perc_mob['CAR_DIESEL_SD'] := 1;
 let fmax_perc_mob['CAR_GASOLINE_SD'] := 1;
@@ -68,13 +67,13 @@ let fmax_perc_mob['SUV_PROPANE_SD'] := 1;
 
 # Private mobility MD distribution (MOB_PRIVATE_ROAD_MD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['CAR_DIESEL_MD'] := 0.005;
-let fmin_perc_mob['CAR_GASOLINE_MD'] := 0.5901;
-let fmin_perc_mob['CAR_PROPANE_MD'] := 0.0014;
-let fmin_perc_mob['CAR_CNG_MD'] := 0.0001;
-let fmin_perc_mob['SUV_DIESEL_MD'] := 0.0067;
-let fmin_perc_mob['SUV_GASOLINE_MD'] := 0.3962;
-let fmin_perc_mob['SUV_PROPANE_MD'] := 0.0002;
+let fmin_perc_mob['CAR_DIESEL_MD'] := 0.0043;
+let fmin_perc_mob['CAR_GASOLINE_MD'] := 0.5659;
+let fmin_perc_mob['CAR_PROPANE_MD'] := 0.0010;
+let fmin_perc_mob['CAR_CNG_MD'] := 0.0;
+let fmin_perc_mob['SUV_DIESEL_MD'] := 0.0063;
+let fmin_perc_mob['SUV_GASOLINE_MD'] := 0.4223;
+let fmin_perc_mob['SUV_PROPANE_MD'] := 0.0001;
 
 let fmax_perc_mob['CAR_DIESEL_MD'] := 1;
 let fmax_perc_mob['CAR_GASOLINE_MD'] := 1;
@@ -86,13 +85,13 @@ let fmax_perc_mob['SUV_PROPANE_MD'] := 1;
 
 # Private mobility LD distribution (MOB_PRIVATE_ROAD_LD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['CAR_DIESEL_LD'] := 0.005;
-let fmin_perc_mob['CAR_GASOLINE_LD'] := 0.5901;
-let fmin_perc_mob['CAR_PROPANE_LD'] := 0.0014;
-let fmin_perc_mob['CAR_CNG_LD'] := 0.0001;
-let fmin_perc_mob['SUV_DIESEL_LD'] := 0.0067;
-let fmin_perc_mob['SUV_GASOLINE_LD'] := 0.3962;
-let fmin_perc_mob['SUV_PROPANE_LD'] := 0.0002;
+let fmin_perc_mob['CAR_DIESEL_LD'] := 0.0043;
+let fmin_perc_mob['CAR_GASOLINE_LD'] := 0.5659;
+let fmin_perc_mob['CAR_PROPANE_LD'] := 0.0010;
+let fmin_perc_mob['CAR_CNG_LD'] := 0.0;
+let fmin_perc_mob['SUV_DIESEL_LD'] := 0.0063;
+let fmin_perc_mob['SUV_GASOLINE_LD'] := 0.4223;
+let fmin_perc_mob['SUV_PROPANE_LD'] := 0.0001;
 
 let fmax_perc_mob['CAR_DIESEL_LD'] := 1;
 let fmax_perc_mob['CAR_GASOLINE_LD'] := 1;
@@ -104,12 +103,12 @@ let fmax_perc_mob['SUV_PROPANE_LD'] := 1;
 
 # Public mobility SD distribution (MOB_PUBLIC_ROAD_SD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['SCHOOLBUS_DIESEL_SD'] := 0.293;	
+let fmin_perc_mob['SCHOOLBUS_DIESEL_SD'] := 0.294;	
 let fmin_perc_mob['SCHOOLBUS_GASOLINE_SD'] := 0.048;	
 let fmin_perc_mob['SCHOOLBUS_CNG_SD'] := 0.210;
-let fmin_perc_mob['BUS_DIESEL_SD'] := 0.162;
-let fmin_perc_mob['BUS_EV_SD'] := 0.266;
-let fmin_perc_mob['BUS_CNG_SD'] := 0.011;
+let fmin_perc_mob['BUS_DIESEL_SD'] := 0.163;
+let fmin_perc_mob['BUS_EV_SD'] := 0.267;
+let fmin_perc_mob['BUS_CNG_SD'] := 0.012;
 let fmin_perc_mob['BUS_GASOLINE_SD'] := 0.004;
 
 let fmax_perc_mob['SCHOOLBUS_DIESEL_SD'] := 1;
@@ -127,8 +126,8 @@ let fmax_perc_mob['TRAMWAY_SD'] := 1;
 
 # Public mobility MD distribution (MOB_PUBLIC_ROAD_MD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['COACH_DIESEL_MD'] := 0.8310;
-let fmin_perc_mob['COACH_GASOLINE_MD'] := 0.1690;
+let fmin_perc_mob['COACH_DIESEL_MD'] := 0.8316;
+let fmin_perc_mob['COACH_GASOLINE_MD'] := 0.1683;
 
 let fmax_perc_mob['COACH_DIESEL_MD'] := 1;
 let fmax_perc_mob['COACH_GASOLINE_MD'] := 1;
@@ -140,8 +139,8 @@ let fmax_perc_mob['COMMUTER_RAIL_DIESEL_MD'] := 1;
 
 # Public mobility LD distribution (MOB_PUBLIC_ROAD_LD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['COACH_DIESEL_LD'] := 0.8310;
-let fmin_perc_mob['COACH_GASOLINE_LD'] := 0.1690;
+let fmin_perc_mob['COACH_DIESEL_LD'] := 0.8316;
+let fmin_perc_mob['COACH_GASOLINE_LD'] := 0.1683;
 
 let fmax_perc_mob['COACH_DIESEL_LD'] := 1;
 let fmax_perc_mob['COACH_GASOLINE_LD'] := 1;
@@ -158,11 +157,11 @@ let fmax_perc_mob['PLANE_SH_LD'] := 1;
 
 # Freight mobility SD distribution (MOB_FREIGHT_ROAD_SD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['LCV_DIESEL_SD'] := 0.004;
-let fmin_perc_mob['LCV_GASOLINE_SD'] := 0.303;
-let fmin_perc_mob['LCV_PROPANE_SD'] := 0.002;
-let fmin_perc_mob['TRUCK_SH_DIESEL_SD'] := 0.333;
-let fmin_perc_mob['TRUCK_SH_GASOLINE_SD'] := 0.356;
+let fmin_perc_mob['LCV_DIESEL_SD'] := 0.0028;
+let fmin_perc_mob['LCV_GASOLINE_SD'] := 0.2463;
+let fmin_perc_mob['LCV_PROPANE_SD'] := 0.0010;
+let fmin_perc_mob['TRUCK_SH_DIESEL_SD'] := 0.5499;
+let fmin_perc_mob['TRUCK_SH_GASOLINE_SD'] := 0.1999;
 
 let fmax_perc_mob['LCV_DIESEL_SD'] := 1;
 let fmax_perc_mob['LCV_GASOLINE_SD'] := 1;
@@ -172,25 +171,23 @@ let fmax_perc_mob['TRUCK_SH_GASOLINE_SD'] := 1;
 
 # Freight mobility MD distribution (MOB_FREIGHT_ROAD_MD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['LCV_DIESEL_MD'] := 0.001;
-let fmin_perc_mob['LCV_GASOLINE_MD'] := 0.084;
-let fmin_perc_mob['LCV_PROPANE_MD'] := 0.001;
-let fmin_perc_mob['TRUCK_SH_DIESEL_MD'] := 0.093;
-let fmin_perc_mob['TRUCK_SH_GASOLINE_MD'] := 0.099;
-let fmin_perc_mob['SEMI_SH_DIESEL_MD'] := 0.721;
+let fmin_perc_mob['LCV_DIESEL_MD'] := 0.0014;
+let fmin_perc_mob['LCV_GASOLINE_MD'] := 0.0898;
+let fmin_perc_mob['TRUCK_SH_DIESEL_MD'] := 0.1250;
+let fmin_perc_mob['TRUCK_SH_GASOLINE_MD'] := 0.1096;
+let fmin_perc_mob['SEMI_SH_DIESEL_MD'] := 0.6735;
 
 let fmax_perc_mob['LCV_DIESEL_MD'] := 1;
 let fmax_perc_mob['LCV_GASOLINE_MD'] := 1;
-let fmax_perc_mob['LCV_PROPANE_MD'] := 1;
 let fmax_perc_mob['TRUCK_SH_DIESEL_MD'] := 1;
 let fmax_perc_mob['TRUCK_SH_GASOLINE_MD'] := 1;
 let fmax_perc_mob['SEMI_SH_DIESEL_MD'] := 1;
 
 # Freight mobility LD distribution (MOB_FREIGHT_ROAD_LD)
 # Source: souttreDemandsGoogleDrive2024
-let fmin_perc_mob['SEMI_LH_DIESEL_LD'] := 0.983;
-let fmin_perc_mob['TRUCK_LH_DIESEL_LD'] := 0.008;
-let fmin_perc_mob['TRUCK_LH_GASOLINE_LD'] := 0.008;
+let fmin_perc_mob['SEMI_LH_DIESEL_LD'] := 0.9781;
+let fmin_perc_mob['TRUCK_LH_DIESEL_LD'] := 0.0116;
+let fmin_perc_mob['TRUCK_LH_GASOLINE_LD'] := 0.0102;
 
 let fmax_perc_mob['SEMI_LH_DIESEL_LD'] := 1;
 let fmax_perc_mob['TRUCK_LH_DIESEL_LD'] := 1;
@@ -258,11 +255,11 @@ let share_heat_dhn_max := 0.02 ; # In 2020, the proportion of DHN was negligeabl
 
 
 # Decentralized Heat repartition
-let fmin_perc['DEC_DIRECT_ELEC'] := 0.552;		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let fmin_perc['DEC_HP_ELEC'] := 0.059;			# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let fmin_perc['DEC_BOILER_GAS'] := 0.242;		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let fmin_perc['DEC_BOILER_OIL'] := 0.070;		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let fmin_perc['DEC_BOILER_WOOD'] := 0.074;		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
+let fmin_perc['DEC_DIRECT_ELEC'] := 0.5586;		# Source: souttreDemandsGoogleDrive2024
+let fmin_perc['DEC_HP_ELEC'] := 0.0653;			# Source: souttreDemandsGoogleDrive2024
+let fmin_perc['DEC_BOILER_GAS'] := 0.2017;		# Source: souttreDemandsGoogleDrive2024
+let fmin_perc['DEC_BOILER_OIL'] := 0.0690;		# Source: souttreDemandsGoogleDrive2024
+let fmin_perc['DEC_BOILER_WOOD'] := 0.1054;		# Source: souttreDemandsGoogleDrive2024
 
 let fmax_perc['DEC_DIRECT_ELEC'] := 1;
 let fmax_perc['DEC_HP_ELEC'] := 1;
@@ -271,21 +268,21 @@ let fmax_perc['DEC_BOILER_OIL'] := 1;
 let fmax_perc['DEC_BOILER_WOOD'] := 1;
 
 
-let f_min['DHN_BOILER_GAS']:=0.350; 		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let f_min['DHN_BOILER_GAS']:=0.351; 		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let fmin_perc['DHN_BOILER_GAS']:=1; 		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
+let f_min['DHN_BOILER_GAS']:=0.350; 		# Source: CEEDC Data Center
+let f_max['DHN_BOILER_GAS']:=0.351; 		# Source: CEEDC Data Center
+let fmin_perc['DHN_BOILER_GAS']:=1; 		# Source: CEEDC Data Center
 
 let fmax_perc['DHN_BOILER_GAS']:=1;
 let fmax_perc['DHN_BOILER_GAS']:=1;
 let fmax_perc['DHN_BOILER_GAS']:=1;
 
 # Cogen 
-let f_max['IND_COGEN_GAS']:=0.582;			# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let f_min['IND_COGEN_GAS']:=0.581;			# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let f_max['IND_COGEN_WOOD']:=0.668;			# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let f_min['IND_COGEN_WOOD']:=0.667;			# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let f_max['IND_COGEN_WASTE']:=0.046;		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
-let f_min['IND_COGEN_WASTE']:=0.045;		# Source: souttreDemandsGoogleDrive2024, heating_systems.xlsx
+let f_max['IND_COGEN_GAS']:=0.580;			# Source: CEEDC Data Center
+let f_min['IND_COGEN_GAS']:=0.579;			# Source: CEEDC Data Center
+let f_max['IND_COGEN_WOOD']:=0.668;			# Source: CEEDC Data Center
+let f_min['IND_COGEN_WOOD']:=0.667;			# Source: CEEDC Data Center
+let f_max['IND_COGEN_WASTE']:=0.044;		# Source: CEEDC Data Center
+let f_min['IND_COGEN_WASTE']:=0.043;		# Source: CEEDC Data Center
 
 let fmax_perc['IND_COGEN_GAS']:=1;
 let fmax_perc['IND_COGEN_WOOD']:=1;
@@ -293,24 +290,41 @@ let fmax_perc['IND_COGEN_WASTE']:=1;
 
 let f_max['CO2_TO_DIESEL']:=0;
 let f_max['CO2_TO_JETFUELS']:=0;
+let f_max['STO_CO2'] := 0;
 
 
 # Industrial Heat repartition
-let fmin_perc['IND_BOILER_GAS']:=	0.493;	# Source: souttreDemandsGoogleDrive2024
-let fmin_perc['IND_BOILER_OIL']:=	0.279;	# Source: souttreDemandsGoogleDrive2024 
-let fmin_perc['IND_BOILER_COAL']:=	0.055;	# Source: souttreDemandsGoogleDrive2024 
-let fmin_perc['IND_BOILER_WOOD']:=	0.169;	# Source: souttreDemandsGoogleDrive2024 
-let fmax_perc['IND_BOILER_GAS']:=	0.494;	# Source: souttreDemandsGoogleDrive2024 
-let fmax_perc['IND_BOILER_OIL']:=	0.280;	# Source: souttreDemandsGoogleDrive2024 
-let fmax_perc['IND_BOILER_COAL']:=	0.056;	# Source: souttreDemandsGoogleDrive2024 
-let fmax_perc['IND_BOILER_WOOD']:=	0.170;	# Source: souttreDemandsGoogleDrive2024 
+let fmin_perc['IND_BOILER_GAS']:=	0.4851;	# Source: souttreDemandsGoogleDrive2024
+let fmin_perc['IND_BOILER_OIL']:=	0.2721;	# Source: souttreDemandsGoogleDrive2024
+let fmin_perc['IND_BOILER_COAL']:=	0.0495;	# Source: souttreDemandsGoogleDrive2024
+let fmin_perc['IND_BOILER_WOOD']:=	0.1932;	# Source: souttreDemandsGoogleDrive2024
+
+let fmax_perc['IND_BOILER_GAS']:=	1;
+let fmax_perc['IND_BOILER_OIL']:=	1;
+let fmax_perc['IND_BOILER_COAL']:=	1;
+let fmax_perc['IND_BOILER_WOOD']:=	1;
 
 
 # ---------------------------------------- Infrastructures ----------------------------------------------------#
 
-# Electricity Imports and exports 2020
-let end_uses_demand_year['ELECTRICITY_EHV_EXPORT','EXPORT'] :=	24341.8; # GWh Average annual export over Period 2013-2022
-let avail['ELECTRICITY_EHV'] := 21000;
+# Electricity Imports and exports 2021
+let end_uses_demand_year['ELECTRICITY_EHV_EXPORT','EXPORT'] :=	38889;
+# let avail['ELECTRICITY_EHV'] := 32778;
+
+# Remove losses from transformers
+let layers_in_out['TRAFO_EH', 'ELECTRICITY_EHV'] := -1.0 ;
+let layers_in_out['TRAFO_EH', 'ELECTRICITY_HV'] := 1.0 ;
+let layers_in_out['TRAFO_HE', 'ELECTRICITY_HV'] := -1.0 ;
+let layers_in_out['TRAFO_HE', 'ELECTRICITY_EHV'] := 1.0 ;
+let layers_in_out['TRAFO_HM', 'ELECTRICITY_HV'] := -1.0 ;
+let layers_in_out['TRAFO_HM', 'ELECTRICITY_MV'] := 1.0 ;
+let layers_in_out['TRAFO_MH', 'ELECTRICITY_MV'] := -1.0 ;
+let layers_in_out['TRAFO_MH', 'ELECTRICITY_HV'] := 1.0 ;
+let layers_in_out['TRAFO_ML', 'ELECTRICITY_MV'] := -1.0 ;
+let layers_in_out['TRAFO_ML', 'ELECTRICITY_LV'] := 1.0 ;
+let layers_in_out['TRAFO_LM', 'ELECTRICITY_LV'] := -1.0 ;
+let layers_in_out['TRAFO_LM', 'ELECTRICITY_MV'] := 1.0 ;
+
 
 # scenarios
 

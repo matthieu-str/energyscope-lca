@@ -156,10 +156,10 @@ set TECHNOLOGIES_OF_END_USES_TYPE["MOB_FREIGHT_ELD"] :=	TRAIN_FREIGHT_DIESEL_ELD
 														PLANE_FREIGHT_ELD;
 
 set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_LV"] := 	PV	TRAFO_ML;
-set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_MV"] := 	AN_DIG_SI	GEOTHERMAL	HYDRO_GAS_CHP	TIDAL	TRAFO_HM	TRAFO_LM	WIND_OFFSHORE	WIND_ONSHORE;
+set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_MV"] := 	AN_DIG_SI	GEOTHERMAL	HYDRO_GAS_CHP	TIDAL	TRAFO_HM	TRAFO_LM	WIND_OFFSHORE	WIND_ONSHORE VIRTUAL_TECH;
 set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_HV"] := 	CCGT	CCGT_CC	COAL_IGCC	COAL_IGCC_CC	COAL_US	COAL_US_CC	H2_CCGT	H2_NG_CCGT	H2_NG_CCGT_CCS	
 															OCGT_LARGE	OCGT_SMALL	TRAFO_EH	TRAFO_MH;
-set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_EHV"] := NUCLEAR	TRAFO_HE HYDRO_RIVER	NEW_HYDRO_DAM	NEW_HYDRO_RIVER HYDRO_DAM VIRTUAL_TECH;
+set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_EHV"] := NUCLEAR	TRAFO_HE HYDRO_RIVER	NEW_HYDRO_DAM	NEW_HYDRO_RIVER HYDRO_DAM;
 
 set TECHNOLOGIES_OF_END_USES_TYPE["HEAT_HIGH_T"] := IND_BOILER_COAL	IND_BOILER_GAS	IND_BOILER_OIL	IND_BOILER_WASTE	IND_BOILER_WASTE_CC	IND_BOILER_WOOD
 													IND_COGEN_GAS	IND_COGEN_WASTE	IND_COGEN_WASTE_CC	IND_COGEN_WOOD	IND_DIRECT_ELEC	IND_HP_ELEC;
@@ -526,58 +526,57 @@ EHP_NG_GRID		6
 
 
 # Losses
-let loss_coeff['ELECTRICITY_EHV'] :=	0.012;	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
-let loss_coeff['ELECTRICITY_HV'] :=		0.010;	#	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
-let loss_coeff['ELECTRICITY_MV'] :=		0.017;	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
-let loss_coeff['ELECTRICITY_LV'] := 	0.033;	#	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_EHV'] :=	3.09e-2;    #4.71e-2	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_HV'] :=		1.45e-4;    #2.41e-4	#	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_MV'] :=		1.46e-3;    #2.83e-3	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_LV'] := 	4.91e-4;	#1e-3       #	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
 
 
 
 
 # TRANSPORTATION
-let end_uses_demand_year['MOBILITY_FREIGHT_ELD','TRANSPORTATION'] := 43158.05 ; # Average over 1 value(s) of (43158.05 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_LD','TRANSPORTATION'] := 20729.93 ; # Average over 1 value(s) of (20729.93 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_MD','TRANSPORTATION'] := 26577.7 ; # Average over 1 value(s) of (26577.7 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_SD','TRANSPORTATION'] := 7914.59 ; # Average over 1 value(s) of (7914.59 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_PASSENGER_LD','TRANSPORTATION'] := 16613.36 ; # Average over 1 value(s) of (16613.36 Mpkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_PASSENGER_MD','TRANSPORTATION'] := 52183.11 ; # Average over 1 value(s) of (52183.11 Mpkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_PASSENGER_SD','TRANSPORTATION'] := 60575.77 ; # Average over 1 value(s) of (60575.77 Mpkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-
+let end_uses_demand_year['MOBILITY_FREIGHT_ELD','TRANSPORTATION'] := 43158.05 ; # Average over 1 value(s) of (43158.05 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_LD','TRANSPORTATION'] := 20729.93 ; # Average over 1 value(s) of (20729.93 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_MD','TRANSPORTATION'] := 26577.7 ; # Average over 1 value(s) of (26577.7 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_SD','TRANSPORTATION'] := 7914.59 ; # Average over 1 value(s) of (7914.59 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_PASSENGER_LD','TRANSPORTATION'] := 16613.36 ; # Average over 1 value(s) of (16613.36 Mpkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_PASSENGER_MD','TRANSPORTATION'] := 52183.11 ; # Average over 1 value(s) of (52183.11 Mpkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_PASSENGER_SD','TRANSPORTATION'] := 60575.77 ; # Average over 1 value(s) of (60575.77 Mpkm from naturalresourcescanada2024 set: QC)
 
 # HOUSEHOLDS
-let end_uses_demand_year['ELECTRICITY_LV','HOUSEHOLDS'] := 16909.51 ; # Average over 1 value(s) of (16909.51 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','HOUSEHOLDS'] := 12233.98 ; # Average over 1 value(s) of (12233.98 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SC','HOUSEHOLDS'] := 2698.06 ; # Average over 1 value(s) of (2698.06 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','HOUSEHOLDS'] := 51163.46 ; # Average over 1 value(s) of (51163.46 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['LIGHTING','HOUSEHOLDS'] := 4141.92 ; # Average over 1 value(s) of (4141.92 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
+let end_uses_demand_year['ELECTRICITY_LV','HOUSEHOLDS'] := 16909.51 ; # Average over 1 value(s) of (16909.51 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','HOUSEHOLDS'] := 12245.98 ; # Average over 1 value(s) of (12245.98 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SC','HOUSEHOLDS'] := 2698.06 ; # Average over 1 value(s) of (2698.06 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','HOUSEHOLDS'] := 52688.96 ; # Average over 1 value(s) of (52688.96 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['LIGHTING','HOUSEHOLDS'] := 4141.92 ; # Average over 1 value(s) of (4141.92 GWh from naturalresourcescanada2024b set: QC)
 
 
 # SERVICES
-let end_uses_demand_year['ELECTRICITY_LV','SERVICES'] := 10302.34 ; # Average over 1 value(s) of (10302.34 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['ELECTRICITY_MV','SERVICES'] := 3738.43 ; # Average over 1 value(s) of (3738.43 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_HIGH_T','SERVICES'] := 843.24 ; # Average over 1 value(s) of (843.24 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','SERVICES'] := 2800.0 ; # Average over 1 value(s) of (2800.0 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SC','SERVICES'] := 3310.32 ; # Average over 1 value(s) of (3310.32 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','SERVICES'] := 21094.08 ; # Average over 1 value(s) of (21094.08 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['LIGHTING','SERVICES'] := 11818.53 ; # Average over 1 value(s) of (11818.53 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
+let end_uses_demand_year['ELECTRICITY_LV','SERVICES'] := 10145.21 ; # Average over 1 value(s) of (10145.21 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['ELECTRICITY_MV','SERVICES'] := 3738.43 ; # Average over 1 value(s) of (3738.43 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_HIGH_T','SERVICES'] := 1017.59 ; # Average over 1 value(s) of (1017.59 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','SERVICES'] := 2870.39 ; # Average over 1 value(s) of (2870.39 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SC','SERVICES'] := 3310.32 ; # Average over 1 value(s) of (3310.32 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','SERVICES'] := 21302.37 ; # Average over 1 value(s) of (21302.37 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['LIGHTING','SERVICES'] := 11818.53 ; # Average over 1 value(s) of (11818.53 GWh from naturalresourcescanada2024e set: QC)
 
 
 # INDUSTRY
-let end_uses_demand_year['ELECTRICITY_EHV','INDUSTRY'] := 6145.77 ; # Average over 1 value(s) of (6145.77 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['ELECTRICITY_HV','INDUSTRY'] := 69490.28 ; # Average over 1 value(s) of (69490.28 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['ELECTRICITY_MV','INDUSTRY'] := 11387.06 ; # Average over 1 value(s) of (11387.06 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['HEAT_HIGH_T','INDUSTRY'] := 60059.74 ; # Average over 1 value(s) of (60059.74 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','INDUSTRY'] := 644.42 ; # Average over 1 value(s) of (644.42 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','INDUSTRY'] := 5770.84 ; # Average over 1 value(s) of (5770.84 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['LIGHTING','INDUSTRY'] := 5554.67 ; # Average over 1 value(s) of (5554.67 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
+let end_uses_demand_year['ELECTRICITY_EHV','INDUSTRY'] := 6145.77 ; # Average over 1 value(s) of (6145.77 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['ELECTRICITY_HV','INDUSTRY'] := 69490.28 ; # Average over 1 value(s) of (69490.28 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['ELECTRICITY_MV','INDUSTRY'] := 11387.06 ; # Average over 1 value(s) of (11387.06 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['HEAT_HIGH_T','INDUSTRY'] := 65466.88 ; # Average over 1 value(s) of (65466.88 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','INDUSTRY'] := 697.87 ; # Average over 1 value(s) of (697.87 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','INDUSTRY'] := 6246.67 ; # Average over 1 value(s) of (6246.67 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['LIGHTING','INDUSTRY'] := 5554.67 ; # Average over 1 value(s) of (5554.67 GWh from naturalresourcescanada2024c set: QC)
 
 
 # AGRICULTURE
-let end_uses_demand_year['ELECTRICITY_MV','AGRICULTURE'] := 1976.53 ; # Average over 1 value(s) of (1976.53 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','AGRICULTURE'] := 126.63 ; # Average over 1 value(s) of (126.63 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','AGRICULTURE'] := 1139.63 ; # Average over 1 value(s) of (1139.63 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['LIGHTING','AGRICULTURE'] := 82.36 ; # Average over 1 value(s) of (82.36 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_SD','AGRICULTURE'] := 7982.09 ; # Average over 1 value(s) of (7982.09 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
+let end_uses_demand_year['ELECTRICITY_MV','AGRICULTURE'] := 1976.53 ; # Average over 1 value(s) of (1976.53 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','AGRICULTURE'] := 126.63 ; # Average over 1 value(s) of (126.63 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','AGRICULTURE'] := 1139.63 ; # Average over 1 value(s) of (1139.63 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['LIGHTING','AGRICULTURE'] := 82.36 ; # Average over 1 value(s) of (82.36 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_SD','AGRICULTURE'] := 12150.56 ; # Average over 1 value(s) of (12150.56 Mtkm from naturalresourcescanada2024f set: QC)
 
 
 
