@@ -3,15 +3,16 @@ let share_heat_dhn_min := 0 ; #
 let share_heat_dhn_max := 0.5 ; # 
 
 # scenarios
-#let co2_limit:= 1e10;
-let co2_limit:= 0;
+#let co2_limit:= 0;
+#let limit_direct['m_CCS'] := 0 ;
 
 # Existing electricity production infrastructures 
-let f_min['WIND_ONSHORE'] := 4.3 ; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_min['HYDRO_RIVER'] := 15.13; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_max['HYDRO_RIVER'] := 15.13 ; #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_min['HYDRO_DAM'] := 25.72 ; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
-let f_max['HYDRO_DAM'] := 25.72 ;   #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
+let f_min['WIND_ONSHORE'] := 3.947 ; 	#Source: statisticscanadaInstalledPlantsAnnual2024
+let f_min['PV'] := 0.0118 ; 			#Source: statisticscanadaInstalledPlantsAnnual2024
+let f_min['HYDRO_RIVER'] := 15.130 ; 	#Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
+let f_max['HYDRO_RIVER'] := 15.130 ;    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
+let f_min['HYDRO_DAM'] := 26.357 ; 	    #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
+let f_max['HYDRO_DAM'] := 26.357 ;      #Source: gouvernementducanadaProfilsEnergetiquesProvinces2024
 
 for{t in PERIODS}{
 	let c_op['H2_EHP',t] := 0.116 # between 0.052 and 0.180 according to IEA https://www.iea.org/reports/global-hydrogen-review-2022/executive-summary
