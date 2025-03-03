@@ -6,7 +6,7 @@ var TotalDIRECT {INDICATORS} >= 0;
 
 # Operation
 subject to direct_op_calc {id in INDICATORS, i in TECHNOLOGIES}:
-  DIRECT_op[id,i] >= direct_op[id,i] * sum {t in PERIODS} (t_op[t] * F_Mult_t[i, t]);
+  DIRECT_op[id,i] = direct_op[id,i] * sum {t in PERIODS} (t_op[t] * F_Mult_t[i, t]);
 
 subject to totalDIRECT_calc_r {id in INDICATORS}:
   TotalDIRECT[id] = sum {i in TECHNOLOGIES} DIRECT_op[id,i];

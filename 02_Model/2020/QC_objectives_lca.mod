@@ -13,15 +13,15 @@ var TotalLCIA {INDICATORS} >= 0;
 
 # Construction
 subject to lcia_constr_calc {id in INDICATORS, i in TECHNOLOGIES}:
-  LCIA_constr[id,i] >= (1/refactor[id]) * lcia_constr[id,i] * F_Mult[i];
+  LCIA_constr[id,i] = (1/refactor[id]) * lcia_constr[id,i] * F_Mult[i];
 
 # Operation
 subject to lcia_op_calc {id in INDICATORS, i in TECHNOLOGIES}:
-  LCIA_op[id,i] >= lcia_op[id,i] * sum {t in PERIODS} (t_op[t] * F_Mult_t[i, t]);
+  LCIA_op[id,i] = lcia_op[id,i] * sum {t in PERIODS} (t_op[t] * F_Mult_t[i, t]);
 
 # Resources
 subject to lcia_res_calc {id in INDICATORS, r in RESOURCES}:
-  LCIA_res[id,r] >= lcia_res[id,r] * sum {t in PERIODS} (t_op[t] * F_Mult_t[r, t]);
+  LCIA_res[id,r] = lcia_res[id,r] * sum {t in PERIODS} (t_op[t] * F_Mult_t[r, t]);
 
 subject to totalLCIA_calc_r {id in INDICATORS}:
   TotalLCIA[id] = sum {i in TECHNOLOGIES} (LCIA_constr[id,i] / lifetime[i]  + LCIA_op[id,i]) + sum{r in RESOURCES} (LCIA_res[id,r]);
