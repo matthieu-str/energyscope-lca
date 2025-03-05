@@ -159,7 +159,7 @@ set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_LV"] := 	PV	TRAFO_ML;
 set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_MV"] := 	AN_DIG_SI	GEOTHERMAL	HYDRO_GAS_CHP	TIDAL	TRAFO_HM	TRAFO_LM	WIND_OFFSHORE	WIND_ONSHORE;
 set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_HV"] := 	CCGT	CCGT_CC	COAL_IGCC	COAL_IGCC_CC	COAL_US	COAL_US_CC	H2_CCGT	H2_NG_CCGT	H2_NG_CCGT_CCS	
 															OCGT_LARGE	OCGT_SMALL	TRAFO_EH	TRAFO_MH;
-set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_EHV"] := NUCLEAR	TRAFO_HE HYDRO_RIVER	NEW_HYDRO_DAM	NEW_HYDRO_RIVER HYDRO_DAM VIRTUAL_TECH;
+set TECHNOLOGIES_OF_END_USES_TYPE["ELECTRICITY_EHV"] := NUCLEAR	TRAFO_HE HYDRO_RIVER	NEW_HYDRO_DAM	NEW_HYDRO_RIVER HYDRO_DAM;
 
 set TECHNOLOGIES_OF_END_USES_TYPE["HEAT_HIGH_T"] := IND_BOILER_COAL	IND_BOILER_GAS	IND_BOILER_OIL	IND_BOILER_WASTE	IND_BOILER_WASTE_CC	IND_BOILER_WOOD
 													IND_COGEN_GAS	IND_COGEN_WASTE	IND_COGEN_WASTE_CC	IND_COGEN_WOOD	IND_DIRECT_ELEC	IND_HP_ELEC;
@@ -526,96 +526,95 @@ EHP_NG_GRID		6
 
 
 # Losses
-let loss_coeff['ELECTRICITY_EHV'] :=	0.012;	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
-let loss_coeff['ELECTRICITY_HV'] :=		0.010;	#	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
-let loss_coeff['ELECTRICITY_MV'] :=		0.017;	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
-let loss_coeff['ELECTRICITY_LV'] := 	0.033;	#	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_EHV'] :=	3.09e-2;    #4.71e-2	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_HV'] :=		1.45e-4;    #2.41e-4	#	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_MV'] :=		1.46e-3;    #2.83e-3	# 	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
+let loss_coeff['ELECTRICITY_LV'] := 	4.91e-4;	#1e-3       #	[1] Hydro-Québec, “Nos Grands Equipements.” 2023. Accessed: Oct. 04, 2024. [Online]. Available: https://www.hydroquebec.com/data/enseignants/pdf/grands-equipements-hydro-quebec.pdf, Excel file
 
 
 
 
 # TRANSPORTATION
-let end_uses_demand_year['MOBILITY_FREIGHT_ELD','TRANSPORTATION'] := 43158.05 ; # Average over 1 value(s) of (43158.05 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_LD','TRANSPORTATION'] := 20729.93 ; # Average over 1 value(s) of (20729.93 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_MD','TRANSPORTATION'] := 26577.7 ; # Average over 1 value(s) of (26577.7 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_SD','TRANSPORTATION'] := 7914.59 ; # Average over 1 value(s) of (7914.59 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_PASSENGER_LD','TRANSPORTATION'] := 16613.36 ; # Average over 1 value(s) of (16613.36 Mpkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_PASSENGER_MD','TRANSPORTATION'] := 52183.11 ; # Average over 1 value(s) of (52183.11 Mpkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-let end_uses_demand_year['MOBILITY_PASSENGER_SD','TRANSPORTATION'] := 60575.77 ; # Average over 1 value(s) of (60575.77 Mpkm from naturalresourcescanadaComprehensiveEnergyUse2020e set: QC)
-
+let end_uses_demand_year['MOBILITY_FREIGHT_ELD','TRANSPORTATION'] := 43158.05*1.143158911 ; # Average over 1 value(s) of (43158.05 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_LD','TRANSPORTATION'] := 20729.93*1.143158911 ; # Average over 1 value(s) of (20729.93 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_MD','TRANSPORTATION'] := 26577.7*1.143158911 ; # Average over 1 value(s) of (26577.7 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_SD','TRANSPORTATION'] := 7914.59*1.143158911 ; # Average over 1 value(s) of (7914.59 Mtkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_PASSENGER_LD','TRANSPORTATION'] := 16613.36*1.521592153 ; # Average over 1 value(s) of (16613.36 Mpkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_PASSENGER_MD','TRANSPORTATION'] := 52183.11*1.521592153 ; # Average over 1 value(s) of (52183.11 Mpkm from naturalresourcescanada2024 set: QC)
+let end_uses_demand_year['MOBILITY_PASSENGER_SD','TRANSPORTATION'] := 60575.77*1.521592153 ; # Average over 1 value(s) of (60575.77 Mpkm from naturalresourcescanada2024 set: QC)
 
 # HOUSEHOLDS
-let end_uses_demand_year['ELECTRICITY_LV','HOUSEHOLDS'] := 16909.51 ; # Average over 1 value(s) of (16909.51 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','HOUSEHOLDS'] := 12233.98 ; # Average over 1 value(s) of (12233.98 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SC','HOUSEHOLDS'] := 2698.06 ; # Average over 1 value(s) of (2698.06 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','HOUSEHOLDS'] := 51163.46 ; # Average over 1 value(s) of (51163.46 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
-let end_uses_demand_year['LIGHTING','HOUSEHOLDS'] := 4141.92 ; # Average over 1 value(s) of (4141.92 GWh from naturalresourcescanadaComprehensiveEnergyUse2020c set: QC)
+let end_uses_demand_year['ELECTRICITY_LV','HOUSEHOLDS'] := 16909.51*0.929409756 ; # Average over 1 value(s) of (16909.51 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','HOUSEHOLDS'] := 12245.98*0.929409756 ; # Average over 1 value(s) of (12245.98 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SC','HOUSEHOLDS'] := 2698.06*0.929409756 ; # Average over 1 value(s) of (2698.06 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','HOUSEHOLDS'] := 52688.96*0.929409756 ; # Average over 1 value(s) of (52688.96 GWh from naturalresourcescanada2024b set: QC)
+let end_uses_demand_year['LIGHTING','HOUSEHOLDS'] := 4141.92*0.929409756 ; # Average over 1 value(s) of (4141.92 GWh from naturalresourcescanada2024b set: QC)
 
 
 # SERVICES
-let end_uses_demand_year['ELECTRICITY_LV','SERVICES'] := 10302.34 ; # Average over 1 value(s) of (10302.34 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['ELECTRICITY_MV','SERVICES'] := 3738.43 ; # Average over 1 value(s) of (3738.43 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_HIGH_T','SERVICES'] := 843.24 ; # Average over 1 value(s) of (843.24 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','SERVICES'] := 2800.0 ; # Average over 1 value(s) of (2800.0 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SC','SERVICES'] := 3310.32 ; # Average over 1 value(s) of (3310.32 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','SERVICES'] := 21094.08 ; # Average over 1 value(s) of (21094.08 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
-let end_uses_demand_year['LIGHTING','SERVICES'] := 11818.53 ; # Average over 1 value(s) of (11818.53 GWh from naturalresourcescanadaComprehensiveEnergyUse2020a set: QC)
+let end_uses_demand_year['ELECTRICITY_LV','SERVICES'] := 10145.21*1.361669877 ; # Average over 1 value(s) of (10145.21 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['ELECTRICITY_MV','SERVICES'] := 3738.43*1.361669877 ; # Average over 1 value(s) of (3738.43 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_HIGH_T','SERVICES'] := 1017.59*1.361669877 ; # Average over 1 value(s) of (1017.59 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','SERVICES'] := 2870.39*1.361669877 ; # Average over 1 value(s) of (2870.39 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SC','SERVICES'] := 3310.32*1.361669877 ; # Average over 1 value(s) of (3310.32 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','SERVICES'] := 21302.37*1.361669877 ; # Average over 1 value(s) of (21302.37 GWh from naturalresourcescanada2024e set: QC)
+let end_uses_demand_year['LIGHTING','SERVICES'] := 11818.53*1.361669877 ; # Average over 1 value(s) of (11818.53 GWh from naturalresourcescanada2024e set: QC)
 
 
 # INDUSTRY
-let end_uses_demand_year['ELECTRICITY_EHV','INDUSTRY'] := 6145.77 ; # Average over 1 value(s) of (6145.77 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['ELECTRICITY_HV','INDUSTRY'] := 69490.28 ; # Average over 1 value(s) of (69490.28 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['ELECTRICITY_MV','INDUSTRY'] := 11387.06 ; # Average over 1 value(s) of (11387.06 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['HEAT_HIGH_T','INDUSTRY'] := 60059.74 ; # Average over 1 value(s) of (60059.74 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','INDUSTRY'] := 644.42 ; # Average over 1 value(s) of (644.42 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','INDUSTRY'] := 5770.84 ; # Average over 1 value(s) of (5770.84 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
-let end_uses_demand_year['LIGHTING','INDUSTRY'] := 5554.67 ; # Average over 1 value(s) of (5554.67 GWh from naturalresourcescanadaComprehensiveEnergyUse2020b set: QC)
+let end_uses_demand_year['ELECTRICITY_EHV','INDUSTRY'] := 6145.77*0.998367234 ; # Average over 1 value(s) of (6145.77 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['ELECTRICITY_HV','INDUSTRY'] := 69490.28*0.998367234 ; # Average over 1 value(s) of (69490.28 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['ELECTRICITY_MV','INDUSTRY'] := 11387.06*0.998367234 ; # Average over 1 value(s) of (11387.06 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['HEAT_HIGH_T','INDUSTRY'] := 65466.88*0.998367234 ; # Average over 1 value(s) of (65466.88 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','INDUSTRY'] := 697.87*0.998367234 ; # Average over 1 value(s) of (697.87 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','INDUSTRY'] := 6246.67*0.998367234 ; # Average over 1 value(s) of (6246.67 GWh from naturalresourcescanada2024c set: QC)
+let end_uses_demand_year['LIGHTING','INDUSTRY'] := 5554.67*0.998367234 ; # Average over 1 value(s) of (5554.67 GWh from naturalresourcescanada2024c set: QC)
 
 
 # AGRICULTURE
-let end_uses_demand_year['ELECTRICITY_MV','AGRICULTURE'] := 1976.53 ; # Average over 1 value(s) of (1976.53 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['HEAT_LOW_T_HW','AGRICULTURE'] := 126.63 ; # Average over 1 value(s) of (126.63 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['HEAT_LOW_T_SH','AGRICULTURE'] := 1139.63 ; # Average over 1 value(s) of (1139.63 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['LIGHTING','AGRICULTURE'] := 82.36 ; # Average over 1 value(s) of (82.36 GWh from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
-let end_uses_demand_year['MOBILITY_FREIGHT_SD','AGRICULTURE'] := 7982.09 ; # Average over 1 value(s) of (7982.09 Mtkm from naturalresourcescanadaComprehensiveEnergyUse2020 set: QC)
+let end_uses_demand_year['ELECTRICITY_MV','AGRICULTURE'] := 1976.53*1 ; # Average over 1 value(s) of (1976.53 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['HEAT_LOW_T_HW','AGRICULTURE'] := 126.63*1 ; # Average over 1 value(s) of (126.63 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['HEAT_LOW_T_SH','AGRICULTURE'] := 1139.63*1 ; # Average over 1 value(s) of (1139.63 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['LIGHTING','AGRICULTURE'] := 82.36*1 ; # Average over 1 value(s) of (82.36 GWh from naturalresourcescanada2024f set: QC)
+let end_uses_demand_year['MOBILITY_FREIGHT_SD','AGRICULTURE'] := 12150.56*1 ; # Average over 1 value(s) of (12150.56 Mtkm from naturalresourcescanada2024f set: QC)
 
 
 
 # LF: Source: gouvernementducanadaImportationsExportationsDelectricite2024
-let end_uses_demand_year['ELECTRICITY_EHV_EXPORT','EXPORT'] :=	25145; # GWh Average anual export over Period 2013-2022
+let end_uses_demand_year['ELECTRICITY_EHV_EXPORT','EXPORT'] := 25145*1 ; # GWh Average annual export over Period 2013-2022
 
 
 # LF: Source: [1] X. Li, “Towards a negative-emission society,” EPFL, Lausanne, 2022. doi: 10.5075/epfl-thesis-10041. c_op.xlsx
 for{t in PERIODS}{
-	let c_op['STYRENE',t] := 		0.17 ; # MCAD/GWh
-	let c_op['PVC',t] := 			0.29 ; # MCAD/GWh
-	let c_op['DIESEL',t] := 		0.1125 ; # MCAD/GWh
-	let c_op['BIO_DIESEL',t] := 	0.250 ; # MCAD/GWh
-	let c_op['PROPANE',t] := 		0.03 ; # MCAD/GWh Average price over 2019
-	let c_op['URANIUM',t] := 		0.0054 ; # MCAD/GWh
-	let c_op['LFO',t] := 			0.0800 ; # MCAD/GWh
-	let c_op['XYLENE',t] := 		0.0812 ; # MCAD/GWh
-	let c_op['WOOD',t] := 			0.1230 ; # MCAD/GWh
-	let c_op['ACETONE',t] := 		0.1332 ; # MCAD/GWh
-	let c_op['PET',t] := 			0.1134 ; # MCAD/GWh
-	let c_op['PHENOL',t] := 		0.15 ; # MCAD/GWh
-	let c_op['GASOLINE',t] := 		0.1160 ; # MCAD/GWh
-	let c_op['ETHYLBENZENE',t] := 	0.15 ; # MCAD/GWh
-	let c_op['PE',t] := 			0.1752 ; # MCAD/GWh
-	let c_op['ACETIC_ACID',t] := 	0.0723 ; # MCAD/GWh
-	let c_op['PS',t] := 			0.1773 ; # MCAD/GWh
-	let c_op['JETFUEL',t] := 		0.25 ; # MCAD/GWh
-	let c_op['ETHYLENE',t] := 		0.1054 ; # MCAD/GWh
-	let c_op['NG_EHP',t] := 		0.0459 ; # MCAD/GWh
-	let c_op['SNG',t] := 			0.0975 ; # MCAD/GWh
-	let c_op['PP',t] := 			0.1620 ; # MCAD/GWh
-	let c_op['TOLUENE',t] := 		0.09 ; # MCAD/GWh
-	let c_op['BENZENE',t] := 		0.071 ; # MCAD/GWh
-	let c_op['PROPYLENE',t] := 		0.1556 ; # MCAD/GWh
-	let c_op['COAL',t] := 			0.0399 ; # MCAD/GWh
-	let c_op['METHANOL',t] := 		0.0953 ; # MCAD/GWh
-	let c_op['ETHANE',t] := 		0.09 ; # MCAD/GWh
-	let c_op['ETHANOL',t] := 		0.2491 ; # MCAD/GWh
+   let c_op['STYRENE',t] := 0.17*1 ; # MCAD/GWh
+   let c_op['PVC',t] := 0.29*1 ; # MCAD/GWh
+   let c_op['DIESEL',t] := 0.1125*0.714285714 ; # MCAD/GWh
+   let c_op['BIO_DIESEL',t] := 0.250*0.894690868 ; # MCAD/GWh
+   let c_op['PROPANE',t] := 0.03*1 ; # MCAD/GWh Average price over 2019
+   let c_op['URANIUM',t] := 0.0054*1.613060422 ; # MCAD/GWh
+   let c_op['LFO',t] := 0.0800*0.516462234 ; # MCAD/GWh
+   let c_op['XYLENE',t] := 0.0812*1 ; # MCAD/GWh
+   let c_op['WOOD',t] := 0.1230*1.1786895570001696 ; # MCAD/GWh
+   let c_op['ACETONE',t] := 0.1332*1 ; # MCAD/GWh
+   let c_op['PET',t] := 0.1134*1 ; # MCAD/GWh
+   let c_op['PHENOL',t] := 0.15*1 ; # MCAD/GWh
+   let c_op['GASOLINE',t] := 0.1160*0.533333333 ; # MCAD/GWh
+   let c_op['ETHYLBENZENE',t] := 0.15*1 ; # MCAD/GWh
+   let c_op['PE',t] := 0.1752*1 ; # MCAD/GWh
+   let c_op['ACETIC_ACID',t] := 0.0723*1 ; # MCAD/GWh
+   let c_op['PS',t] := 0.1773*1 ; # MCAD/GWh
+   let c_op['JETFUEL',t] := 0.25*1 ; # MCAD/GWh
+   let c_op['ETHYLENE',t] := 0.1054*1 ; # MCAD/GWh
+   let c_op['NG_EHP',t] := 0.0459*0.796460177 ; # MCAD/GWh
+   let c_op['SNG',t] := 0.0975*1 ; # MCAD/GWh
+   let c_op['PP',t] := 0.1620*1 ; # MCAD/GWh
+   let c_op['TOLUENE',t] := 0.09*1 ; # MCAD/GWh
+   let c_op['BENZENE',t] := 0.071*1 ; # MCAD/GWh
+   let c_op['PROPYLENE',t] := 0.1556*1 ; # MCAD/GWh
+   let c_op['COAL',t] := 0.0399*1.167247383397516 ; # MCAD/GWh
+   let c_op['METHANOL',t] := 0.0953*0.46031746 ; # MCAD/GWh
+   let c_op['ETHANE',t] := 0.09*1 ; # MCAD/GWh
+   let c_op['ETHANOL',t] := 0.2491*1 ; # MCAD/GWh
 }
 
 
@@ -681,8 +680,8 @@ let avail['ETHYLENE'] := 			1e6 ; #
 
 
 #TODO
-let layers_in_out['WASTE_BIO','CO2_E'] :=  -0.147601*44/12*0.574813011;
-let layers_in_out['WOOD','CO2_E'] := -0.388235 ; # 
+let layers_in_out['WASTE_BIO','CO2_E'] := -0.147601*44/12*0.574813011*1 ; #
+let layers_in_out['WOOD','CO2_E'] := -0.388235*1 ; # 
 
 
 # Source: gouvernementducanadaImportationsExportationsDelectricite2022 
@@ -704,27 +703,27 @@ let gwp_e['ELECTRICITY_EHV',12]:=0.279376;
 #let c_op['ELECTRICITY'] := 0.0901 ; # 
 
 # Source: gouvernementducanadaImportationsExportationsDelectricite2022 
-let c_op['ELECTRICITY_EHV',	1]:=	0.097616874	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	2]:=	0.044140661	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	3]:=	0.050137891	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	4]:=	0.034258095	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	5]:=	0.030336896	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	6]:=	0.030476035	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	7]:=	0.034281398	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	8]:=	0.028152334	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	9]:=	0.024908172	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	10]:=	0.029754264	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	11]:=	0.037856436	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	12]:=	0.036340777	; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',1] := 0.097616874*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',2] := 0.044140661*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',3] := 0.050137891*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',4] := 0.034258095*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',5] := 0.030336896*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',6] := 0.030476035*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',7] := 0.034281398*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',8] := 0.028152334*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',9] := 0.024908172*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',10] := 0.029754264*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',11] := 0.037856436*1.5 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',12] := 0.036340777*1.5 ; #Imports 2019 MCAD/GWh
 
 
 
 # Source: liNegativeemissionSociety2022
-let layers_in_out['ELECTRICITY_EHV','CO2_E'] := 0.4818 ; # 
-let layers_in_out['WET_BIOMASS','CO2_E'] := -0.376068 ; # 
+let layers_in_out['ELECTRICITY_EHV','CO2_E'] := 0.4818*1 ; # 
+let layers_in_out['WET_BIOMASS','CO2_E'] := -0.376068*1 ; # 
 let layers_in_out['CO2_E','CO2_E'] := 1 ; # 
-let layers_in_out['ELEC_EXPORT','ELECTRICITY_EHV'] := -1 ; # 
-let layers_in_out['ETHANOL','CO2_E'] := -0.2579384463 ; # kt
+let layers_in_out['ELEC_EXPORT','ELECTRICITY_EHV'] := -1*1 ; # 
+let layers_in_out['ETHANOL','CO2_E'] := -0.2579384463*1 ; # kt
 
 
 let storage_eff_in['HYDRO_STORAGE','ELECTRICITY_HV'] := 	1 ; # 
@@ -908,8 +907,8 @@ let layers_in_out['BIO_DIESEL','BIO_DIESEL'] := 1 ; # -
 let layers_in_out['PROPANE','PROPANE'] := 1 ; # -
 let layers_in_out['URANIUM','URANIUM'] := 1 ; #
 let layers_in_out['WASTE','WASTE'] := 1 ; # 
-let layers_in_out['WASTE_BIO','WASTE'] := 1 ; #  
-let layers_in_out['WASTE_FOS','WASTE'] := 1 ; #  
+let layers_in_out['WASTE_BIO','WASTE'] := 1*1 ; #  
+let layers_in_out['WASTE_FOS','WASTE'] := 1*1 ; #  
 let layers_in_out['LFO','LFO'] := 1 ; # 
 let layers_in_out['XYLENE','XYLENE'] := 1 ; # 
 let layers_in_out['WOOD','WOOD'] := 1 ; # 
