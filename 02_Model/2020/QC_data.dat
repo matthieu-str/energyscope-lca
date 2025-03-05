@@ -581,40 +581,40 @@ let end_uses_demand_year['MOBILITY_FREIGHT_SD','AGRICULTURE'] := 12150.56 ; # Av
 
 
 # LF: Source: gouvernementducanadaImportationsExportationsDelectricite2024
-let end_uses_demand_year['ELECTRICITY_EHV_EXPORT','EXPORT'] :=	25145; # GWh Average anual export over Period 2013-2022
+let end_uses_demand_year['ELECTRICITY_EHV_EXPORT','EXPORT'] := 25145 ; # GWh Average annual export over Period 2013-2022
 
 
 # LF: Source: [1] X. Li, “Towards a negative-emission society,” EPFL, Lausanne, 2022. doi: 10.5075/epfl-thesis-10041. c_op.xlsx
 for{t in PERIODS}{
-	let c_op['STYRENE',t] := 		0.17 ; # MCAD/GWh
-	let c_op['PVC',t] := 			0.29 ; # MCAD/GWh
-	let c_op['DIESEL',t] := 		0.1125 ; # MCAD/GWh
-	let c_op['BIO_DIESEL',t] := 	0.250 ; # MCAD/GWh
-	let c_op['PROPANE',t] := 		0.03 ; # MCAD/GWh Average price over 2019
-	let c_op['URANIUM',t] := 		0.0054 ; # MCAD/GWh
-	let c_op['LFO',t] := 			0.0800 ; # MCAD/GWh
-	let c_op['XYLENE',t] := 		0.0812 ; # MCAD/GWh
-	let c_op['WOOD',t] := 			0.1230 ; # MCAD/GWh
-	let c_op['ACETONE',t] := 		0.1332 ; # MCAD/GWh
-	let c_op['PET',t] := 			0.1134 ; # MCAD/GWh
-	let c_op['PHENOL',t] := 		0.15 ; # MCAD/GWh
-	let c_op['GASOLINE',t] := 		0.1160 ; # MCAD/GWh
-	let c_op['ETHYLBENZENE',t] := 	0.15 ; # MCAD/GWh
-	let c_op['PE',t] := 			0.1752 ; # MCAD/GWh
-	let c_op['ACETIC_ACID',t] := 	0.0723 ; # MCAD/GWh
-	let c_op['PS',t] := 			0.1773 ; # MCAD/GWh
-	let c_op['JETFUEL',t] := 		0.25 ; # MCAD/GWh
-	let c_op['ETHYLENE',t] := 		0.1054 ; # MCAD/GWh
-	let c_op['NG_EHP',t] := 		0.0459 ; # MCAD/GWh
-	let c_op['SNG',t] := 			0.0975 ; # MCAD/GWh
-	let c_op['PP',t] := 			0.1620 ; # MCAD/GWh
-	let c_op['TOLUENE',t] := 		0.09 ; # MCAD/GWh
-	let c_op['BENZENE',t] := 		0.071 ; # MCAD/GWh
-	let c_op['PROPYLENE',t] := 		0.1556 ; # MCAD/GWh
-	let c_op['COAL',t] := 			0.0399 ; # MCAD/GWh
-	let c_op['METHANOL',t] := 		0.0953 ; # MCAD/GWh
-	let c_op['ETHANE',t] := 		0.09 ; # MCAD/GWh
-	let c_op['ETHANOL',t] := 		0.2491 ; # MCAD/GWh
+	let c_op['STYRENE',t] := 0.17 ; # MCAD/GWh
+	let c_op['PVC',t] := 0.29 ; # MCAD/GWh
+	let c_op['DIESEL',t] := 0.1125 ; # MCAD/GWh
+	let c_op['BIO_DIESEL',t] := 0.250 ; # MCAD/GWh
+	let c_op['PROPANE',t] := 0.03 ; # MCAD/GWh Average price over 2019
+	let c_op['URANIUM',t] := 0.0054 ; # MCAD/GWh
+	let c_op['LFO',t] := 0.0800 ; # MCAD/GWh
+	let c_op['XYLENE',t] := 0.0812 ; # MCAD/GWh
+	let c_op['WOOD',t] := 0.1230 ; # MCAD/GWh
+	let c_op['ACETONE',t] := 0.1332 ; # MCAD/GWh
+	let c_op['PET',t] := 0.1134 ; # MCAD/GWh
+	let c_op['PHENOL',t] := 0.15 ; # MCAD/GWh
+	let c_op['GASOLINE',t] := 0.1160 ; # MCAD/GWh
+	let c_op['ETHYLBENZENE',t] := 0.15 ; # MCAD/GWh
+	let c_op['PE',t] := 0.1752 ; # MCAD/GWh
+	let c_op['ACETIC_ACID',t] := 0.0723 ; # MCAD/GWh
+	let c_op['PS',t] := 0.1773 ; # MCAD/GWh
+	let c_op['JETFUEL',t] := 0.25 ; # MCAD/GWh
+	let c_op['ETHYLENE',t] := 0.1054 ; # MCAD/GWh
+	let c_op['NG_EHP',t] := 0.0459 ; # MCAD/GWh
+	let c_op['SNG',t] := 0.0975 ; # MCAD/GWh
+	let c_op['PP',t] := 0.1620 ; # MCAD/GWh
+	let c_op['TOLUENE',t] := 0.09 ; # MCAD/GWh
+	let c_op['BENZENE',t] := 0.071 ; # MCAD/GWh
+	let c_op['PROPYLENE',t] := 0.1556 ; # MCAD/GWh
+	let c_op['COAL',t] := 0.0399 ; # MCAD/GWh
+	let c_op['METHANOL',t] := 0.0953 ; # MCAD/GWh
+	let c_op['ETHANE',t] := 0.09 ; # MCAD/GWh
+	let c_op['ETHANOL',t] := 0.2491 ; # MCAD/GWh
 }
 
 
@@ -680,7 +680,7 @@ let avail['ETHYLENE'] := 			1e6 ; #
 
 
 #TODO
-let layers_in_out['WASTE_BIO','CO2_E'] :=  -0.147601*44/12*0.574813011;
+let layers_in_out['WASTE_BIO','CO2_E'] := -0.147601*44/12*0.574813011 ;
 let layers_in_out['WOOD','CO2_E'] := -0.388235 ; # 
 
 
@@ -703,18 +703,18 @@ let gwp_e['ELECTRICITY_EHV',12]:=0.279376;
 #let c_op['ELECTRICITY'] := 0.0901 ; # 
 
 # Source: gouvernementducanadaImportationsExportationsDelectricite2022 
-let c_op['ELECTRICITY_EHV',	1]:=	0.097616874	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	2]:=	0.044140661	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	3]:=	0.050137891	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	4]:=	0.034258095	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	5]:=	0.030336896	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	6]:=	0.030476035	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	7]:=	0.034281398	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	8]:=	0.028152334	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	9]:=	0.024908172	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	10]:=	0.029754264	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	11]:=	0.037856436	; #Imports 2019 MCAD/GWh
-let c_op['ELECTRICITY_EHV',	12]:=	0.036340777	; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',1] := 0.097616874 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',2] := 0.044140661 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',3] := 0.050137891 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',4] := 0.034258095 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',5] := 0.030336896 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',6] := 0.030476035 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',7] := 0.034281398 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',8] := 0.028152334 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',9] := 0.024908172 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',10] := 0.029754264 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',11] := 0.037856436 ; #Imports 2019 MCAD/GWh
+let c_op['ELECTRICITY_EHV',12] := 0.036340777 ; #Imports 2019 MCAD/GWh
 
 
 
