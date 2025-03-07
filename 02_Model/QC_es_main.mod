@@ -62,6 +62,7 @@ set TECHNOLOGIES_OF_END_USES_CATEGORY {i in END_USES_CATEGORIES} within TECHNOLO
 set ELECTRICITY_LAYERS within LAYERS;
 set HEAT_LAYERS within LAYERS;
 set NG_LAYERS within LAYERS;
+set SNG_LAYERS within LAYERS;
 set H2_LAYERS within LAYERS;
 set GRIDS_OF_LAYERS{ELECTRICITY_LAYERS union NG_LAYERS union H2_LAYERS};
 set GRIDS;
@@ -815,8 +816,8 @@ subject to co2_emission2:
 subject to co2:
 	TotalGWP = sum{t in PERIODS} Total_emission[t];
 
-subject to sng_max:
-	sum{i in TECHNOLOGIES diff STORAGE_TECH, t in PERIODS: layers_in_out[i,"SNG"]>0} Monthly_Prod[i,t]*layers_in_out[i,"SNG"]>=sng_min; 
+subject to sng_max{sng in SNG_LAYERS}:
+	sum{i in TECHNOLOGIES diff STORAGE_TECH, t in PERIODS: layers_in_out[i,sng]>0} Monthly_Prod[i,t]*layers_in_out[i,sng]>=sng_min;
 ### enforcing full utilization of PV once installed
 subject to pv_full_utilization{i in PV_TECH,t in PERIODS}:
 	F_Mult_t[i,t] = F_Mult[i]*c_p_t[i,t];
