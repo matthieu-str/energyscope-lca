@@ -28,8 +28,8 @@ let share_freight_rail_min_ld		:= 0.37 ;	# Source: souttreDemandsGoogleDrive2024
 let share_freight_rail_max_ld		:= 0.38 ;	# Source: souttreDemandsGoogleDrive2024
 let share_freight_rail_min_eld		:= 0.53 ;	# Source: souttreDemandsGoogleDrive2024
 let share_freight_rail_max_eld		:= 0.54 ;	# Source: souttreDemandsGoogleDrive2024
-let share_freight_air_min_eld		:= 0.01 ;	# Source: souttreDemandsGoogleDrive2024
-let share_freight_air_max_eld		:= 0.02 ;	# Source: souttreDemandsGoogleDrive2024
+let share_freight_air_min_eld		:= 0.014 ;	# Source: souttreDemandsGoogleDrive2024
+let share_freight_air_max_eld		:= 0.015 ;	# Source: souttreDemandsGoogleDrive2024
 
 
 let share_public_schoolbus_min_sd		:= 0.552 ;  # Source: souttreDemandsGoogleDrive2024
