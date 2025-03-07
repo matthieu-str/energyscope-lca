@@ -4,7 +4,7 @@ let share_heat_dhn_max := 0.5 ; #
 
 # scenarios
 #let co2_limit:= 0;
-#let limit_direct['m_CCS'] := 0 ;
+let limit_direct['m_CCS'] := (0.5 / 7.491031587745251) * 9.9e6 * 1e-3 ; # (limit [t CO2-eq / cap] / max_m_CCS) * N_cap * 1e-3
 
 # Existing electricity production infrastructures 
 let f_min['WIND_ONSHORE'] := 3.947 ; 	#Source: statisticscanadaInstalledPlantsAnnual2024
@@ -26,3 +26,17 @@ for{t in PERIODS}{
 for{i in INDICATORS}{
     let lcia_res[i, 'ELEC_EXPORT'] := 0.0 ;
 }
+
+# Remove losses from transformers
+let layers_in_out['TRAFO_EH', 'ELECTRICITY_EHV'] := -1.0 ;
+let layers_in_out['TRAFO_EH', 'ELECTRICITY_HV'] := 1.0 ;
+let layers_in_out['TRAFO_HE', 'ELECTRICITY_HV'] := -1.0 ;
+let layers_in_out['TRAFO_HE', 'ELECTRICITY_EHV'] := 1.0 ;
+let layers_in_out['TRAFO_HM', 'ELECTRICITY_HV'] := -1.0 ;
+let layers_in_out['TRAFO_HM', 'ELECTRICITY_MV'] := 1.0 ;
+let layers_in_out['TRAFO_MH', 'ELECTRICITY_MV'] := -1.0 ;
+let layers_in_out['TRAFO_MH', 'ELECTRICITY_HV'] := 1.0 ;
+let layers_in_out['TRAFO_ML', 'ELECTRICITY_MV'] := -1.0 ;
+let layers_in_out['TRAFO_ML', 'ELECTRICITY_LV'] := 1.0 ;
+let layers_in_out['TRAFO_LM', 'ELECTRICITY_LV'] := -1.0 ;
+let layers_in_out['TRAFO_LM', 'ELECTRICITY_MV'] := 1.0 ;
